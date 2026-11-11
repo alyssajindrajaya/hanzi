@@ -20,7 +20,20 @@ const dayNumber=()=>Math.floor(Date.now()/86400000);
 let words=[],state={progress:{},unlocked:100,dailyTarget:50,days:{},lastStudy:null,streak:0},session=[],current=null,sessionCompleted=0,questionMode='meaning',retry=false,awaiting=false,grammarIndex=0;
 const getProgress=id=>state.progress[id]||(state.progress[id]={correct:0,wrong:0,due:0,interval:0,last:null});
 function load(){if(!uid)return;try{const saved=JSON.parse(localStorage.getItem(storageKey(uid)));if(saved&&saved.progress)state={...state,...saved};}catch(e){console.warn('Could not read saved progress',e)}}
-function save(){if(!uid)return;try{localStorage.setItem(storageKey(uid),JSON.stringify(state));dirty=true;saveVersion++;scheduleSync()}catch(e){alert('Browser storage is unavailable. Export your progress regularly.')}}
+
+function save() {
+  if (!uid) return;
+
+  try {
+    localStorage.setItem(storageKey(uid), JSON.stringify(state));
+  } catch (e) {
+    console.warn('Local storage unavailable:', e);
+  }
+
+  saveVersion++;
+  scheduleSync();
+}
+
 function countToday(){return state.days[today()]||0}
 function mastered(w){return getProgress(w.id).correct>=11}
 function unlocked(){return words.filter(w=>w.id<=state.unlocked)}
