@@ -1,0 +1,890 @@
+[
+  {
+    "id": 1,
+    "hanzi": "微笑",
+    "pinyin": "wēixiào",
+    "meaning": "smile",
+    "example": "她脸上露出温暖的微笑令人难忘。",
+    "pattern": ""
+  },
+  {
+    "id": 2,
+    "hanzi": "威胁",
+    "pinyin": "wēixié",
+    "meaning": "to threaten; threat",
+    "example": "环境污染正威胁着人类的生存空间。",
+    "pattern": ""
+  },
+  {
+    "id": 3,
+    "hanzi": "维修",
+    "pinyin": "wéixiū",
+    "meaning": "to maintain; to repair",
+    "example": "这台机器需要专业人员进行定期维修。",
+    "pattern": ""
+  },
+  {
+    "id": 4,
+    "hanzi": "唯一",
+    "pinyin": "wéiyī",
+    "meaning": "only; unique",
+    "example": "这是解决问题的唯一可行方案。",
+    "pattern": ""
+  },
+  {
+    "id": 5,
+    "hanzi": "位于",
+    "pinyin": "wèiyú",
+    "meaning": "to be located at",
+    "example": "这座城市位于中国南部的沿海地区。",
+    "pattern": ""
+  },
+  {
+    "id": 6,
+    "hanzi": "位置",
+    "pinyin": "wèizhi",
+    "meaning": "position; location",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 7,
+    "hanzi": "稳定",
+    "pinyin": "wěndìng",
+    "meaning": "stable; steady",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 8,
+    "hanzi": "稳定",
+    "pinyin": "wěndìng",
+    "meaning": "to stabilize; to steady",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 9,
+    "hanzi": "开放",
+    "pinyin": "kāifàng",
+    "meaning": "to open; to make available",
+    "example": "这个公园对公众开放。",
+    "pattern": ""
+  },
+  {
+    "id": 10,
+    "hanzi": "开放",
+    "pinyin": "kāifàng",
+    "meaning": "open-minded; liberal",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 11,
+    "hanzi": "似乎",
+    "pinyin": "sìhū",
+    "meaning": "seems like; appears to be",
+    "example": "天气似乎要变冷了，出门记得多穿衣服。",
+    "pattern": ""
+  },
+  {
+    "id": 12,
+    "hanzi": "思考",
+    "pinyin": "sīkǎo",
+    "meaning": "to think; to consider; to reflect",
+    "example": "他花了很多时间思考这个问题的解决方案。",
+    "pattern": ""
+  },
+  {
+    "id": 13,
+    "hanzi": "班",
+    "pinyin": "bān",
+    "meaning": "class; shift",
+    "example": "他上了两个班的课。",
+    "pattern": ""
+  },
+  {
+    "id": 14,
+    "hanzi": "看作",
+    "pinyin": "kànzuò",
+    "meaning": "to regard as; to consider as",
+    "example": "人们把熊猫看作国宝。",
+    "pattern": ""
+  },
+  {
+    "id": 15,
+    "hanzi": "靠",
+    "pinyin": "kào",
+    "meaning": "to lean against; to rely on",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 16,
+    "hanzi": "挤",
+    "pinyin": "jǐ",
+    "meaning": "to crowd; to squeeze",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 17,
+    "hanzi": "挤",
+    "pinyin": "jǐ",
+    "meaning": "crowded; cramped",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 18,
+    "hanzi": "架",
+    "pinyin": "jià",
+    "meaning": "shelf; frame",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 19,
+    "hanzi": "架",
+    "pinyin": "jià",
+    "meaning": "to set up; to support",
+    "example": "他小心翼翼地把书架在书桌上摆放整齐。",
+    "pattern": ""
+  },
+  {
+    "id": 20,
+    "hanzi": "架",
+    "pinyin": "jià",
+    "meaning": "classifier for items with frames or stands",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 21,
+    "hanzi": "甲",
+    "pinyin": "jiǎ",
+    "meaning": "first; first heavenly stem",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 22,
+    "hanzi": "嘉宾",
+    "pinyin": "jiābīn",
+    "meaning": "guest; visitor",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 23,
+    "hanzi": "家电",
+    "pinyin": "jiādiàn",
+    "meaning": "home appliances",
+    "example": "这家商店专门销售各种品牌的家电产品。",
+    "pattern": ""
+  },
+  {
+    "id": 24,
+    "hanzi": "认",
+    "pinyin": "rèn",
+    "meaning": "to recognize; to identify",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 25,
+    "hanzi": "忍",
+    "pinyin": "rěn",
+    "meaning": "to endure; to bear",
+    "example": "在困难面前，我们要学会忍耐和坚持。",
+    "pattern": ""
+  },
+  {
+    "id": 26,
+    "hanzi": "人才",
+    "pinyin": "réncái",
+    "meaning": "talent; talented person",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 27,
+    "hanzi": "人工",
+    "pinyin": "réngōng",
+    "meaning": "artificial; man-made",
+    "example": "这种人工合成的材料具有很好的耐用性。",
+    "pattern": ""
+  },
+  {
+    "id": 28,
+    "hanzi": "人工",
+    "pinyin": "réngōng",
+    "meaning": "labor; manual work",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 29,
+    "hanzi": "人际",
+    "pinyin": "rénjì",
+    "meaning": "interpersonal",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 30,
+    "hanzi": "人口",
+    "pinyin": "rénkǒu",
+    "meaning": "population",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 31,
+    "hanzi": "人类",
+    "pinyin": "rénlèi",
+    "meaning": "humanity; mankind",
+    "example": "人类在不断探索宇宙的奥秘。",
+    "pattern": ""
+  },
+  {
+    "id": 32,
+    "hanzi": "告别",
+    "pinyin": "gàobié",
+    "meaning": "to say goodbye; to part",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 33,
+    "hanzi": "高大",
+    "pinyin": "gāodà",
+    "meaning": "tall and large",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 34,
+    "hanzi": "高档",
+    "pinyin": "gāodàng",
+    "meaning": "high-end; premium",
+    "example": "这家酒店是高档场所，服务设施完善齐全。",
+    "pattern": ""
+  },
+  {
+    "id": 35,
+    "hanzi": "高度",
+    "pinyin": "gāodù",
+    "meaning": "height; altitude",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 36,
+    "hanzi": "高度",
+    "pinyin": "gāodù",
+    "meaning": "high degree; high level",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 37,
+    "hanzi": "高级",
+    "pinyin": "gāojí",
+    "meaning": "advanced; high-level",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 38,
+    "hanzi": "高科技",
+    "pinyin": "gāokējì",
+    "meaning": "high technology; high-tech",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 39,
+    "hanzi": "高效",
+    "pinyin": "gāoxiào",
+    "meaning": "highly effective; efficient",
+    "example": "这种高效的工作方法节省时间。",
+    "pattern": ""
+  },
+  {
+    "id": 40,
+    "hanzi": "采访",
+    "pinyin": "cǎifǎng",
+    "meaning": "to interview",
+    "example": "记者正在采访这次事件的相关人员。",
+    "pattern": ""
+  },
+  {
+    "id": 41,
+    "hanzi": "裁判",
+    "pinyin": "cáipàn",
+    "meaning": "to referee; to officiate",
+    "example": "他在比赛中做出判决。",
+    "pattern": ""
+  },
+  {
+    "id": 42,
+    "hanzi": "裁判",
+    "pinyin": "cáipàn",
+    "meaning": "referee; umpire",
+    "example": "裁判员在比赛中维持秩序和公平。",
+    "pattern": ""
+  },
+  {
+    "id": 43,
+    "hanzi": "采取",
+    "pinyin": "cǎiqǔ",
+    "meaning": "to adopt; to take",
+    "example": "公司决定采取新的管理措施来提高效率。",
+    "pattern": ""
+  },
+  {
+    "id": 44,
+    "hanzi": "彩色",
+    "pinyin": "cǎisè",
+    "meaning": "color; multicolor",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 45,
+    "hanzi": "采用",
+    "pinyin": "cǎiyòng",
+    "meaning": "to adopt; to use",
+    "example": "公司采用了新的技术来提升产品质量。",
+    "pattern": ""
+  },
+  {
+    "id": 46,
+    "hanzi": "藏",
+    "pinyin": "cáng",
+    "meaning": "to hide; to store",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 47,
+    "hanzi": "参考",
+    "pinyin": "cānkǎo",
+    "meaning": "to refer to; to consult",
+    "example": "写论文时需要参考大量的学术资料。",
+    "pattern": ""
+  },
+  {
+    "id": 48,
+    "hanzi": "疑问",
+    "pinyin": "yíwèn",
+    "meaning": "question; doubt",
+    "example": "这个理论还有很多疑问需要解释。",
+    "pattern": ""
+  },
+  {
+    "id": 49,
+    "hanzi": "义务",
+    "pinyin": "yìwù",
+    "meaning": "duty; obligation",
+    "example": "每个公民都有纳税的义务。",
+    "pattern": ""
+  },
+  {
+    "id": 50,
+    "hanzi": "义务",
+    "pinyin": "yìwù",
+    "meaning": "voluntary; free",
+    "example": "他参加了义务劳动活动。",
+    "pattern": ""
+  },
+  {
+    "id": 51,
+    "hanzi": "医学",
+    "pinyin": "yīxué",
+    "meaning": "medicine",
+    "example": "现代医学技术发展日新月异。",
+    "pattern": ""
+  },
+  {
+    "id": 52,
+    "hanzi": "意义",
+    "pinyin": "yìyì",
+    "meaning": "meaning; significance",
+    "example": "这项研究对社会有重要意义。",
+    "pattern": ""
+  },
+  {
+    "id": 53,
+    "hanzi": "一致",
+    "pinyin": "yízhì",
+    "meaning": "consistent; identical",
+    "example": "双方的意见基本保持一致。",
+    "pattern": ""
+  },
+  {
+    "id": 54,
+    "hanzi": "一致",
+    "pinyin": "yízhì",
+    "meaning": "unanimously; all",
+    "example": "他们一致同意这个提议。",
+    "pattern": ""
+  },
+  {
+    "id": 55,
+    "hanzi": "拥抱",
+    "pinyin": "yōngbào",
+    "meaning": "to hug; to embrace",
+    "example": "久别重逢他们深深拥抱在一起。",
+    "pattern": ""
+  },
+  {
+    "id": 56,
+    "hanzi": "好",
+    "pinyin": "hào",
+    "meaning": "to like; to love",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 57,
+    "hanzi": "好评",
+    "pinyin": "hǎopíng",
+    "meaning": "good review; praise",
+    "example": "这部电影获得了观众们的一致好评。",
+    "pattern": ""
+  },
+  {
+    "id": 58,
+    "hanzi": "记忆",
+    "pinyin": "jìyì",
+    "meaning": "memory; to remember",
+    "example": "童年记忆总是特别珍贵。",
+    "pattern": ""
+  },
+  {
+    "id": 59,
+    "hanzi": "记载",
+    "pinyin": "jìzǎi",
+    "meaning": "to record; to document",
+    "example": "这本书记载了很多古代的故事。",
+    "pattern": ""
+  },
+  {
+    "id": 60,
+    "hanzi": "急诊",
+    "pinyin": "jízhěn",
+    "meaning": "to provide emergency treatment",
+    "example": "医生正在对伤者进行急诊治疗。",
+    "pattern": ""
+  },
+  {
+    "id": 61,
+    "hanzi": "急诊",
+    "pinyin": "jízhěn",
+    "meaning": "emergency treatment; emergency medicine",
+    "example": "医院的急诊部门非常重要。",
+    "pattern": ""
+  },
+  {
+    "id": 62,
+    "hanzi": "集中",
+    "pinyin": "jízhōng",
+    "meaning": "to concentrate; to focus",
+    "example": "学生们集中精力准备考试。",
+    "pattern": ""
+  },
+  {
+    "id": 63,
+    "hanzi": "集中",
+    "pinyin": "jízhōng",
+    "meaning": "concentrated; dense",
+    "example": "这个地区人口集中分布。",
+    "pattern": ""
+  },
+  {
+    "id": 64,
+    "hanzi": "据",
+    "pinyin": "jù",
+    "meaning": "according to; based on",
+    "example": "据了解到这个消息是真的。",
+    "pattern": ""
+  },
+  {
+    "id": 65,
+    "hanzi": "距",
+    "pinyin": "jù",
+    "meaning": "to be distant from; distance",
+    "example": "学校距离市中心很近。",
+    "pattern": ""
+  },
+  {
+    "id": 66,
+    "hanzi": "询问",
+    "pinyin": "xúnwèn",
+    "meaning": "to ask; to inquire",
+    "example": "警察向服务员询问商品的价格。",
+    "pattern": ""
+  },
+  {
+    "id": 67,
+    "hanzi": "寻找",
+    "pinyin": "xúnzhǎo",
+    "meaning": "to search; to look for",
+    "example": "他们正在寻找合适的合作伙伴。",
+    "pattern": ""
+  },
+  {
+    "id": 68,
+    "hanzi": "需求",
+    "pinyin": "xūqiú",
+    "meaning": "demand; need",
+    "example": "市场对这种产品的需求很大。",
+    "pattern": ""
+  },
+  {
+    "id": 69,
+    "hanzi": "虚心",
+    "pinyin": "xūxīn",
+    "meaning": "humble; modest",
+    "example": "学习时要保持虚心的态度。",
+    "pattern": ""
+  },
+  {
+    "id": 70,
+    "hanzi": "呀",
+    "pinyin": "yā",
+    "meaning": "oh; exclamation or surprise",
+    "example": "呀，今天天气真好适合出门。",
+    "pattern": ""
+  },
+  {
+    "id": 71,
+    "hanzi": "牙齿",
+    "pinyin": "yáchǐ",
+    "meaning": "teeth",
+    "example": "保持良好的口腔卫生保护牙齿健康。",
+    "pattern": ""
+  },
+  {
+    "id": 72,
+    "hanzi": "押金",
+    "pinyin": "yājīn",
+    "meaning": "deposit; security money",
+    "example": "租房时需要支付一定的押金。",
+    "pattern": ""
+  },
+  {
+    "id": 73,
+    "hanzi": "沿",
+    "pinyin": "yán",
+    "meaning": "along; alongside",
+    "example": "他们沿着河边小路慢慢散步。",
+    "pattern": ""
+  },
+  {
+    "id": 74,
+    "hanzi": "单一",
+    "pinyin": "dānyī",
+    "meaning": "single; sole; monotonous",
+    "example": "这个产品的功能比较单一。",
+    "pattern": ""
+  },
+  {
+    "id": 75,
+    "hanzi": "单元",
+    "pinyin": "dānyuán",
+    "meaning": "unit; chapter",
+    "example": "这套教材分为十二个单元。",
+    "pattern": ""
+  },
+  {
+    "id": 76,
+    "hanzi": "倒",
+    "pinyin": "dǎo",
+    "meaning": "to reverse; to invert; to change around",
+    "example": "为了避免错误，他把整个方向倒过来。",
+    "pattern": ""
+  },
+  {
+    "id": 77,
+    "hanzi": "到达",
+    "pinyin": "dàodá",
+    "meaning": "to arrive; to reach",
+    "example": "飞机预计下午三点到达目的地。",
+    "pattern": ""
+  },
+  {
+    "id": 78,
+    "hanzi": "道理",
+    "pinyin": "dàolǐ",
+    "meaning": "reason; principle; truth",
+    "example": "他讲的道理很有说服力。",
+    "pattern": ""
+  },
+  {
+    "id": 79,
+    "hanzi": "到期",
+    "pinyin": "dàoqī",
+    "meaning": "to expire; to reach the due date",
+    "example": "这张信用卡将于下个月到期需要及时办理续卡。",
+    "pattern": ""
+  },
+  {
+    "id": 80,
+    "hanzi": "导演",
+    "pinyin": "dǎoyǎn",
+    "meaning": "to direct; to guide",
+    "example": "这位著名导演亲自指导这部电影。",
+    "pattern": ""
+  },
+  {
+    "id": 81,
+    "hanzi": "导演",
+    "pinyin": "dǎoyǎn",
+    "meaning": "director",
+    "example": "这位导演以其独特的拍摄风格而闻名。",
+    "pattern": ""
+  },
+  {
+    "id": 82,
+    "hanzi": "包装",
+    "pinyin": "bāozhuāng",
+    "meaning": "packaging",
+    "example": "这个产品的包装很精美。",
+    "pattern": ""
+  },
+  {
+    "id": 83,
+    "hanzi": "把握",
+    "pinyin": "bǎwò",
+    "meaning": "to grasp; to seize",
+    "example": "他把握住了这次机会。",
+    "pattern": ""
+  },
+  {
+    "id": 84,
+    "hanzi": "把握",
+    "pinyin": "bǎwò",
+    "meaning": "confidence; certainty",
+    "example": "他对这个项目很有把握。",
+    "pattern": ""
+  },
+  {
+    "id": 85,
+    "hanzi": "背",
+    "pinyin": "bèi",
+    "meaning": "back",
+    "example": "他的背很疼，可能是因为坐太久。",
+    "pattern": ""
+  },
+  {
+    "id": 86,
+    "hanzi": "背",
+    "pinyin": "bèi",
+    "meaning": "to recite from memory",
+    "example": "她背了一首古诗给大家听。",
+    "pattern": ""
+  },
+  {
+    "id": 87,
+    "hanzi": "背",
+    "pinyin": "bèi",
+    "meaning": "contrary to; against",
+    "example": "这个决定是背着的，不符合规定。",
+    "pattern": ""
+  },
+  {
+    "id": 88,
+    "hanzi": "背后",
+    "pinyin": "bèihòu",
+    "meaning": "behind; in the background",
+    "example": "成功背后有很多努力和汗水。",
+    "pattern": ""
+  },
+  {
+    "id": 89,
+    "hanzi": "背景",
+    "pinyin": "bèijǐng",
+    "meaning": "background; context",
+    "example": "了解历史背景有助于理解这个事件。",
+    "pattern": ""
+  },
+  {
+    "id": 90,
+    "hanzi": "守",
+    "pinyin": "shǒu",
+    "meaning": "to guard; to keep; to abide by",
+    "example": "他每天都会守在门口等朋友的到来。",
+    "pattern": ""
+  },
+  {
+    "id": 91,
+    "hanzi": "首次",
+    "pinyin": "shǒucì",
+    "meaning": "first time; for the first time",
+    "example": "这是他首次参加国际比赛。",
+    "pattern": ""
+  },
+  {
+    "id": 92,
+    "hanzi": "夜间",
+    "pinyin": "yèjiān",
+    "meaning": "nighttime; night",
+    "example": "夜间温度比白天低很多。",
+    "pattern": ""
+  },
+  {
+    "id": 93,
+    "hanzi": "夜市",
+    "pinyin": "yèshì",
+    "meaning": "night market",
+    "example": "这个夜市有很多特色小吃摊位。",
+    "pattern": ""
+  },
+  {
+    "id": 94,
+    "hanzi": "业务",
+    "pinyin": "yèwù",
+    "meaning": "business; operations",
+    "example": "公司的业务量增长显著。",
+    "pattern": ""
+  },
+  {
+    "id": 95,
+    "hanzi": "业余",
+    "pinyin": "yèyú",
+    "meaning": "spare time; amateur",
+    "example": "他利用业余时间学习英语。",
+    "pattern": ""
+  },
+  {
+    "id": 96,
+    "hanzi": "移",
+    "pinyin": "yí",
+    "meaning": "to move; to shift",
+    "example": "他把书从桌子移到书架上。",
+    "pattern": ""
+  },
+  {
+    "id": 97,
+    "hanzi": "亿",
+    "pinyin": "yì",
+    "meaning": "hundred million",
+    "example": "这个城市的人口超过了一亿。",
+    "pattern": ""
+  },
+  {
+    "id": 98,
+    "hanzi": "乙",
+    "pinyin": "yǐ",
+    "meaning": "second heavenly stem; second",
+    "example": "他的名字在名单中排在乙位。",
+    "pattern": ""
+  },
+  {
+    "id": 99,
+    "hanzi": "以",
+    "pinyin": "yǐ",
+    "meaning": "with; by means of; using",
+    "example": "他以优异成绩考入了重点大学。",
+    "pattern": ""
+  },
+  {
+    "id": 100,
+    "hanzi": "生物",
+    "pinyin": "shēngwù",
+    "meaning": "living things; organisms",
+    "example": "生物多样性对维持生态平衡很重要。",
+    "pattern": ""
+  },
+  {
+    "id": 101,
+    "hanzi": "生肖",
+    "pinyin": "shēngxiào",
+    "meaning": "Chinese zodiac; animal signs",
+    "example": "根据传统，每个人都有属于自己的生肖。",
+    "pattern": ""
+  },
+  {
+    "id": 102,
+    "hanzi": "生长",
+    "pinyin": "shēngzhǎng",
+    "meaning": "to grow; to develop",
+    "example": "植物需要阳光、水分和土壤才能正常生长。",
+    "pattern": ""
+  },
+  {
+    "id": 103,
+    "hanzi": "深厚",
+    "pinyin": "shēnhòu",
+    "meaning": "deep; profound",
+    "example": "他们之间有着深厚的友谊。",
+    "pattern": ""
+  },
+  {
+    "id": 104,
+    "hanzi": "神话",
+    "pinyin": "shénhuà",
+    "meaning": "myth; legend",
+    "example": "中国古代有许多美丽的神话传说。",
+    "pattern": ""
+  },
+  {
+    "id": 105,
+    "hanzi": "深刻",
+    "pinyin": "shēnkè",
+    "meaning": "profound; deep",
+    "example": "这次经历给他留下了深刻的印象和感悟。",
+    "pattern": ""
+  },
+  {
+    "id": 106,
+    "hanzi": "神秘",
+    "pinyin": "shénmì",
+    "meaning": "mysterious; enigmatic",
+    "example": "这座古墓充满了神秘的色彩。",
+    "pattern": ""
+  },
+  {
+    "id": 107,
+    "hanzi": "深入",
+    "pinyin": "shēnrù",
+    "meaning": "to explore thoroughly",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 108,
+    "hanzi": "名牌",
+    "pinyin": "míngpái",
+    "meaning": "famous brand; brand name",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 109,
+    "hanzi": "名片",
+    "pinyin": "míngpiàn",
+    "meaning": "business card",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 110,
+    "hanzi": "明确",
+    "pinyin": "míngquè",
+    "meaning": "clear; definite; explicit",
+    "example": "",
+    "pattern": ""
+  },
+  {
+    "id": 111,
+    "hanzi": "明确",
+    "pinyin": "míngquè",
+    "meaning": "to clarify; to specify",
+    "example": "",
+    "pattern": ""
+  }
+]
