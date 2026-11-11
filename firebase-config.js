@@ -1,6 +1,6 @@
 
 window.HANZI_FIREBASE_CONFIG = {
-  apiKey: "AIzaSyBza1sW8aryn1LOPAQjwDeT82rU4ZTOYdQ",
+  apiKey: "AIzaSyBd_RP2zF1Xrwx1DhAJOZkqcHK9-7q4O5I",
   authDomain: "chinese-e61ab.firebaseapp.com",
   projectId: "chinese-e61ab",
   storageBucket: "chinese-e61ab.firebasestorage.app",
