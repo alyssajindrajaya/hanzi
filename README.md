@@ -1,37 +1,40 @@
-# Hanzi Habit — HSK 5
+# Hanzi Habit — Google Sign-in Edition
 
-A free, static, mobile-friendly HSK 5 vocabulary trainer. No API keys, backend, or accounts are required.
+Mobile-friendly HSK 5 trainer hosted on GitHub Pages, with Google sign-in and Firestore cloud progress.
 
-## Publish on GitHub Pages
+## One-time Firebase setup
 
-1. Create a **public GitHub repository**, for example `hsk5-trainer`.
-2. Upload `index.html`, `styles.css`, `app.js`, and `vocabulary.json` to the repository root.
-3. Open **Settings → Pages → Build and deployment**.
-4. Set **Deploy from a branch**, choose `main` and `/ (root)`, then Save.
-5. After GitHub publishes the site, open the URL shown under Pages on your phone or laptop. You can add it to your phone's home screen using your browser menu.
+1. Open https://console.firebase.google.com and create a Firebase project.
+2. Go to **Build > Authentication > Get started > Sign-in method** and enable **Google**. Choose a support email and save.
+3. Go to **Build > Firestore Database > Create database**. Choose a region and create the database. In **Rules**, replace the default rules with the exact contents of `firestore.rules` and click **Publish**. These rules are essential: each user can only access their own document.
+4. Go to **Project settings** (gear icon) > **General** > **Your apps** > **Web** (`</>`). Register the app and copy the Firebase config values into `firebase-config.js`. The `measurementId` is optional. Do not put admin SDK keys or service account secrets into the website.
+5. In **Authentication > Settings > Authorized domains**, add your GitHub Pages host, typically `YOURNAME.github.io` (host only, no `https://` and no repository path). If testing locally, add `localhost` too.
+6. Upload `index.html`, `styles.css`, `app.js`, `auth.js`, `firebase-config.js`, and `vocabulary.json` to the ROOT of your GitHub repository. Do not upload the old Cloudflare worker or old `config.js`.
+7. In GitHub **Settings > Pages**, choose **Deploy from a branch**, branch `main`, folder `/ (root)`. Open your published HTTPS URL and click **Continue with Google**.
 
-For local development, from this folder run `python -m http.server 8000` and visit `http://localhost:8000`.
+You may need to allow popups for the site. Firebase Google popup sign-in works on most modern browsers. Some privacy-restricted mobile browsers can block popup or redirect flows; try Chrome or Safari if that happens. Firebase's redirect authentication on a third-party hosted domain can require additional setup depending on browser restrictions; popup is the default.
 
-## How practice works
+## Saving and account privacy
 
-- The first **100 numbered syllabus entries** are unlocked initially, including separate grammatical senses of the same word.
-- Daily goal: **50 independent correct answers**, mixing due reviews and new entries.
-- On the front, vocabulary questions show only Chinese characters, without Pinyin or English hints. After submission, feedback reveals Pinyin, meaning, and the syllabus example where included.
-- Once a word has at least one independent correct answer, it may also appear as a **fill-in-the-blank sentence question**. The answer must be typed in Chinese characters.
-- Wrong answers must be retried immediately. **Only first-attempt correct responses count** toward the 11-success mastery threshold. The word remains due for later independent review after an error.
-- Correct answers schedule reviews with growing day intervals (1, 2, 4, 8, 16, 32, 64 days). Wrong answers reset the interval.
-- Once a word has **11 independent correct answers**, it is retired from regular testing.
-- When at least 70% of unlocked entries have 2 independent correct answers, 10 more entries unlock, up to the included dataset size.
-- Progress is stored in browser `localStorage`. It **does not sync between devices**. Use Settings → Export progress / Import progress to move your data.
+- Every signed-in user gets a separate Firestore document under `users/{Google uid}`.
+- Progress is saved in this browser immediately and uploaded to Firestore shortly afterward.
+- The same Google account on a second device retrieves the cloud copy.
+- A green cloud-saved message in Settings confirms the last upload; an offline message means only the local copy is saved for now.
+- The site does not request access to Gmail messages; Google sign-in provides basic account identity.
+- Do not publish a Firestore database with open rules. Keep `firestore.rules` deployed.
+- The app is not designed for simultaneous study sessions on two devices. It merges totals using maxima, which can undercount concurrent independent activity. Let the first device finish syncing before opening the second.
 
-## Limitations and extending the syllabus
+## Migrating old progress
 
-The supplied PDF has visually readable tables but problematic text extraction for Chinese characters. The packaged dataset is a manually assembled transcription of **entries 1–111** from the uploaded syllabus, with example sentences included for **81 entries** (some are adapted practice examples rather than verbatim syllabus text). Where an example was unavailable, it is left blank. Confirm exact wording against the original PDF before relying on an example as a verbatim quote. Expansion automatically proceeds to entry 111, and stops until you add more source-verified rows to `vocabulary.json`.
+The old username version and this Google version use different local storage keys. **Before replacing your old website**, sign in to the old version, go to Settings and **Export progress**. On the new Google version, sign in and choose **Import progress** in Settings. Your imported progress is then saved to your Google account. Keep the backup JSON until you've confirmed cloud sync on a second device.
 
-The typed English grader uses strict normalized equivalents and a limited synonym list. Correct answers phrased in an unlisted way may be rejected; the app deliberately avoids automatically treating ambiguous answers as correct. You can extend `equivalents` in `app.js`.
+## Study rules
 
-Sentence Studio checks basic word presence and length and offers the source example for comparison. **It does not claim to correct unrestricted Chinese grammar.** That requires an AI-backed service or richer language tooling, neither of which is part of this offline-first GitHub Pages version.
+The first 100 numbered syllabus entries unlock initially. Daily target: 50 questions mixing new items and reviews. Front of a question has no Pinyin/English hint. Feedback reveals Pinyin, meaning and an example where available. Errors require immediate correction; retries do not count toward mastery. After 11 independent correct answers an entry is retired. New entries unlock in groups of 10 after 70% of unlocked entries have two correct answers. The included dataset currently ends at entry 111. Grammar studio uses basic checks, not AI feedback.
 
-## Source and license note
+## Limits
 
-Vocabulary definitions and sample sentences are based on the user-provided *New HSK Level 5 Complete Syllabus (2026 edition)* from hskmocktest.com. This is a personal study tool. Verify permissions before redistributing the source vocabulary content publicly.
+- Firebase free-tier quotas and service availability apply. Firestore writes are per saved study state, not per individual vocabulary word.
+- The typed-English grader has a limited synonym list and may reject a valid paraphrase.
+- Vocabulary data includes some adapted examples rather than exact syllabus quotations.
+- Use a local web server for local development (`python -m http.server 8000`), not `file://`.
