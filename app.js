@@ -5,55 +5,128 @@ let uid='',syncTimer=null,saveVersion=0;
 const storageKey=u=>'hanzi-habit-firebase-'+u;
 function setSyncStatus(t){const el=$('syncStatus');if(el)el.textContent=t;const login=$('loginError');if(login&&!uid)login.textContent=t}
 window.HANZI_APP={status:setSyncStatus,signedOut:()=>{uid='';clearTimeout(syncTimer);state=freshState();$('appShell').hidden=true;$('loginOverlay').hidden=false;},signedIn:async user=>{
-  uid=user.uid;state=freshState();load();if(user.remote&&user.remote.progress)state=mergeStates(state,user.remote);
+  uid=user.uid;state=freshState();load();if(user.remote&&user.remote.progress)state=mergeStates(state,user.remote);migrateDuplicateProgress();
   $('accountName').textContent=user.name;$('accountInfo').textContent='Signed in with Google: '+user.email;
   $('loginOverlay').hidden=true;$('appShell').hidden=false;
   $('dailyTarget').value=state.dailyTarget;renderHome();save();setSyncStatus('Google account connected · progress saved automatically.');
 }};
 function scheduleSync(){if(!uid||!window.HANZI_AUTH?.configured)return;clearTimeout(syncTimer);syncTimer=setTimeout(syncCloud,900)}
 async function syncCloud(){if(!uid)return;const version=saveVersion;try{setSyncStatus('Saving to cloud…');await window.HANZI_AUTH.save(uid,state);setSyncStatus(version===saveVersion?'Cloud saved ✓':'New changes pending…');if(version!==saveVersion)scheduleSync()}catch(e){setSyncStatus('Cloud save failed; local copy retained. Retry with Sync now.')}}
-function freshState(){return {progress:{},unlocked:100,dailyTarget:50,days:{},lastStudy:null,streak:0}}
-function mergeStates(local,remote){const merged={...freshState(),...remote,...local,progress:{},days:{}};for(const id of new Set([...Object.keys(remote.progress||{}),...Object.keys(local.progress||{})])){const a=remote.progress?.[id]||{},b=local.progress?.[id]||{};merged.progress[id]={correct:Math.max(a.correct||0,b.correct||0),wrong:Math.max(a.wrong||0,b.wrong||0),due:Math.max(a.due||0,b.due||0),interval:Math.max(a.interval||0,b.interval||0),last:[a.last,b.last].filter(Boolean).sort().at(-1)||null}}for(const day of new Set([...Object.keys(remote.days||{}),...Object.keys(local.days||{})]))merged.days[day]=Math.max(remote.days?.[day]||0,local.days?.[day]||0);merged.unlocked=Math.max(100,remote.unlocked||100,local.unlocked||100);merged.lastStudy=[remote.lastStudy,local.lastStudy].filter(Boolean).sort().at(-1)||null;merged.streak=Math.max(remote.streak||0,local.streak||0);return merged}
+function freshState(){return {progress:{},unlocked:100,dailyTarget:50,newPerDay:20,days:{},lastStudy:null,streak:0}}
+function mergeStates(local,remote){const merged={...freshState(),...remote,...local,progress:{},days:{}};for(const id of new Set([...Object.keys(remote.progress||{}),...Object.keys(local.progress||{})])){const a=remote.progress?.[id]||{},b=local.progress?.[id]||{};merged.progress[id]={correct:Math.max(a.correct||0,b.correct||0),wrong:Math.max(a.wrong||0,b.wrong||0),due:Math.max(a.due||0,b.due||0),interval:Math.max(a.interval||0,b.interval||0),last:[a.last,b.last].filter(Boolean).sort().at(-1)||null,seen:!!(a.seen||b.seen||a.correct||b.correct||a.wrong||b.wrong),firstSeen:[a.firstSeen,b.firstSeen].filter(Boolean).sort()[0]||null}}for(const day of new Set([...Object.keys(remote.days||{}),...Object.keys(local.days||{})]))merged.days[day]=Math.max(remote.days?.[day]||0,local.days?.[day]||0);merged.unlocked=Math.max(100,remote.unlocked||100,local.unlocked||100);merged.newPerDay=20;merged.lastStudy=[remote.lastStudy,local.lastStudy].filter(Boolean).sort().at(-1)||null;merged.streak=Math.max(remote.streak||0,local.streak||0);return merged}
 
 const today=()=>new Date().toLocaleDateString('en-CA');
 const dayNumber=()=>Math.floor(Date.now()/86400000);
-let words=[],state={progress:{},unlocked:100,dailyTarget:50,days:{},lastStudy:null,streak:0},session=[],current=null,sessionCompleted=0,questionMode='meaning',retry=false,awaiting=false,grammarIndex=0;
+let words=[],state={progress:{},unlocked:100,dailyTarget:50,newPerDay:20,days:{},lastStudy:null,streak:0},session=[],current=null,sessionCompleted=0,questionMode='meaning',retry=false,awaiting=false,grammarIndex=0;
 const getProgress=id=>state.progress[id]||(state.progress[id]={correct:0,wrong:0,due:0,interval:0,last:null});
-function load(){if(!uid)return;try{const saved=JSON.parse(localStorage.getItem(storageKey(uid)));if(saved&&saved.progress)state={...state,...saved};}catch(e){console.warn('Could not read saved progress',e)}}
-
-function save() {
-  if (!uid) return;
-
-  try {
-    localStorage.setItem(storageKey(uid), JSON.stringify(state));
-  } catch (e) {
-    console.warn('Local storage unavailable:', e);
-  }
-
-  saveVersion++;
-  scheduleSync();
+function migrateDuplicateProgress(){
+ // Preserve previous scores from syllabus entries that now share a Hanzi spelling.
+ // Use MAX rather than SUM: two grammatical uses are not two independent recalls.
+ for(const w of words){
+  const ids=w.source_ids||[w.id];
+  const states=ids.map(id=>state.progress[id]).filter(Boolean);
+  if(!states.length)continue;
+  const p=getProgress(w.id);
+  p.correct=Math.max(...states.map(x=>x.correct||0));
+  p.wrong=Math.max(...states.map(x=>x.wrong||0));
+  p.interval=Math.max(...states.map(x=>x.interval||0));
+  p.due=Math.max(...states.map(x=>x.due||0));
+  p.seen=states.some(x=>x.seen||x.correct||x.wrong);
+  p.firstSeen=states.map(x=>x.firstSeen).filter(Boolean).sort()[0]||p.firstSeen||null;
+  p.last=states.map(x=>x.last).filter(Boolean).sort().at(-1)||p.last||null;
+ }
 }
 
+function load(){if(!uid)return;try{const saved=JSON.parse(localStorage.getItem(storageKey(uid)));if(saved&&saved.progress)state={...state,...saved};for(const p of Object.values(state.progress)){if(p.correct||p.wrong)p.seen=true;}}catch(e){console.warn('Could not read saved progress',e)}}
+function save(){if(!uid)return;try{localStorage.setItem(storageKey(uid),JSON.stringify(state));saveVersion++;scheduleSync()}catch(e){alert('Browser storage is unavailable. Export your progress regularly.')}}
 function countToday(){return state.days[today()]||0}
-function mastered(w){return getProgress(w.id).correct>=11}
+function mastered(w){return getProgress(w.id).correct>=4}
 function unlocked(){return words.filter(w=>w.id<=state.unlocked)}
 function remaining(){return unlocked().filter(w=>!mastered(w))}
 function due(w){const p=getProgress(w.id);return p.correct>0&&p.due<=dayNumber()}
 function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
-function updateUnlock(){const pool=unlocked();if(state.unlocked>=words.length)return;const ready=pool.filter(w=>getProgress(w.id).correct>=2).length;if(ready>=Math.ceil(pool.length*.7)){state.unlocked=Math.min(words.length,state.unlocked+10);save()}}
+function updateUnlock(){
+  // Unlocking is based on exposure, never on the number of correct answers.
+  // The first 100 source entries are available from the start. Once the learner
+  // has seen the available new words, open the next batch automatically.
+  const unseen=words.filter(w=>w.id<=state.unlocked&&!state.progress[w.id]?.seen);
+  if(unseen.length<20&&state.unlocked<words.at(-1).id){
+    state.unlocked=Math.min(words.at(-1).id,state.unlocked+20);
+    save();
+  }
+}
 function view(name){['home','quiz','grammar','settings'].forEach(x=>$(x+'View').hidden=x!==name);['Home','Practice','Grammar','Settings'].forEach(x=>{const e=$('nav'+x);e.classList.toggle('active',x.toLowerCase()===name)});window.scrollTo(0,0);if(name==='home')renderHome();if(name==='grammar')renderGrammar()}
-function renderHome(){updateUnlock();$('todayCount').innerHTML=`${countToday()}<span class="slash">/${state.dailyTarget}</span>`;const pool=unlocked();const done=pool.filter(mastered).length;$('masteredCount').textContent=done;$('poolCount').textContent=state.unlocked;$('progressLabel').textContent=`${done} of ${pool.length} mastered`;$('masteryBar').style.width=(done/pool.length*100||0)+'%';$('dueCount').textContent=pool.filter(w=>!mastered(w)&&due(w)).length+' due now';$('libraryCount').textContent=pool.length+' entries';$('streak').textContent=`✦ ${state.streak} day streak`;renderLibrary();}
-function renderLibrary(){const q=$('search').value.trim().toLowerCase(),filter=$('filter').value;const rows=unlocked().filter(w=>(w.hanzi+w.pinyin+w.meaning).toLowerCase().includes(q)).filter(w=>filter==='all'||filter==='mastered'&&mastered(w)||filter==='learning'&&!mastered(w)||filter==='due'&&due(w)&&!mastered(w));$('wordList').innerHTML=rows.map(w=>{const p=getProgress(w.id);const s=mastered(w)?'Mastered':`${p.correct}/11 correct`;return `<div class="word-row"><span class="num">${w.id}</span><span class="hanzi">${escapeHtml(w.hanzi)}</span><span class="meaning">${escapeHtml(w.meaning)}</span><span class="status ${mastered(w)?'':'weak'}">${s}</span></div>`}).join('')||'<div class="word-row">No matching entries.</div>'}
+function renderHome(){updateUnlock();$('todayCount').innerHTML=`${countToday()}<span class="slash">/${state.dailyTarget}</span>`;const pool=unlocked();const done=pool.filter(mastered).length;$('masteredCount').textContent=done;$('poolCount').textContent=pool.length;$('progressLabel').textContent=`${done} of ${pool.length} mastered`;$('masteryBar').style.width=(done/pool.length*100||0)+'%';$('dueCount').textContent=pool.filter(w=>!mastered(w)&&due(w)).length+' due now';$('libraryCount').textContent=pool.length+' entries';$('streak').textContent=`✦ ${state.streak} day streak`;renderLibrary();}
+function renderLibrary(){const q=$('search').value.trim().toLowerCase(),filter=$('filter').value;const rows=unlocked().filter(w=>(w.hanzi+w.pinyin+w.meaning).toLowerCase().includes(q)).filter(w=>filter==='all'||filter==='mastered'&&mastered(w)||filter==='learning'&&!mastered(w)||filter==='due'&&due(w)&&!mastered(w));$('wordList').innerHTML=rows.map(w=>{const p=getProgress(w.id);const s=mastered(w)?'Mastered':`${p.correct}/4 correct`;return `<div class="word-row"><span class="num">${w.id}</span><span class="hanzi">${escapeHtml(w.hanzi)}</span><span class="meaning">${escapeHtml(w.meaning)}</span><span class="status ${mastered(w)?'':'weak'}">${s}</span></div>`}).join('')||'<div class="word-row">No matching entries.</div>'}
 function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
-function buildSession(){const left=Math.max(0,state.dailyTarget-countToday());if(!left){alert('Daily target reached! You can return tomorrow or increase the target in Settings.');return}const available=remaining();if(!available.length){alert('All unlocked entries are mastered!');return}const duePool=shuffle(available.filter(due));const newPool=shuffle(available.filter(w=>getProgress(w.id).correct===0));const learning=shuffle(available.filter(w=>getProgress(w.id).correct>0&&!due(w)));const ordered=[];while(ordered.length<left&&(duePool.length||newPool.length||learning.length)){for(const group of [duePool,newPool,duePool,learning,newPool]){if(group.length&&ordered.length<left)ordered.push(group.shift())}}session=ordered;sessionCompleted=0;nextQuestion();view('quiz')}
-function nextQuestion(){retry=false;awaiting=false;current=session.shift();if(!current){view('home');return}const n=sessionCompleted+1;$('quizCounter').textContent=`Question ${n} · ${countToday()}/${state.dailyTarget} today`;$('quizBar').style.width=(countToday()/state.dailyTarget*100)+'%';questionMode=current.example&&getProgress(current.id).correct>0&&Math.random()<.42?'context':'meaning';$('quizMode').textContent=questionMode==='context'?'IN CONTEXT':'WORD';$('promptLabel').textContent=questionMode==='context'?'FILL IN THE MISSING CHINESE WORD':'WHAT DOES THIS WORD MEAN?';if(questionMode==='context'){const example=current.example;const at=example.indexOf(current.hanzi);if(at<0){questionMode='meaning';$('quizMode').textContent='WORD';$('promptLabel').textContent='WHAT DOES THIS WORD MEAN?'}}$('promptContent').innerHTML=questionMode==='meaning'?`<div class="big-word">${escapeHtml(current.hanzi)}</div>`:`<div class="context-sentence">${escapeHtml(current.example).replace(escapeHtml(current.hanzi),'<span class="blank">＿＿</span>')}</div>`;$('answerInput').value='';$('answerInput').placeholder=questionMode==='meaning'?'Type the English meaning…':'Type the missing Chinese word…';$('answerForm').hidden=false;$('feedback').hidden=true;$('answerInput').focus()}
+function buildSession(){
+ const left=Math.max(0,state.dailyTarget-countToday());
+ if(!left){alert('Daily target reached! Come back tomorrow or adjust Settings.');return}
+ updateUnlock();
+ const active=remaining();
+ if(!active.length){alert('All available entries are mastered.');return}
+ const unseen=active.filter(w=>!getProgress(w.id).seen).sort((a,b)=>a.id-b.id);
+ const dailyNewAlready=Object.values(state.progress).filter(p=>p.firstSeen===today()).length;
+ const newQuota=Math.max(0,Math.min(left,state.newPerDay-dailyNewAlready));
+ const newItems=unseen.slice(0,newQuota);
+ const chosen=new Set(newItems.map(w=>w.id));
+ const reviews=shuffle(active.filter(w=>!chosen.has(w.id)&&getProgress(w.id).seen&&due(w)));
+ const otherReviews=shuffle(active.filter(w=>!chosen.has(w.id)&&getProgress(w.id).seen&&!due(w)));
+ const ordered=[];
+ // Interleave 20 new and 30 reviews rather than front-loading new words.
+ let newIndex=0;
+ while(ordered.length<left&&(newIndex<newItems.length||reviews.length||otherReviews.length)){
+  if(newIndex<newItems.length)ordered.push(newItems[newIndex++]);
+  for(let i=0;i<2&&ordered.length<left;i++){
+   if(reviews.length)ordered.push(reviews.shift());
+   else if(otherReviews.length)ordered.push(otherReviews.shift());
+  }
+ }
+ // If too few reviews exist on Day 1, introduce extra words to fill the 50 questions.
+ // They count as new exposures, not as additional repetitions of the same card.
+ for(const w of unseen.slice(newQuota)){
+  if(ordered.length>=left)break;
+  if(!ordered.some(x=>x.id===w.id))ordered.push(w);
+ }
+ session=ordered.slice(0,left);sessionCompleted=0;
+ if(!session.length){alert('No cards available today.');return}
+ nextQuestion();view('quiz');
+}
+function nextQuestion(){retry=false;awaiting=false;current=session.shift();if(!current){view('home');return}const shown=getProgress(current.id);if(!shown.seen){shown.seen=true;shown.firstSeen=today();save();} const n=sessionCompleted+1;$('quizCounter').textContent=`Question ${n} · ${countToday()}/${state.dailyTarget} today`;$('quizBar').style.width=(countToday()/state.dailyTarget*100)+'%';questionMode=current.example&&getProgress(current.id).correct>0&&Math.random()<.42?'context':'meaning';$('quizMode').textContent=questionMode==='context'?'IN CONTEXT':'WORD';$('promptLabel').textContent=questionMode==='context'?'FILL IN THE MISSING CHINESE WORD':'WHAT DOES THIS WORD MEAN?';if(questionMode==='context'){const example=current.example;const at=example.indexOf(current.hanzi);if(at<0){questionMode='meaning';$('quizMode').textContent='WORD';$('promptLabel').textContent='WHAT DOES THIS WORD MEAN?'}}$('promptContent').innerHTML=questionMode==='meaning'?`<div class="big-word">${escapeHtml(current.hanzi)}</div>`:`<div class="context-sentence">${escapeHtml(current.example).split(escapeHtml(current.hanzi)).join('<span class="blank">＿＿</span>')}</div>`;$('answerInput').value='';$('answerInput').placeholder=questionMode==='meaning'?'Type the English meaning…':'Type the missing Chinese word…';$('answerForm').hidden=false;$('feedback').hidden=true;$('answerInput').focus()}
 function normalize(s){return s.toLowerCase().normalize('NFKC').replace(/[’‘]/g,"'").replace(/\b(to|a|an|the)\b/g,' ').replace(/[^\p{L}\p{N}]+/gu,' ').trim().replace(/\s+/g,' ')}
 const equivalents={'to maintain':['maintain','maintenance','service','repair','fix'],'to repair':['repair','fix','mend'],'to threaten':['threaten','threat'],'to regard as':['regard as','consider as','treat as','see as'],'to set up':['set up','erect','put up','support'],'to endure':['endure','tolerate','bear','put up with'],'home appliances':['household appliances','electrical appliances','appliances'],'to think':['think','reflect','ponder','consider'],'seems like':['seems','seemingly','apparently','it seems','appears'],'to concentrate':['concentrate','focus'],'hundred million':['100 million','one hundred million','100000000'],'teeth':['tooth'],'living things':['organisms','living organisms'],'first time':['for the first time'],'to hide':['hide','conceal'],'good review':['positive review','praise'],'question':['doubt','uncertainty']};
 function correctMeaning(answer,meaning){const a=normalize(answer);if(!a)return false;const variants=meaning.split(';').map(normalize).filter(Boolean);for(const v of [...variants]){if(v.startsWith('to '))variants.push(v.slice(3));if(v.startsWith('the '))variants.push(v.slice(4));for(const [key,values] of Object.entries(equivalents))if(normalize(key)===v)variants.push(...values.map(normalize))}return variants.some(v=>a===v||a.length>=5&&v.length>=5&&(a===v.replace(/\bto\b /,'')||v===a.replace(/\bto\b /,'')))}
-function grade(){if(awaiting)return;const answer=$('answerInput').value.trim();if(!answer)return;const ok=questionMode==='context'?answer.replace(/\s/g,'')===current.hanzi:correctMeaning(answer,current.meaning);awaiting=true;const box=$('feedback');box.hidden=false;box.className='feedback '+(ok?'':'bad');box.innerHTML=`<h3>${ok?'✓ Correct!':'✕ Not quite — correct it now'}</h3><p><b>${escapeHtml(current.hanzi)}</b> · ${escapeHtml(current.pinyin)}</p><p>${escapeHtml(current.meaning)}</p>${current.example?`<p class="example">${escapeHtml(current.example)}</p>`:''}<p class="small">${ok?'Independent recall recorded.':'Your retry is for learning and will not count toward mastery.'}</p><button class="primary full" id="feedbackNext">${ok?'Continue →':'Try again →'}</button>`;$('answerForm').hidden=true;if(ok&&!retry){const p=getProgress(current.id);p.correct++;p.last=today();p.interval=Math.min(64,p.interval?Math.max(1,p.interval*2):1);p.due=dayNumber()+p.interval;state.days[today()]=countToday()+1;if(state.lastStudy!==today()){const yesterday=new Date(Date.now()-86400000).toLocaleDateString('en-CA');state.streak=state.lastStudy===yesterday?state.streak+1:1;state.lastStudy=today()}save();sessionCompleted++}else if(!ok&&!retry){const p=getProgress(current.id);p.wrong++;p.interval=0;p.due=dayNumber();save()}$('feedbackNext').onclick=()=>{if(ok){nextQuestion()}else{retry=true;awaiting=false;$('feedback').hidden=true;$('answerForm').hidden=false;$('answerInput').value='';$('answerInput').focus()}}}
+function recordDailyAttempt(){
+ state.days[today()]=countToday()+1;
+ if(state.lastStudy!==today()){
+  const yesterday=new Date(Date.now()-86400000).toLocaleDateString('en-CA');
+  state.streak=state.lastStudy===yesterday?state.streak+1:1;
+  state.lastStudy=today();
+ }
+}
+function grade(){
+ if(awaiting)return;
+ const answer=$('answerInput').value.trim();if(!answer)return;
+ const ok=questionMode==='context'?answer.replace(/\s/g,'')===current.hanzi:correctMeaning(answer,current.meaning);
+ awaiting=true;
+ const box=$('feedback');box.hidden=false;box.className='feedback '+(ok?'':'bad');
+ box.innerHTML=`<h3>${ok?'✓ Correct!':'✕ Not quite — correct it now'}</h3><p><b>${escapeHtml(current.hanzi)}</b> · ${escapeHtml(current.pinyin)}</p><p>${escapeHtml(current.meaning)}</p>${current.example?`<p class="example">${escapeHtml(current.example)}</p>`:''}<p class="small">${ok&&!retry?'Independent recall recorded.':ok?'Correction complete; no mastery credit for a retry.':'Your retry is for learning and will not count toward mastery.'}</p><button class="primary full" id="feedbackNext">${ok?'Continue →':'Try again →'}</button>`;
+ $('answerForm').hidden=true;
+ const p=getProgress(current.id);
+ if(!retry){
+  recordDailyAttempt();sessionCompleted++;
+  if(ok){p.correct++;p.last=today();p.interval=Math.min(32,p.interval?Math.max(1,p.interval*2):1);p.due=dayNumber()+p.interval;}
+  else{p.wrong++;p.interval=0;p.due=dayNumber()+1;}
+  save();
+ }
+ $('feedbackNext').onclick=()=>{
+  if(ok){nextQuestion()}
+  else{retry=true;awaiting=false;$('feedback').hidden=true;$('answerForm').hidden=false;$('answerInput').value='';$('answerInput').focus()}
+ };
+}
 function renderGrammar(){const available=unlocked().filter(w=>w.id<=100);const candidates=available.filter(w=>['看作','架','思考','维修','忍','把握','采用','参考','一致','守','沿','采取'].includes(w.hanzi));const w=candidates[grammarIndex%candidates.length]||available[0];$('grammarWord').textContent=w.hanzi;$('grammarIndex').textContent=`PATTERN ${grammarIndex+1}`;$('grammarInstruction').textContent=`Write a Chinese sentence using ${w.hanzi}. Aim for a complete, natural sentence.`;$('grammarInput').value='';$('grammarFeedback').hidden=true;$('nextGrammar').hidden=true;$('grammarCheck').hidden=false}
 function gradeGrammar(){const available=unlocked().filter(w=>['看作','架','思考','维修','忍','把握','采用','参考','一致','守','沿','采取'].includes(w.hanzi));const w=available[grammarIndex%available.length];const a=$('grammarInput').value.trim();if(!a)return;const contains=a.includes(w.hanzi);const length=a.replace(/[\s\p{P}]/gu,'').length;const complete=length>=7;const checks=[];checks.push(contains?'✓ Target expression is present.':'✕ Target expression is missing.');checks.push(complete?'✓ Sentence has enough characters for a basic clause.':'! Try writing a longer, complete clause.');if(w.hanzi==='看作'&&!a.includes('把'))checks.push('Tip: 把 A 看作 B is a common structure.');if(w.hanzi==='架'&&!/桥|帐篷|梯子|电线|架设/.test(a))checks.push('Check whether 架 describes erecting or supporting something, rather than riding/driving.');$('grammarFeedback').hidden=false;$('grammarFeedback').className='feedback '+(contains&&complete?'':'bad');$('grammarFeedback').innerHTML=`<h3>${contains&&complete?'Basic pattern check passed':'Review your sentence'}</h3><p>${checks.join('<br>')}</p>${w.example?`<p class="example"><b>Example for comparison:</b> ${escapeHtml(w.example)}</p>`:''}<p class="small">This is not an AI grammar judgment. A sentence can pass these checks and still contain grammatical errors.</p>`;$('nextGrammar').hidden=false;$('grammarCheck').hidden=true}
 function exportProgress(){const blob=new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),state},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='hsk5-progress-'+today()+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
 async function importProgress(file){try{const obj=JSON.parse(await file.text());if(!obj.state||!obj.state.progress||!confirm('Replace current local progress with this backup?'))return;state={...state,...obj.state};save();renderHome();alert('Progress imported.')}catch(e){alert('This does not look like a valid Hanzi Habit backup.')}}
-async function init(){try{words=await (await fetch('vocabulary.json')).json()}catch(e){document.querySelector('main').innerHTML='<div class="panel" style="margin-top:30px"><h2>Could not load vocabulary</h2><p>Run this site using GitHub Pages or a local web server. Opening index.html directly from a file folder may block JSON loading.</p></div>';return}load();state.unlocked=Math.max(100,Math.min(state.unlocked,words.length));$('dailyTarget').value=state.dailyTarget;renderHome();$('startBtn').onclick=buildSession;$('navPractice').onclick=buildSession;$('navHome').onclick=()=>view('home');$('navGrammar').onclick=()=>view('grammar');$('navSettings').onclick=()=>view('settings');$('settingsBtn').onclick=()=>view('settings');$('grammarBtn').onclick=$('grammarBtn2').onclick=()=>view('grammar');$('exitQuiz').onclick=()=>view('home');$('exitGrammar').onclick=()=>view('home');$('exitSettings').onclick=()=>view('home');$('answerForm').onsubmit=e=>{e.preventDefault();grade()};$('search').oninput=renderLibrary;$('filter').onchange=renderLibrary;$('grammarCheck').onclick=gradeGrammar;$('nextGrammar').onclick=()=>{grammarIndex++;renderGrammar()};$('saveSettings').onclick=()=>{state.dailyTarget=Math.min(150,Math.max(10,Number($('dailyTarget').value)||50));save();alert('Settings saved.')};$('syncNow').onclick=async()=>{try{const remote=await window.HANZI_AUTH.reload(uid);if(remote?.progress){state=mergeStates(state,remote);save();renderHome()}await syncCloud()}catch(e){setSyncStatus('Sync failed: '+e.message)}};$('logoutBtn').onclick=async()=>{try{await window.HANZI_AUTH.logout()}catch(e){setSyncStatus('Sign-out failed: '+e.message)}};$('exportBtn').onclick=exportProgress;$('importInput').onchange=e=>{if(e.target.files[0])importProgress(e.target.files[0])}}
+async function init(){try{words=await (await fetch('vocabulary.json')).json()}catch(e){document.querySelector('main').innerHTML='<div class="panel" style="margin-top:30px"><h2>Could not load vocabulary</h2><p>Run this site using GitHub Pages or a local web server. Opening index.html directly from a file folder may block JSON loading.</p></div>';return}load();migrateDuplicateProgress();state.unlocked=Math.max(100,Math.min(state.unlocked,words.at(-1).id));state.newPerDay=20;$('dailyTarget').value=state.dailyTarget;renderHome();$('startBtn').onclick=buildSession;$('navPractice').onclick=buildSession;$('navHome').onclick=()=>view('home');$('navGrammar').onclick=()=>view('grammar');$('navSettings').onclick=()=>view('settings');$('settingsBtn').onclick=()=>view('settings');$('grammarBtn').onclick=$('grammarBtn2').onclick=()=>view('grammar');$('exitQuiz').onclick=()=>view('home');$('exitGrammar').onclick=()=>view('home');$('exitSettings').onclick=()=>view('home');$('answerForm').onsubmit=e=>{e.preventDefault();grade()};$('search').oninput=renderLibrary;$('filter').onchange=renderLibrary;$('grammarCheck').onclick=gradeGrammar;$('nextGrammar').onclick=()=>{grammarIndex++;renderGrammar()};$('saveSettings').onclick=()=>{state.dailyTarget=Math.min(150,Math.max(10,Number($('dailyTarget').value)||50));save();alert('Settings saved.')};$('syncNow').onclick=async()=>{try{const remote=await window.HANZI_AUTH.reload(uid);if(remote?.progress){state=mergeStates(state,remote);migrateDuplicateProgress();save();renderHome()}await syncCloud()}catch(e){setSyncStatus('Sync failed: '+e.message)}};$('logoutBtn').onclick=async()=>{try{await window.HANZI_AUTH.logout()}catch(e){setSyncStatus('Sign-out failed: '+e.message)}};$('exportBtn').onclick=exportProgress;$('importInput').onchange=e=>{if(e.target.files[0])importProgress(e.target.files[0])}}
 init();

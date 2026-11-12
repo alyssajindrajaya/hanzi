@@ -3,9 +3,13 @@
     "id": 1,
     "hanzi": "微笑",
     "pinyin": "wēixiào",
-    "meaning": "smile",
+    "meaning": "smile; to smile",
     "example": "她脸上露出温暖的微笑令人难忘。",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1,
+      1497
+    ]
   },
   {
     "id": 2,
@@ -51,33 +55,25 @@
     "id": 7,
     "hanzi": "稳定",
     "pinyin": "wěndìng",
-    "meaning": "stable; steady",
+    "meaning": "stable; steady; to stabilize; to steady",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 8,
-    "hanzi": "稳定",
-    "pinyin": "wěndìng",
-    "meaning": "to stabilize; to steady",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      7,
+      8
+    ]
   },
   {
     "id": 9,
     "hanzi": "开放",
     "pinyin": "kāifàng",
-    "meaning": "to open; to make available",
+    "meaning": "to open; to make available; open-minded; liberal",
     "example": "这个公园对公众开放。",
-    "pattern": ""
-  },
-  {
-    "id": 10,
-    "hanzi": "开放",
-    "pinyin": "kāifàng",
-    "meaning": "open-minded; liberal",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      9,
+      10
+    ]
   },
   {
     "id": 11,
@@ -123,41 +119,26 @@
     "id": 16,
     "hanzi": "挤",
     "pinyin": "jǐ",
-    "meaning": "to crowd; to squeeze",
+    "meaning": "to crowd; to squeeze; crowded; cramped",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 17,
-    "hanzi": "挤",
-    "pinyin": "jǐ",
-    "meaning": "crowded; cramped",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      16,
+      17
+    ]
   },
   {
     "id": 18,
     "hanzi": "架",
     "pinyin": "jià",
-    "meaning": "shelf; frame",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 19,
-    "hanzi": "架",
-    "pinyin": "jià",
-    "meaning": "to set up; to support",
+    "meaning": "shelf; frame; to set up; to support; classifier for items with frames or stands",
     "example": "他小心翼翼地把书架在书桌上摆放整齐。",
-    "pattern": ""
-  },
-  {
-    "id": 20,
-    "hanzi": "架",
-    "pinyin": "jià",
-    "meaning": "classifier for items with frames or stands",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      18,
+      19,
+      20
+    ]
   },
   {
     "id": 21,
@@ -211,17 +192,13 @@
     "id": 27,
     "hanzi": "人工",
     "pinyin": "réngōng",
-    "meaning": "artificial; man-made",
+    "meaning": "artificial; man-made; labor; manual work",
     "example": "这种人工合成的材料具有很好的耐用性。",
-    "pattern": ""
-  },
-  {
-    "id": 28,
-    "hanzi": "人工",
-    "pinyin": "réngōng",
-    "meaning": "labor; manual work",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      27,
+      28
+    ]
   },
   {
     "id": 29,
@@ -275,17 +252,13 @@
     "id": 35,
     "hanzi": "高度",
     "pinyin": "gāodù",
-    "meaning": "height; altitude",
+    "meaning": "height; altitude; high degree; high level",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 36,
-    "hanzi": "高度",
-    "pinyin": "gāodù",
-    "meaning": "high degree; high level",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      35,
+      36
+    ]
   },
   {
     "id": 37,
@@ -323,17 +296,17 @@
     "id": 41,
     "hanzi": "裁判",
     "pinyin": "cáipàn",
-    "meaning": "to referee; to officiate",
+    "meaning": "to referee; to officiate; referee; umpire",
     "example": "他在比赛中做出判决。",
-    "pattern": ""
-  },
-  {
-    "id": 42,
-    "hanzi": "裁判",
-    "pinyin": "cáipàn",
-    "meaning": "referee; umpire",
-    "example": "裁判员在比赛中维持秩序和公平。",
-    "pattern": ""
+    "pattern": "",
+    "examples": [
+      "他在比赛中做出判决。",
+      "裁判员在比赛中维持秩序和公平。"
+    ],
+    "source_ids": [
+      41,
+      42
+    ]
   },
   {
     "id": 43,
@@ -387,17 +360,17 @@
     "id": 49,
     "hanzi": "义务",
     "pinyin": "yìwù",
-    "meaning": "duty; obligation",
+    "meaning": "duty; obligation; voluntary; free",
     "example": "每个公民都有纳税的义务。",
-    "pattern": ""
-  },
-  {
-    "id": 50,
-    "hanzi": "义务",
-    "pinyin": "yìwù",
-    "meaning": "voluntary; free",
-    "example": "他参加了义务劳动活动。",
-    "pattern": ""
+    "pattern": "",
+    "examples": [
+      "每个公民都有纳税的义务。",
+      "他参加了义务劳动活动。"
+    ],
+    "source_ids": [
+      49,
+      50
+    ]
   },
   {
     "id": 51,
@@ -419,17 +392,17 @@
     "id": 53,
     "hanzi": "一致",
     "pinyin": "yízhì",
-    "meaning": "consistent; identical",
+    "meaning": "consistent; identical; unanimously; all",
     "example": "双方的意见基本保持一致。",
-    "pattern": ""
-  },
-  {
-    "id": 54,
-    "hanzi": "一致",
-    "pinyin": "yízhì",
-    "meaning": "unanimously; all",
-    "example": "他们一致同意这个提议。",
-    "pattern": ""
+    "pattern": "",
+    "examples": [
+      "双方的意见基本保持一致。",
+      "他们一致同意这个提议。"
+    ],
+    "source_ids": [
+      53,
+      54
+    ]
   },
   {
     "id": 55,
@@ -459,9 +432,13 @@
     "id": 58,
     "hanzi": "记忆",
     "pinyin": "jìyì",
-    "meaning": "memory; to remember",
+    "meaning": "memory; to remember; =memory",
     "example": "童年记忆总是特别珍贵。",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      58,
+      929
+    ]
   },
   {
     "id": 59,
@@ -475,33 +452,33 @@
     "id": 60,
     "hanzi": "急诊",
     "pinyin": "jízhěn",
-    "meaning": "to provide emergency treatment",
+    "meaning": "to provide emergency treatment; emergency treatment; emergency medicine",
     "example": "医生正在对伤者进行急诊治疗。",
-    "pattern": ""
-  },
-  {
-    "id": 61,
-    "hanzi": "急诊",
-    "pinyin": "jízhěn",
-    "meaning": "emergency treatment; emergency medicine",
-    "example": "医院的急诊部门非常重要。",
-    "pattern": ""
+    "pattern": "",
+    "examples": [
+      "医生正在对伤者进行急诊治疗。",
+      "医院的急诊部门非常重要。"
+    ],
+    "source_ids": [
+      60,
+      61
+    ]
   },
   {
     "id": 62,
     "hanzi": "集中",
     "pinyin": "jízhōng",
-    "meaning": "to concentrate; to focus",
+    "meaning": "to concentrate; to focus; concentrated; dense",
     "example": "学生们集中精力准备考试。",
-    "pattern": ""
-  },
-  {
-    "id": 63,
-    "hanzi": "集中",
-    "pinyin": "jízhōng",
-    "meaning": "concentrated; dense",
-    "example": "这个地区人口集中分布。",
-    "pattern": ""
+    "pattern": "",
+    "examples": [
+      "学生们集中精力准备考试。",
+      "这个地区人口集中分布。"
+    ],
+    "source_ids": [
+      62,
+      63
+    ]
   },
   {
     "id": 64,
@@ -579,9 +556,14 @@
     "id": 73,
     "hanzi": "沿",
     "pinyin": "yán",
-    "meaning": "along; alongside",
+    "meaning": "along; alongside; to follow along; to go=along; edge; border",
     "example": "他们沿着河边小路慢慢散步。",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      73,
+      375,
+      376
+    ]
   },
   {
     "id": 74,
@@ -635,65 +617,63 @@
     "id": 80,
     "hanzi": "导演",
     "pinyin": "dǎoyǎn",
-    "meaning": "to direct; to guide",
+    "meaning": "to direct; to guide; director",
     "example": "这位著名导演亲自指导这部电影。",
-    "pattern": ""
-  },
-  {
-    "id": 81,
-    "hanzi": "导演",
-    "pinyin": "dǎoyǎn",
-    "meaning": "director",
-    "example": "这位导演以其独特的拍摄风格而闻名。",
-    "pattern": ""
+    "pattern": "",
+    "examples": [
+      "这位著名导演亲自指导这部电影。",
+      "这位导演以其独特的拍摄风格而闻名。"
+    ],
+    "source_ids": [
+      80,
+      81
+    ]
   },
   {
     "id": 82,
     "hanzi": "包装",
     "pinyin": "bāozhuāng",
-    "meaning": "packaging",
+    "meaning": "packaging; to package; to wrap",
     "example": "这个产品的包装很精美。",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      82,
+      1199
+    ]
   },
   {
     "id": 83,
     "hanzi": "把握",
     "pinyin": "bǎwò",
-    "meaning": "to grasp; to seize",
+    "meaning": "to grasp; to seize; confidence; certainty",
     "example": "他把握住了这次机会。",
-    "pattern": ""
-  },
-  {
-    "id": 84,
-    "hanzi": "把握",
-    "pinyin": "bǎwò",
-    "meaning": "confidence; certainty",
-    "example": "他对这个项目很有把握。",
-    "pattern": ""
+    "pattern": "",
+    "examples": [
+      "他把握住了这次机会。",
+      "他对这个项目很有把握。"
+    ],
+    "source_ids": [
+      83,
+      84
+    ]
   },
   {
     "id": 85,
     "hanzi": "背",
     "pinyin": "bèi",
-    "meaning": "back",
+    "meaning": "back; to recite from memory; contrary to; against",
     "example": "他的背很疼，可能是因为坐太久。",
-    "pattern": ""
-  },
-  {
-    "id": 86,
-    "hanzi": "背",
-    "pinyin": "bèi",
-    "meaning": "to recite from memory",
-    "example": "她背了一首古诗给大家听。",
-    "pattern": ""
-  },
-  {
-    "id": 87,
-    "hanzi": "背",
-    "pinyin": "bèi",
-    "meaning": "contrary to; against",
-    "example": "这个决定是背着的，不符合规定。",
-    "pattern": ""
+    "pattern": "",
+    "examples": [
+      "他的背很疼，可能是因为坐太久。",
+      "她背了一首古诗给大家听。",
+      "这个决定是背着的，不符合规定。"
+    ],
+    "source_ids": [
+      85,
+      86,
+      87
+    ]
   },
   {
     "id": 88,
@@ -851,9 +831,13 @@
     "id": 107,
     "hanzi": "深入",
     "pinyin": "shēnrù",
-    "meaning": "to explore thoroughly",
+    "meaning": "to explore thoroughly; in-depth; thorough",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      107,
+      763
+    ]
   },
   {
     "id": 108,
@@ -875,23 +859,19 @@
     "id": 110,
     "hanzi": "明确",
     "pinyin": "míngquè",
-    "meaning": "clear; definite; explicit",
+    "meaning": "clear; definite; explicit; to clarify; to specify",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 111,
-    "hanzi": "明确",
-    "pinyin": "míngquè",
-    "meaning": "to clarify; to specify",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      110,
+      111
+    ]
   },
   {
     "id": 112,
     "hanzi": "明显",
     "pinyin": "míngxiǎn",
-    "meaning": "obvious; clear;=evident",
+    "meaning": "obvious; clear; =evident",
     "example": "",
     "pattern": ""
   },
@@ -915,9 +895,13 @@
     "id": 115,
     "hanzi": "密切",
     "pinyin": "mìqiè",
-    "meaning": "close; intimate;=close-knit",
+    "meaning": "close; intimate; =close-knit",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      115,
+      325
+    ]
   },
   {
     "id": 116,
@@ -955,7 +939,7 @@
     "id": 120,
     "hanzi": "故乡",
     "pinyin": "gùxiāng",
-    "meaning": "hometown;=birthplace",
+    "meaning": "hometown; =birthplace",
     "example": "",
     "pattern": ""
   },
@@ -971,17 +955,13 @@
     "id": 122,
     "hanzi": "哈",
     "pinyin": "hā",
-    "meaning": "laughter sound",
+    "meaning": "laughter sound; expression of=realization",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 123,
-    "hanzi": "哈",
-    "pinyin": "hā",
-    "meaning": "expression of=realization",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      122,
+      123
+    ]
   },
   {
     "id": 124,
@@ -1019,25 +999,25 @@
     "id": 128,
     "hanzi": "先后",
     "pinyin": "xiānhòu",
-    "meaning": "in sequence; one=after another",
+    "meaning": "in sequence; one=after another; first=and then",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      128,
+      1027
+    ]
   },
   {
     "id": 129,
     "hanzi": "先进",
     "pinyin": "xiānjìn",
-    "meaning": "advanced; leading",
+    "meaning": "advanced; leading; advanced worker; =model worker",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 130,
-    "hanzi": "先进",
-    "pinyin": "xiānjìn",
-    "meaning": "advanced worker;=model worker",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      129,
+      130
+    ]
   },
   {
     "id": 131,
@@ -1059,17 +1039,13 @@
     "id": 133,
     "hanzi": "现实",
     "pinyin": "xiànshí",
-    "meaning": "reality; actuality",
+    "meaning": "reality; actuality; realistic; practical",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 134,
-    "hanzi": "现实",
-    "pinyin": "xiànshí",
-    "meaning": "realistic; practical",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      133,
+      134
+    ]
   },
   {
     "id": 135,
@@ -1083,17 +1059,13 @@
     "id": 136,
     "hanzi": "存款",
     "pinyin": "cúnkuǎn",
-    "meaning": "to deposit money",
+    "meaning": "to deposit money; deposit; savings",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 137,
-    "hanzi": "存款",
-    "pinyin": "cúnkuǎn",
-    "meaning": "deposit; savings",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      136,
+      137
+    ]
   },
   {
     "id": 138,
@@ -1107,17 +1079,13 @@
     "id": 139,
     "hanzi": "合组",
     "pinyin": "zǔhé",
-    "meaning": "to combine; to=compose",
+    "meaning": "to combine; to=compose; combination; group",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 140,
-    "hanzi": "合组",
-    "pinyin": "zǔhé",
-    "meaning": "combination; group",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      139,
+      140
+    ]
   },
   {
     "id": 141,
@@ -1139,7 +1107,7 @@
     "id": 143,
     "hanzi": "初最",
     "pinyin": "zuìchū",
-    "meaning": "initial; beginning;=original",
+    "meaning": "initial; beginning; =original",
     "example": "",
     "pattern": ""
   },
@@ -1203,33 +1171,38 @@
     "id": 151,
     "hanzi": "意识",
     "pinyin": "yìshí",
-    "meaning": "to realize; to be=aware of",
+    "meaning": "to realize; to be=aware of; consciousness; =awareness",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 152,
-    "hanzi": "意识",
-    "pinyin": "yìshí",
-    "meaning": "consciousness;=awareness",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      151,
+      152
+    ]
   },
   {
     "id": 153,
     "hanzi": "意外",
     "pinyin": "yìwài",
-    "meaning": "unexpected;=accidental",
+    "meaning": "unexpected; =accidental; unexpected event; =accident",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      153,
+      272
+    ]
   },
   {
     "id": 154,
     "hanzi": "矛盾",
     "pinyin": "máodùn",
-    "meaning": "conflicted;=contradictory",
+    "meaning": "conflicted; =contradictory; contradiction; =conflict",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      154,
+      1138,
+      1139
+    ]
   },
   {
     "id": 155,
@@ -1323,7 +1296,7 @@
     "id": 166,
     "hanzi": "浓",
     "pinyin": "nóng",
-    "meaning": "thick; concentrated;=strong",
+    "meaning": "thick; concentrated; =strong",
     "example": "",
     "pattern": ""
   },
@@ -1403,7 +1376,7 @@
     "id": 176,
     "hanzi": "权",
     "pinyin": "quán",
-    "meaning": "power; right;=authority",
+    "meaning": "power; right; =authority",
     "example": "",
     "pattern": ""
   },
@@ -1419,17 +1392,13 @@
     "id": 178,
     "hanzi": "蔡",
     "pinyin": "tì",
-    "meaning": "to replace; to=substitute for",
+    "meaning": "to replace; to=substitute for; on behalf of; for",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 179,
-    "hanzi": "蔡",
-    "pinyin": "tì",
-    "meaning": "on behalf of; for",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      178,
+      179
+    ]
   },
   {
     "id": 180,
@@ -1555,25 +1524,25 @@
     "id": 195,
     "hanzi": "时刻",
     "pinyin": "shíkè",
-    "meaning": "moment; time",
+    "meaning": "moment; time; constantly; at all=times",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      195,
+      1692
+    ]
   },
   {
     "id": 196,
     "hanzi": "平衡",
     "pinyin": "pínghéng",
-    "meaning": "balance; equilibrium",
+    "meaning": "balance; equilibrium; to balance",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 197,
-    "hanzi": "平衡",
-    "pinyin": "pínghéng",
-    "meaning": "to balance",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      196,
+      197
+    ]
   },
   {
     "id": 198,
@@ -1627,7 +1596,7 @@
     "id": 204,
     "hanzi": "广泛",
     "pinyin": "guǎngfàn",
-    "meaning": "widespread;=extensive",
+    "meaning": "widespread; =extensive",
     "example": "",
     "pattern": ""
   },
@@ -1771,17 +1740,13 @@
     "id": 222,
     "hanzi": "光明",
     "pinyin": "guāngmíng",
-    "meaning": "brightness; bright=hope",
+    "meaning": "brightness; bright=hope; upright; honest",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 223,
-    "hanzi": "光明",
-    "pinyin": "guāngmíng",
-    "meaning": "upright; honest",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      222,
+      223
+    ]
   },
   {
     "id": 224,
@@ -1803,15 +1768,19 @@
     "id": 226,
     "hanzi": "碎",
     "pinyin": "suì",
-    "meaning": "broken; shattered",
+    "meaning": "broken; shattered; to break; to shatter",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      226,
+      973
+    ]
   },
   {
     "id": 227,
     "hanzi": "随后",
     "pinyin": "suíhòu",
-    "meaning": "subsequently;=afterwards",
+    "meaning": "subsequently; =afterwards",
     "example": "",
     "pattern": ""
   },
@@ -1819,7 +1788,7 @@
     "id": 228,
     "hanzi": "随时",
     "pinyin": "suíshí",
-    "meaning": "at any time;=whenever",
+    "meaning": "at any time; =whenever",
     "example": "",
     "pattern": ""
   },
@@ -1851,17 +1820,13 @@
     "id": 232,
     "hanzi": "损失",
     "pinyin": "sǔnshī",
-    "meaning": "to lose; to suffer loss",
+    "meaning": "to lose; to suffer loss; loss; damage",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 233,
-    "hanzi": "损失",
-    "pinyin": "sǔnshī",
-    "meaning": "loss; damage",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      232,
+      233
+    ]
   },
   {
     "id": 234,
@@ -1965,13 +1930,17 @@
     "pinyin": "fēnfēn",
     "meaning": "in succession; one=after another",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      246,
+      1579
+    ]
   },
   {
     "id": 247,
     "hanzi": "丰富多彩",
     "pinyin": "fēngfù\u0010duōcǎi",
-    "meaning": "rich and colorful;=diverse",
+    "meaning": "rich and colorful; =diverse",
     "example": "",
     "pattern": ""
   },
@@ -1987,7 +1956,7 @@
     "id": 249,
     "hanzi": "升",
     "pinyin": "shēng",
-    "meaning": "to rise; to promote;=to upgrade",
+    "meaning": "to rise; to promote; =to upgrade",
     "example": "",
     "pattern": ""
   },
@@ -2099,7 +2068,7 @@
     "id": 263,
     "hanzi": "商人",
     "pinyin": "shāngrén",
-    "meaning": "businessman;=merchant",
+    "meaning": "businessman; =merchant",
     "example": "",
     "pattern": ""
   },
@@ -2115,7 +2084,7 @@
     "id": 265,
     "hanzi": "商务",
     "pinyin": "shāngwù",
-    "meaning": "business;=commercial affairs",
+    "meaning": "business; =commercial affairs",
     "example": "",
     "pattern": ""
   },
@@ -2163,17 +2132,15 @@
     "id": 271,
     "hanzi": "面",
     "pinyin": "miàn",
-    "meaning": "noodles; flour; face",
+    "meaning": "noodles; flour; face; to face; to confront; aspect; side; serving; portion (of=noodles",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 272,
-    "hanzi": "意外",
-    "pinyin": "yìwài",
-    "meaning": "unexpected event;=accident",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      271,
+      1453,
+      1454,
+      1455
+    ]
   },
   {
     "id": 273,
@@ -2187,17 +2154,13 @@
     "id": 274,
     "hanzi": "尊敬",
     "pinyin": "zūnjìng",
-    "meaning": "to respect; to revere",
+    "meaning": "to respect; to revere; respected; respectful",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 275,
-    "hanzi": "尊敬",
-    "pinyin": "zūnjìng",
-    "meaning": "respected; respectful",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      274,
+      275
+    ]
   },
   {
     "id": 276,
@@ -2219,25 +2182,14 @@
     "id": 278,
     "hanzi": "直",
     "pinyin": "zhí",
-    "meaning": "straight; direct",
+    "meaning": "straight; direct; to look directly; to=gaze; directly",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 279,
-    "hanzi": "直",
-    "pinyin": "zhí",
-    "meaning": "to look directly; to=gaze",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 280,
-    "hanzi": "直",
-    "pinyin": "zhí",
-    "meaning": "directly; straight",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      278,
+      279,
+      280
+    ]
   },
   {
     "id": 281,
@@ -2275,17 +2227,13 @@
     "id": 285,
     "hanzi": "模糊",
     "pinyin": "móhu",
-    "meaning": "blurry; vague;=unclear",
+    "meaning": "blurry; vague; =unclear; to blur; to obscure",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 286,
-    "hanzi": "模糊",
-    "pinyin": "móhu",
-    "meaning": "to blur; to obscure",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      285,
+      286
+    ]
   },
   {
     "id": 287,
@@ -2299,7 +2247,7 @@
     "id": 288,
     "hanzi": "模式",
     "pinyin": "móshì",
-    "meaning": "model; pattern;=mode",
+    "meaning": "model; pattern; =mode",
     "example": "",
     "pattern": ""
   },
@@ -2483,17 +2431,13 @@
     "id": 311,
     "hanzi": "组织",
     "pinyin": "zǔzhī",
-    "meaning": "to organize",
+    "meaning": "to organize; organization",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 312,
-    "hanzi": "组织",
-    "pinyin": "zǔzhī",
-    "meaning": "organization",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      311,
+      312
+    ]
   },
   {
     "id": 313,
@@ -2507,7 +2451,7 @@
     "id": 314,
     "hanzi": "语气",
     "pinyin": "yǔqì",
-    "meaning": "tone of voice;=manner of speaking",
+    "meaning": "tone of voice; =manner of speaking",
     "example": "",
     "pattern": ""
   },
@@ -2547,33 +2491,25 @@
     "id": 319,
     "hanzi": "朝",
     "pinyin": "cháo",
-    "meaning": "to face; to head=toward",
+    "meaning": "to face; to head=toward; toward; in the=direction of",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 320,
-    "hanzi": "朝",
-    "pinyin": "cháo",
-    "meaning": "toward; in the=direction of",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      319,
+      320
+    ]
   },
   {
     "id": 321,
     "hanzi": "吵",
     "pinyin": "chǎo",
-    "meaning": "noisy; loud",
+    "meaning": "noisy; loud; to make noise; to=quarrel",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 322,
-    "hanzi": "吵",
-    "pinyin": "chǎo",
-    "meaning": "to make noise; to=quarrel",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      321,
+      322
+    ]
   },
   {
     "id": 323,
@@ -2588,14 +2524,6 @@
     "hanzi": "海外",
     "pinyin": "hǎiwài",
     "meaning": "overseas; abroad",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 325,
-    "hanzi": "密切",
-    "pinyin": "mìqiè",
-    "meaning": "close; intimate",
     "example": "",
     "pattern": ""
   },
@@ -2635,17 +2563,13 @@
     "id": 330,
     "hanzi": "签名",
     "pinyin": "qiānmíng",
-    "meaning": "to sign one=s name;=to autograph",
+    "meaning": "to sign one=s name; =to autograph; signature",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 331,
-    "hanzi": "签名",
-    "pinyin": "qiānmíng",
-    "meaning": "signature",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      330,
+      331
+    ]
   },
   {
     "id": 332,
@@ -2667,17 +2591,13 @@
     "id": 334,
     "hanzi": "签字",
     "pinyin": "qiānzì",
-    "meaning": "to sign; to sign one=s=name",
+    "meaning": "to sign; to sign one=s=name; signature",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 335,
-    "hanzi": "签字",
-    "pinyin": "qiānzì",
-    "meaning": "signature",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      334,
+      335
+    ]
   },
   {
     "id": 336,
@@ -2699,7 +2619,7 @@
     "id": 338,
     "hanzi": "信用",
     "pinyin": "xìnyòng",
-    "meaning": "credit;=trustworthiness",
+    "meaning": "credit; =trustworthiness",
     "example": "",
     "pattern": ""
   },
@@ -2707,9 +2627,14 @@
     "id": 339,
     "hanzi": "堆",
     "pinyin": "duī",
-    "meaning": "pile; heap",
+    "meaning": "pile; heap; to pile up; to heap",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      339,
+      1848,
+      1849
+    ]
   },
   {
     "id": 340,
@@ -2763,17 +2688,13 @@
     "id": 346,
     "hanzi": "独立",
     "pinyin": "dúlì",
-    "meaning": "to be independent;=to stand alone",
+    "meaning": "to be independent; =to stand alone; independent; =autonomous",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 347,
-    "hanzi": "独立",
-    "pinyin": "dúlì",
-    "meaning": "independent;=autonomous",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      346,
+      347
+    ]
   },
   {
     "id": 348,
@@ -2787,7 +2708,7 @@
     "id": 349,
     "hanzi": "近代",
     "pinyin": "jìndài",
-    "meaning": "modern times;=modern history",
+    "meaning": "modern times; =modern history",
     "example": "",
     "pattern": ""
   },
@@ -2803,33 +2724,25 @@
     "id": 351,
     "hanzi": "静",
     "pinyin": "jìng",
-    "meaning": "quiet; still",
+    "meaning": "quiet; still; to quiet down; to=calm",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 352,
-    "hanzi": "静",
-    "pinyin": "jìng",
-    "meaning": "to quiet down; to=calm",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      351,
+      352
+    ]
   },
   {
     "id": 353,
     "hanzi": "经典",
     "pinyin": "jīngdiǎn",
-    "meaning": "classic; scripture",
+    "meaning": "classic; scripture; traditional",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 354,
-    "hanzi": "经典",
-    "pinyin": "jīngdiǎn",
-    "meaning": "classic; traditional",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      353,
+      354
+    ]
   },
   {
     "id": 355,
@@ -2843,23 +2756,19 @@
     "id": 356,
     "hanzi": "精神",
     "pinyin": "jīngshen",
-    "meaning": "spirit; mind",
+    "meaning": "spirit; mind; energetic; spirited",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 357,
-    "hanzi": "精神",
-    "pinyin": "jīngshen",
-    "meaning": "energetic; spirited",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      356,
+      357
+    ]
   },
   {
     "id": 358,
     "hanzi": "惊喜",
     "pinyin": "jīngxǐ",
-    "meaning": "pleasant surprise;=delight",
+    "meaning": "pleasant surprise; =delight",
     "example": "",
     "pattern": ""
   },
@@ -2923,17 +2832,25 @@
     "id": 366,
     "hanzi": "本",
     "pinyin": "běn",
-    "meaning": "originally; at first",
+    "meaning": "originally; at first; this; the",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      366,
+      709
+    ]
   },
   {
     "id": 367,
     "hanzi": "个别",
     "pinyin": "gèbié",
-    "meaning": "individual; few;=particular",
+    "meaning": "individual; few; =particular; a few",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      367,
+      1767
+    ]
   },
   {
     "id": 368,
@@ -2955,57 +2872,26 @@
     "id": 370,
     "hanzi": "根",
     "pinyin": "gēn",
-    "meaning": "root",
+    "meaning": "root; classifier for long-=shaped objects",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 371,
-    "hanzi": "根",
-    "pinyin": "gēn",
-    "meaning": "classifier for long-=shaped objects",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      370,
+      371
+    ]
   },
   {
     "id": 372,
     "hanzi": "根本",
     "pinyin": "gēnběn",
-    "meaning": "foundation; basis",
+    "meaning": "foundation; basis; fundamental; basic; not at all; completely",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 373,
-    "hanzi": "根本",
-    "pinyin": "gēnběn",
-    "meaning": "fundamental; basic",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 374,
-    "hanzi": "根本",
-    "pinyin": "gēnběn",
-    "meaning": "not at all; completely",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 375,
-    "hanzi": "沿",
-    "pinyin": "yán",
-    "meaning": "to follow along; to go=along",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 376,
-    "hanzi": "沿",
-    "pinyin": "yán",
-    "meaning": "edge; border",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      372,
+      373,
+      374
+    ]
   },
   {
     "id": 377,
@@ -3027,17 +2913,13 @@
     "id": 379,
     "hanzi": "一路",
     "pinyin": "yílù",
-    "meaning": "all the way; the=whole journey",
+    "meaning": "all the way; the=whole journey; the=whole time",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 380,
-    "hanzi": "一路",
-    "pinyin": "yílù",
-    "meaning": "all the way; the=whole time",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      379,
+      380
+    ]
   },
   {
     "id": 381,
@@ -3067,9 +2949,13 @@
     "id": 384,
     "hanzi": "硬",
     "pinyin": "yìng",
-    "meaning": "hard; firm",
+    "meaning": "hard; firm; stubbornly; firmly; =determinedly",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      384,
+      1478
+    ]
   },
   {
     "id": 385,
@@ -3091,17 +2977,13 @@
     "id": 387,
     "hanzi": "行",
     "pinyin": "háng",
-    "meaning": "industry; business",
+    "meaning": "industry; business; line (classifier",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 388,
-    "hanzi": "行",
-    "pinyin": "háng",
-    "meaning": "line (classifier",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      387,
+      388
+    ]
   },
   {
     "id": 389,
@@ -3163,17 +3045,13 @@
     "id": 396,
     "hanzi": "统一",
     "pinyin": "tǒngyī",
-    "meaning": "to unify; to=standardize",
+    "meaning": "to unify; to=standardize; unified; standardized",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 397,
-    "hanzi": "统一",
-    "pinyin": "tǒngyī",
-    "meaning": "unified; standardized",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      396,
+      397
+    ]
   },
   {
     "id": 398,
@@ -3195,25 +3073,14 @@
     "id": 400,
     "hanzi": "投入",
     "pinyin": "tóurù",
-    "meaning": "to invest; to put into",
+    "meaning": "to invest; to put into; dedicated; =committed; investment; input",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 401,
-    "hanzi": "投入",
-    "pinyin": "tóurù",
-    "meaning": "dedicated;=committed",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 402,
-    "hanzi": "投入",
-    "pinyin": "tóurù",
-    "meaning": "investment; input",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      400,
+      401,
+      402
+    ]
   },
   {
     "id": 403,
@@ -3251,7 +3118,7 @@
     "id": 407,
     "hanzi": "然要不",
     "pinyin": "yàobù\u000brán\f",
-    "meaning": "or; how about;=alternatively",
+    "meaning": "or; how about; =alternatively",
     "example": "",
     "pattern": ""
   },
@@ -3267,7 +3134,7 @@
     "id": 409,
     "hanzi": "药品",
     "pinyin": "yàopǐn",
-    "meaning": "medicine;=pharmaceutical;=drug",
+    "meaning": "medicine; =pharmaceutical; =drug",
     "example": "",
     "pattern": ""
   },
@@ -3275,7 +3142,7 @@
     "id": 410,
     "hanzi": "药物",
     "pinyin": "yàowù",
-    "meaning": "medicine; drug;=pharmaceutical",
+    "meaning": "medicine; drug; =pharmaceutical",
     "example": "",
     "pattern": ""
   },
@@ -3283,9 +3150,13 @@
     "id": 411,
     "hanzi": "决心",
     "pinyin": "juéxīn",
-    "meaning": "to determine; to=resolve",
+    "meaning": "to determine; to=resolve; determination; =resolution",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      411,
+      1865
+    ]
   },
   {
     "id": 412,
@@ -3299,7 +3170,7 @@
     "id": 413,
     "hanzi": "人力",
     "pinyin": "rénlì",
-    "meaning": "human resources;=workforce",
+    "meaning": "human resources; =workforce",
     "example": "",
     "pattern": ""
   },
@@ -3315,9 +3186,13 @@
     "id": 415,
     "hanzi": "应用",
     "pinyin": "yìngyòng",
-    "meaning": "applied; practical",
+    "meaning": "applied; practical; to apply; to use",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      415,
+      590
+    ]
   },
   {
     "id": 416,
@@ -3363,7 +3238,7 @@
     "id": 421,
     "hanzi": "开业",
     "pinyin": "kāiyè",
-    "meaning": "to open for business;=to start operations",
+    "meaning": "to open for business; =to start operations",
     "example": "",
     "pattern": ""
   },
@@ -3411,15 +3286,19 @@
     "id": 427,
     "hanzi": "自动",
     "pinyin": "zìdòng",
-    "meaning": "automatic",
+    "meaning": "automatic; =automatically",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      427,
+      1649
+    ]
   },
   {
     "id": 428,
     "hanzi": "资格",
     "pinyin": "zīgé",
-    "meaning": "qualification;=eligibility",
+    "meaning": "qualification; =eligibility",
     "example": "",
     "pattern": ""
   },
@@ -3443,17 +3322,13 @@
     "id": 431,
     "hanzi": "具体",
     "pinyin": "jùtǐ",
-    "meaning": "concrete; specific;=definite",
+    "meaning": "concrete; specific; =definite; to specify; to=concretize",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 432,
-    "hanzi": "具体",
-    "pinyin": "jùtǐ",
-    "meaning": "to specify; to=concretize",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      431,
+      432
+    ]
   },
   {
     "id": 433,
@@ -3491,17 +3366,13 @@
     "id": 437,
     "hanzi": "说不定",
     "pinyin": "shuōbudìng",
-    "meaning": "maybe; perhaps;=possibly",
+    "meaning": "maybe; perhaps; =possibly",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 438,
-    "hanzi": "说不定",
-    "pinyin": "shuōbudìng",
-    "meaning": "maybe; perhaps;=possibly",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      437,
+      438
+    ]
   },
   {
     "id": 439,
@@ -3515,7 +3386,7 @@
     "id": 440,
     "hanzi": "到",
     "pinyin": "shúrén",
-    "meaning": "acquaintance;=familiar person",
+    "meaning": "acquaintance; =familiar person",
     "example": "",
     "pattern": ""
   },
@@ -3587,7 +3458,7 @@
     "id": 449,
     "hanzi": "怕可",
     "pinyin": "kěpà",
-    "meaning": "terrible; scary;=frightening",
+    "meaning": "terrible; scary; =frightening",
     "example": "",
     "pattern": ""
   },
@@ -3603,17 +3474,13 @@
     "id": 451,
     "hanzi": "负担",
     "pinyin": "fùdān",
-    "meaning": "to bear; to shoulder",
+    "meaning": "to bear; to shoulder; burden; load",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 452,
-    "hanzi": "负担",
-    "pinyin": "fùdān",
-    "meaning": "burden; load",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      451,
+      452
+    ]
   },
   {
     "id": 453,
@@ -3659,17 +3526,13 @@
     "id": 458,
     "hanzi": "早晚",
     "pinyin": "zǎowǎn",
-    "meaning": "morning and=evening",
+    "meaning": "morning and=evening; sooner or later",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 459,
-    "hanzi": "早晚",
-    "pinyin": "zǎowǎn",
-    "meaning": "sooner or later",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      458,
+      459
+    ]
   },
   {
     "id": 460,
@@ -3733,21 +3596,17 @@
     "pinyin": "chuàngxīn",
     "meaning": "innovation; to=innovate",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 468,
-    "hanzi": "创新",
-    "pinyin": "chuàngxīn",
-    "meaning": "innovation; to=innovate",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      467,
+      468
+    ]
   },
   {
     "id": 469,
     "hanzi": "创业",
     "pinyin": "chuàngyè",
-    "meaning": "to start a business;=to start one=s career",
+    "meaning": "to start a business; =to start one=s career",
     "example": "",
     "pattern": ""
   },
@@ -3811,9 +3670,13 @@
     "id": 477,
     "hanzi": "全力",
     "pinyin": "quánlì",
-    "meaning": "with full effort; with=all one=s strength",
+    "meaning": "with full effort; with=all one=s strength; full strength; all=efforts",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      477,
+      853
+    ]
   },
   {
     "id": 478,
@@ -3835,7 +3698,7 @@
     "id": 480,
     "hanzi": "全新",
     "pinyin": "quánxīn",
-    "meaning": "brand new;=completely new",
+    "meaning": "brand new; =completely new",
     "example": "",
     "pattern": ""
   },
@@ -3851,17 +3714,13 @@
     "id": 482,
     "hanzi": "确定",
     "pinyin": "quèdìng",
-    "meaning": "definite; certain",
+    "meaning": "definite; certain; to determine; to=confirm",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 483,
-    "hanzi": "确定",
-    "pinyin": "quèdìng",
-    "meaning": "to determine; to=confirm",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      482,
+      483
+    ]
   },
   {
     "id": 484,
@@ -3875,9 +3734,13 @@
     "id": 485,
     "hanzi": "保安",
     "pinyin": "bǎo",
-    "meaning": "ɨn=security guard",
+    "meaning": "ɨn=security guard; ɨn=to ensure security; =security guard",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      485,
+      885
+    ]
   },
   {
     "id": 486,
@@ -4003,7 +3866,7 @@
     "id": 501,
     "hanzi": "悠久",
     "pinyin": "yōujiǔ",
-    "meaning": "long-standing; long;=ancient",
+    "meaning": "long-standing; long; =ancient",
     "example": "",
     "pattern": ""
   },
@@ -4027,7 +3890,7 @@
     "id": 504,
     "hanzi": "力有",
     "pinyin": "yǒulì",
-    "meaning": "powerful; strong;=forceful",
+    "meaning": "powerful; strong; =forceful",
     "example": "",
     "pattern": ""
   },
@@ -4035,7 +3898,7 @@
     "id": 505,
     "hanzi": "利有",
     "pinyin": "yǒulì",
-    "meaning": "advantageous;=favorable; beneficial",
+    "meaning": "advantageous; =favorable; beneficial",
     "example": "",
     "pattern": ""
   },
@@ -4043,7 +3906,7 @@
     "id": 506,
     "hanzi": "优良",
     "pinyin": "yōuliáng",
-    "meaning": "excellent; fine;=superior",
+    "meaning": "excellent; fine; =superior",
     "example": "",
     "pattern": ""
   },
@@ -4051,7 +3914,7 @@
     "id": 507,
     "hanzi": "优美",
     "pinyin": "yōuměi",
-    "meaning": "beautiful; graceful;=elegant",
+    "meaning": "beautiful; graceful; =elegant",
     "example": "",
     "pattern": ""
   },
@@ -4083,7 +3946,7 @@
     "id": 511,
     "hanzi": "豆",
     "pinyin": "jiǎn",
-    "meaning": "to cut with scissors;=to trim",
+    "meaning": "to cut with scissors; =to trim",
     "example": "",
     "pattern": ""
   },
@@ -4115,7 +3978,7 @@
     "id": 515,
     "hanzi": "和",
     "pinyin": "jiāngjìn",
-    "meaning": "almost; nearly;=approaching",
+    "meaning": "almost; nearly; =approaching",
     "example": "",
     "pattern": ""
   },
@@ -4123,33 +3986,26 @@
     "id": 516,
     "hanzi": "讲究",
     "pinyin": "jiǎngjiu",
-    "meaning": "to pay attention to;=to be particular=about; elaborate",
+    "meaning": "to pay attention to; =to be particular=about; elaborate",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      516,
+      864
+    ]
   },
   {
     "id": 517,
     "hanzi": "套",
     "pinyin": "tào",
-    "meaning": "set; collection",
+    "meaning": "set; collection; to get by cunning; to=fish for; suit",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 518,
-    "hanzi": "套",
-    "pinyin": "tào",
-    "meaning": "to get by cunning; to=fish for",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 519,
-    "hanzi": "套",
-    "pinyin": "tào",
-    "meaning": "set; suit",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      517,
+      518,
+      519
+    ]
   },
   {
     "id": 520,
@@ -4163,7 +4019,7 @@
     "id": 521,
     "hanzi": "特产",
     "pinyin": "tèchǎn",
-    "meaning": "local specialty;=special product",
+    "meaning": "local specialty; =special product",
     "example": "",
     "pattern": ""
   },
@@ -4179,7 +4035,7 @@
     "id": 523,
     "hanzi": "特色",
     "pinyin": "tèsè",
-    "meaning": "characteristic;=distinctive feature",
+    "meaning": "characteristic; =distinctive feature",
     "example": "",
     "pattern": ""
   },
@@ -4203,7 +4059,7 @@
     "id": 526,
     "hanzi": "设施",
     "pinyin": "shèshī",
-    "meaning": "facilities;=installations",
+    "meaning": "facilities; =installations",
     "example": "",
     "pattern": ""
   },
@@ -4291,7 +4147,7 @@
     "id": 537,
     "hanzi": "风俗",
     "pinyin": "fēngsú",
-    "meaning": "custom; tradition;=folkways",
+    "meaning": "custom; tradition; =folkways",
     "example": "",
     "pattern": ""
   },
@@ -4339,17 +4195,13 @@
     "id": 543,
     "hanzi": "所",
     "pinyin": "suǒ",
-    "meaning": "classifier for=buildings, institutions",
+    "meaning": "classifier for=buildings, institutions; institution; place",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 544,
-    "hanzi": "所",
-    "pinyin": "suǒ",
-    "meaning": "institution; place",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      543,
+      544
+    ]
   },
   {
     "id": 545,
@@ -4395,7 +4247,7 @@
     "id": 550,
     "hanzi": "诊断",
     "pinyin": "zhěnduàn",
-    "meaning": "to diagnose;=diagnosis",
+    "meaning": "to diagnose; =diagnosis",
     "example": "",
     "pattern": ""
   },
@@ -4483,7 +4335,7 @@
     "id": 561,
     "hanzi": "中外",
     "pinyin": "zhōngwài",
-    "meaning": "chinese and foreign;=domestic and=international",
+    "meaning": "chinese and foreign; =domestic and=international",
     "example": "",
     "pattern": ""
   },
@@ -4499,25 +4351,25 @@
     "id": 563,
     "hanzi": "批",
     "pinyin": "pī",
-    "meaning": "classifier for batches",
+    "meaning": "classifier for batches; to comment on; to=revise",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 564,
-    "hanzi": "批",
-    "pinyin": "pī",
-    "meaning": "to comment on; to=revise",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      563,
+      564
+    ]
   },
   {
     "id": 565,
     "hanzi": "构成",
     "pinyin": "gòuchéng",
-    "meaning": "to constitute; to=compose",
+    "meaning": "to constitute; to=compose; to form",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      565,
+      1189
+    ]
   },
   {
     "id": 566,
@@ -4539,17 +4391,13 @@
     "id": 568,
     "hanzi": "鼓",
     "pinyin": "gǔ",
-    "meaning": "drum",
+    "meaning": "drum; to clap; to drum",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 569,
-    "hanzi": "鼓",
-    "pinyin": "gǔ",
-    "meaning": "to clap; to drum",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      568,
+      569
+    ]
   },
   {
     "id": 570,
@@ -4571,9 +4419,14 @@
     "id": 572,
     "hanzi": "怪",
     "pinyin": "guài",
-    "meaning": "strange; weird",
+    "meaning": "strange; weird; to blame; very; extremely",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      572,
+      831,
+      832
+    ]
   },
   {
     "id": 573,
@@ -4587,7 +4440,7 @@
     "id": 574,
     "hanzi": "体力",
     "pinyin": "tǐlì",
-    "meaning": "physical strength;=stamina",
+    "meaning": "physical strength; =stamina",
     "example": "",
     "pattern": ""
   },
@@ -4712,14 +4565,6 @@
     "pattern": ""
   },
   {
-    "id": 590,
-    "hanzi": "应用",
-    "pinyin": "yìngyòng",
-    "meaning": "to apply; to use",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 591,
     "hanzi": "空间",
     "pinyin": "kōngjiān",
@@ -4739,17 +4584,13 @@
     "id": 593,
     "hanzi": "空中",
     "pinyin": "kōngzhōng",
-    "meaning": "air; sky",
+    "meaning": "air; sky; aerial; suspended",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 594,
-    "hanzi": "空中",
-    "pinyin": "kōngzhōng",
-    "meaning": "aerial; suspended",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      593,
+      594
+    ]
   },
   {
     "id": 595,
@@ -4771,7 +4612,7 @@
     "id": 597,
     "hanzi": "库",
     "pinyin": "kù",
-    "meaning": "warehouse;=database",
+    "meaning": "warehouse; =database",
     "example": "",
     "pattern": ""
   },
@@ -4787,9 +4628,13 @@
     "id": 599,
     "hanzi": "领",
     "pinyin": "lǐng",
-    "meaning": "to lead; to guide",
+    "meaning": "to lead; to guide; collar; neck",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      599,
+      828
+    ]
   },
   {
     "id": 600,
@@ -4811,7 +4656,7 @@
     "id": 602,
     "hanzi": "签订",
     "pinyin": "qiāndìng",
-    "meaning": "to sign; to conclude;=to execute",
+    "meaning": "to sign; to conclude; =to execute",
     "example": "",
     "pattern": ""
   },
@@ -4827,7 +4672,7 @@
     "id": 604,
     "hanzi": "抢",
     "pinyin": "qiǎng",
-    "meaning": "to grab; to rush for;=to snatch",
+    "meaning": "to grab; to rush for; =to snatch",
     "example": "",
     "pattern": ""
   },
@@ -4835,7 +4680,7 @@
     "id": 605,
     "hanzi": "强大",
     "pinyin": "qiángdà",
-    "meaning": "powerful; strong;=mighty",
+    "meaning": "powerful; strong; =mighty",
     "example": "",
     "pattern": ""
   },
@@ -4851,7 +4696,7 @@
     "id": 607,
     "hanzi": "强度",
     "pinyin": "qiángdù",
-    "meaning": "intensity; strength;=degree of intensity",
+    "meaning": "intensity; strength; =degree of intensity",
     "example": "",
     "pattern": ""
   },
@@ -4907,25 +4752,25 @@
     "id": 614,
     "hanzi": "级",
     "pinyin": "jí",
-    "meaning": "level; grade",
+    "meaning": "level; grade; step",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 615,
-    "hanzi": "级",
-    "pinyin": "jí",
-    "meaning": "step; level",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      614,
+      615
+    ]
   },
   {
     "id": 616,
     "hanzi": "集",
     "pinyin": "jí",
-    "meaning": "collection; set",
+    "meaning": "collection; set; episode; installment",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      616,
+      815
+    ]
   },
   {
     "id": 617,
@@ -5021,15 +4866,23 @@
     "pinyin": "huīsè",
     "meaning": "gray; grey",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      628,
+      1432
+    ]
   },
   {
     "id": 629,
     "hanzi": "规则",
     "pinyin": "guīzé",
-    "meaning": "rules; regulations",
+    "meaning": "rules; regulations; rule; regulation; =principle",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      629,
+      1015
+    ]
   },
   {
     "id": 630,
@@ -5075,7 +4928,7 @@
     "id": 635,
     "hanzi": "过分",
     "pinyin": "guòfèn",
-    "meaning": "excessive;=unreasonable",
+    "meaning": "excessive; =unreasonable",
     "example": "",
     "pattern": ""
   },
@@ -5083,7 +4936,7 @@
     "id": 636,
     "hanzi": "国画",
     "pinyin": "guóhuà",
-    "meaning": "chinese painting;=traditional chinese=art",
+    "meaning": "chinese painting; =traditional chinese=art",
     "example": "",
     "pattern": ""
   },
@@ -5099,7 +4952,7 @@
     "id": 638,
     "hanzi": "公务员",
     "pinyin": "gōngwùyuán",
-    "meaning": "civil servant;=government=employee",
+    "meaning": "civil servant; =government=employee",
     "example": "",
     "pattern": ""
   },
@@ -5115,17 +4968,13 @@
     "id": 640,
     "hanzi": "贡献",
     "pinyin": "gòngxiàn",
-    "meaning": "to contribute; to=dedicate",
+    "meaning": "to contribute; to=dedicate; contribution; =dedication",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 641,
-    "hanzi": "贡献",
-    "pinyin": "gòngxiàn",
-    "meaning": "contribution;=dedication",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      640,
+      641
+    ]
   },
   {
     "id": 642,
@@ -5139,7 +4988,7 @@
     "id": 643,
     "hanzi": "工业",
     "pinyin": "gōngyè",
-    "meaning": "industry;=manufacturing",
+    "meaning": "industry; =manufacturing",
     "example": "",
     "pattern": ""
   },
@@ -5147,7 +4996,7 @@
     "id": 644,
     "hanzi": "工艺",
     "pinyin": "gōngyì",
-    "meaning": "craftsmanship;=technique",
+    "meaning": "craftsmanship; =technique",
     "example": "",
     "pattern": ""
   },
@@ -5179,7 +5028,7 @@
     "id": 648,
     "hanzi": "保留",
     "pinyin": "bǎoliú",
-    "meaning": "to keep; to preserve;=to retain",
+    "meaning": "to keep; to preserve; =to retain",
     "example": "",
     "pattern": ""
   },
@@ -5187,17 +5036,13 @@
     "id": 649,
     "hanzi": "保险",
     "pinyin": "bǎoxiǎn",
-    "meaning": "insurance",
+    "meaning": "insurance; cautious; safe; =secure",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 650,
-    "hanzi": "保险",
-    "pinyin": "bǎoxiǎn",
-    "meaning": "cautious; safe;=secure",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      649,
+      650
+    ]
   },
   {
     "id": 651,
@@ -5227,17 +5072,13 @@
     "id": 654,
     "hanzi": "记录",
     "pinyin": "jìlù",
-    "meaning": "to record; to=document",
+    "meaning": "to record; to=document; record; =documentation",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 655,
-    "hanzi": "记录",
-    "pinyin": "jìlù",
-    "meaning": "record;=documentation",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      654,
+      655
+    ]
   },
   {
     "id": 656,
@@ -5267,33 +5108,25 @@
     "id": 659,
     "hanzi": "紧",
     "pinyin": "jǐn",
-    "meaning": "tight",
+    "meaning": "tight; to tighten",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 660,
-    "hanzi": "紧",
-    "pinyin": "jǐn",
-    "meaning": "to tighten",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      659,
+      660
+    ]
   },
   {
     "id": 661,
     "hanzi": "无奈",
     "pinyin": "wúnài",
-    "meaning": "helpless; unable to=do anything",
+    "meaning": "helpless; unable to=do anything; unfortunately; but",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 662,
-    "hanzi": "无奈",
-    "pinyin": "wúnài",
-    "meaning": "unfortunately; but",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      661,
+      662
+    ]
   },
   {
     "id": 663,
@@ -5307,7 +5140,7 @@
     "id": 664,
     "hanzi": "无数",
     "pinyin": "wúshù",
-    "meaning": "countless;=innumerable",
+    "meaning": "countless; =innumerable",
     "example": "",
     "pattern": ""
   },
@@ -5347,17 +5180,13 @@
     "id": 669,
     "hanzi": "请求",
     "pinyin": "qǐngqiú",
-    "meaning": "to request; to ask for",
+    "meaning": "to request; to ask for; request",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 670,
-    "hanzi": "请求",
-    "pinyin": "qǐngqiú",
-    "meaning": "request",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      669,
+      670
+    ]
   },
   {
     "id": 671,
@@ -5371,17 +5200,13 @@
     "id": 672,
     "hanzi": "轻易",
     "pinyin": "qīngyì",
-    "meaning": "easy; easily",
+    "meaning": "easy; easily; without=difficulty",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 673,
-    "hanzi": "轻易",
-    "pinyin": "qīngyì",
-    "meaning": "easily; without=difficulty",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      672,
+      673
+    ]
   },
   {
     "id": 674,
@@ -5411,17 +5236,15 @@
     "id": 677,
     "hanzi": "度",
     "pinyin": "dù",
-    "meaning": "degree; measure",
+    "meaning": "degree; measure; to pass through; to=spend; unit of=measurement",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 678,
-    "hanzi": "度",
-    "pinyin": "dù",
-    "meaning": "to pass through; to=spend",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      677,
+      678,
+      760,
+      1414
+    ]
   },
   {
     "id": 679,
@@ -5475,33 +5298,25 @@
     "id": 685,
     "hanzi": "现代",
     "pinyin": "xiàndài",
-    "meaning": "modern times;=contemporary era",
+    "meaning": "modern times; =contemporary era; modern",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 686,
-    "hanzi": "现代",
-    "pinyin": "xiàndài",
-    "meaning": "modern",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      685,
+      686
+    ]
   },
   {
     "id": 687,
     "hanzi": "失误",
     "pinyin": "shīwù",
-    "meaning": "to make a mistake;=to err",
+    "meaning": "to make a mistake; =to err; mistake; error; =blunder",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 688,
-    "hanzi": "失误",
-    "pinyin": "shīwù",
-    "meaning": "mistake; error;=blunder",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      687,
+      688
+    ]
   },
   {
     "id": 689,
@@ -5523,7 +5338,7 @@
     "id": 691,
     "hanzi": "事先",
     "pinyin": "shìxiān",
-    "meaning": "in advance;=beforehand; prior to",
+    "meaning": "in advance; =beforehand; prior to",
     "example": "",
     "pattern": ""
   },
@@ -5539,23 +5354,19 @@
     "id": 693,
     "hanzi": "歼",
     "pinyin": "shíyàn",
-    "meaning": "to conduct an=experiment; to=experiment",
+    "meaning": "to conduct an=experiment; to=experiment; experiment",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 694,
-    "hanzi": "歼",
-    "pinyin": "shíyàn",
-    "meaning": "experiment",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      693,
+      694
+    ]
   },
   {
     "id": 695,
     "hanzi": "缓解",
     "pinyin": "huǎnjiě",
-    "meaning": "to alleviate; to ease;=to relieve",
+    "meaning": "to alleviate; to ease; =to relieve",
     "example": "",
     "pattern": ""
   },
@@ -5571,23 +5382,19 @@
     "id": 697,
     "hanzi": "便利",
     "pinyin": "biànlì",
-    "meaning": "convenient; handy",
+    "meaning": "convenient; handy; to make convenient",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 698,
-    "hanzi": "便利",
-    "pinyin": "biànlì",
-    "meaning": "to make convenient",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      697,
+      698
+    ]
   },
   {
     "id": 699,
     "hanzi": "山区",
     "pinyin": "shānqū",
-    "meaning": "mountainous area;=mountain region",
+    "meaning": "mountainous area; =mountain region",
     "example": "",
     "pattern": ""
   },
@@ -5611,17 +5418,13 @@
     "id": 702,
     "hanzi": "记",
     "pinyin": "shāo",
-    "meaning": "to cook; to stew",
+    "meaning": "to cook; to stew; burn; scald",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 703,
-    "hanzi": "记",
-    "pinyin": "shāo",
-    "meaning": "burn; scald",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      702,
+      703
+    ]
   },
   {
     "id": 704,
@@ -5659,15 +5462,7 @@
     "id": 708,
     "hanzi": "舍不得",
     "pinyin": "shěbude",
-    "meaning": "to hate to part with;=to be reluctant to=give up",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 709,
-    "hanzi": "本",
-    "pinyin": "běn",
-    "meaning": "this; the",
+    "meaning": "to hate to part with; =to be reluctant to=give up",
     "example": "",
     "pattern": ""
   },
@@ -5747,7 +5542,7 @@
     "id": 719,
     "hanzi": "格外",
     "pinyin": "géwài",
-    "meaning": "especially;=particularly",
+    "meaning": "especially; =particularly",
     "example": "",
     "pattern": ""
   },
@@ -5755,7 +5550,7 @@
     "id": 720,
     "hanzi": "个性",
     "pinyin": "gèxìng",
-    "meaning": "personality;=individuality",
+    "meaning": "personality; =individuality",
     "example": "",
     "pattern": ""
   },
@@ -5795,15 +5590,19 @@
     "id": 725,
     "hanzi": "限制",
     "pinyin": "xiànzhì",
-    "meaning": "limitation; restriction",
+    "meaning": "limitation; restriction; to limit; to restrict",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      725,
+      1803
+    ]
   },
   {
     "id": 726,
     "hanzi": "现状",
     "pinyin": "xiànzhuàng",
-    "meaning": "current situation;=present state",
+    "meaning": "current situation; =present state",
     "example": "",
     "pattern": ""
   },
@@ -5811,7 +5610,7 @@
     "id": 727,
     "hanzi": "洱小",
     "pinyin": "xiāofèi",
-    "meaning": "to consume;=consumption",
+    "meaning": "to consume; =consumption",
     "example": "",
     "pattern": ""
   },
@@ -5931,7 +5730,7 @@
     "id": 742,
     "hanzi": "强小",
     "pinyin": "xiǎnde",
-    "meaning": "to seem; to appear;=to look",
+    "meaning": "to seem; to appear; =to look",
     "example": "",
     "pattern": ""
   },
@@ -5989,15 +5788,11 @@
     "pinyin": "dāngqián",
     "meaning": "current; present",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 750,
-    "hanzi": "当前",
-    "pinyin": "dāngqián",
-    "meaning": "current; present",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      749,
+      750
+    ]
   },
   {
     "id": 751,
@@ -6072,18 +5867,10 @@
     "pattern": ""
   },
   {
-    "id": 760,
-    "hanzi": "度",
-    "pinyin": "dù",
-    "meaning": "degree; measure",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 761,
     "hanzi": "亲情",
     "pinyin": "qīnqíng",
-    "meaning": "family affection;=kinship",
+    "meaning": "family affection; =kinship",
     "example": "",
     "pattern": ""
   },
@@ -6091,15 +5878,7 @@
     "id": 762,
     "hanzi": "亲人",
     "pinyin": "qīnrén",
-    "meaning": "family member;=loved one",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 763,
-    "hanzi": "深入",
-    "pinyin": "shēnrù",
-    "meaning": "in-depth; thorough",
+    "meaning": "family member; =loved one",
     "example": "",
     "pattern": ""
   },
@@ -6147,17 +5926,13 @@
     "id": 769,
     "hanzi": "亲",
     "pinyin": "qīn",
-    "meaning": "close; intimate",
+    "meaning": "close; intimate; to kiss",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 770,
-    "hanzi": "亲",
-    "pinyin": "qīn",
-    "meaning": "to kiss",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      769,
+      770
+    ]
   },
   {
     "id": 771,
@@ -6211,39 +5986,31 @@
     "id": 777,
     "hanzi": "完善",
     "pinyin": "wánshàn",
-    "meaning": "perfect; complete;=perfect",
+    "meaning": "perfect; complete; =perfect; to perfect; to=improve; to refine",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 778,
-    "hanzi": "完善",
-    "pinyin": "wánshàn",
-    "meaning": "to perfect; to=improve; to refine",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      777,
+      778
+    ]
   },
   {
     "id": 779,
     "hanzi": "万",
     "pinyin": "wànyī",
-    "meaning": "just in case; if by any=chance",
+    "meaning": "just in case; if by any=chance; if by any chance; in=case",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 780,
-    "hanzi": "万",
-    "pinyin": "wànyī",
-    "meaning": "if by any chance; in=case",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      779,
+      780
+    ]
   },
   {
     "id": 781,
     "hanzi": "完于",
     "pinyin": "wánzhěng",
-    "meaning": "complete; intact;=whole",
+    "meaning": "complete; intact; =whole",
     "example": "",
     "pattern": ""
   },
@@ -6259,7 +6026,7 @@
     "id": 783,
     "hanzi": "为",
     "pinyin": "wéi",
-    "meaning": "for; for the sake of;=on behalf of",
+    "meaning": "for; for the sake of; =on behalf of",
     "example": "",
     "pattern": ""
   },
@@ -6291,17 +6058,13 @@
     "id": 787,
     "hanzi": "锁",
     "pinyin": "suǒ",
-    "meaning": "lock",
+    "meaning": "lock; to lock",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 788,
-    "hanzi": "锁",
-    "pinyin": "suǒ",
-    "meaning": "to lock",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      787,
+      788
+    ]
   },
   {
     "id": 789,
@@ -6315,7 +6078,7 @@
     "id": 790,
     "hanzi": "缩小",
     "pinyin": "suōxiǎo",
-    "meaning": "to reduce; to shrink;=to decrease",
+    "meaning": "to reduce; to shrink; =to decrease",
     "example": "",
     "pattern": ""
   },
@@ -6403,17 +6166,13 @@
     "id": 801,
     "hanzi": "灰",
     "pinyin": "huī",
-    "meaning": "ash; ashes",
+    "meaning": "ash; ashes; gray; grey",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 802,
-    "hanzi": "灰",
-    "pinyin": "huī",
-    "meaning": "gray; grey",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      801,
+      802
+    ]
   },
   {
     "id": 803,
@@ -6435,7 +6194,7 @@
     "id": 805,
     "hanzi": "强烈",
     "pinyin": "qiángliè",
-    "meaning": "strong; intense;=fierce",
+    "meaning": "strong; intense; =fierce",
     "example": "",
     "pattern": ""
   },
@@ -6467,17 +6226,13 @@
     "id": 809,
     "hanzi": "交易",
     "pinyin": "jiāoyì",
-    "meaning": "to trade; to transact;=to do business",
+    "meaning": "to trade; to transact; =to do business; transaction; deal; =business",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 810,
-    "hanzi": "交易",
-    "pinyin": "jiāoyì",
-    "meaning": "transaction; deal;=business",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      809,
+      810
+    ]
   },
   {
     "id": 811,
@@ -6491,7 +6246,7 @@
     "id": 812,
     "hanzi": "假如",
     "pinyin": "jiǎrú",
-    "meaning": "if; in case;=supposing",
+    "meaning": "if; in case; =supposing",
     "example": "",
     "pattern": ""
   },
@@ -6508,14 +6263,6 @@
     "hanzi": "驾驶",
     "pinyin": "jiàshǐ",
     "meaning": "to drive; to pilot; to=operate a vehicle",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 815,
-    "hanzi": "集",
-    "pinyin": "jí",
-    "meaning": "episode; installment",
     "example": "",
     "pattern": ""
   },
@@ -6571,17 +6318,13 @@
     "id": 822,
     "hanzi": "理论",
     "pinyin": "lǐlùn",
-    "meaning": "theory",
+    "meaning": "theory; to argue; to debate",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 823,
-    "hanzi": "理论",
-    "pinyin": "lǐlùn",
-    "meaning": "to argue; to debate",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      822,
+      823
+    ]
   },
   {
     "id": 824,
@@ -6603,31 +6346,19 @@
     "id": 826,
     "hanzi": "必立",
     "pinyin": "lìng",
-    "meaning": "to order; to=command",
+    "meaning": "to order; to=command; order; decree",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 827,
-    "hanzi": "必立",
-    "pinyin": "lìng",
-    "meaning": "order; decree",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 828,
-    "hanzi": "领",
-    "pinyin": "lǐng",
-    "meaning": "collar; neck",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      826,
+      827
+    ]
   },
   {
     "id": 829,
     "hanzi": "问卷",
     "pinyin": "wènjuàn",
-    "meaning": "questionnaire;=survey",
+    "meaning": "questionnaire; =survey",
     "example": "",
     "pattern": ""
   },
@@ -6637,23 +6368,11 @@
     "pinyin": "wēnnuǎn",
     "meaning": "warm",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 831,
-    "hanzi": "怪",
-    "pinyin": "guài",
-    "meaning": "to blame",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 832,
-    "hanzi": "怪",
-    "pinyin": "guài",
-    "meaning": "very; extremely",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      830,
+      1320
+    ]
   },
   {
     "id": 833,
@@ -6675,17 +6394,13 @@
     "id": 835,
     "hanzi": "比喻",
     "pinyin": "bǐyù",
-    "meaning": "to compare; to use=metaphor",
+    "meaning": "to compare; to use=metaphor; metaphor; analogy",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 836,
-    "hanzi": "比喻",
-    "pinyin": "bǐyù",
-    "meaning": "metaphor; analogy",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      835,
+      836
+    ]
   },
   {
     "id": 837,
@@ -6747,41 +6462,16 @@
     "id": 844,
     "hanzi": "单",
     "pinyin": "dān",
-    "meaning": "single; alone",
+    "meaning": "single; alone; thin; meager; single-handedly; =unilaterally; form; document; order; bill",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 845,
-    "hanzi": "单",
-    "pinyin": "dān",
-    "meaning": "thin; meager",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 846,
-    "hanzi": "单",
-    "pinyin": "dān",
-    "meaning": "single-handedly;=unilaterally",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 847,
-    "hanzi": "单",
-    "pinyin": "dān",
-    "meaning": "form; document",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 848,
-    "hanzi": "单",
-    "pinyin": "dān",
-    "meaning": "order; bill",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      844,
+      845,
+      846,
+      847,
+      848
+    ]
   },
   {
     "id": 849,
@@ -6795,7 +6485,7 @@
     "id": 850,
     "hanzi": "特有",
     "pinyin": "tèyǒu",
-    "meaning": "unique to;=characteristic of",
+    "meaning": "unique to; =characteristic of",
     "example": "",
     "pattern": ""
   },
@@ -6803,7 +6493,7 @@
     "id": 851,
     "hanzi": "特征",
     "pinyin": "tèzhēng",
-    "meaning": "characteristic;=feature",
+    "meaning": "characteristic; =feature",
     "example": "",
     "pattern": ""
   },
@@ -6812,14 +6502,6 @@
     "hanzi": "权利",
     "pinyin": "quánlì",
     "meaning": "rights",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 853,
-    "hanzi": "全力",
-    "pinyin": "quánlì",
-    "meaning": "full strength; all=efforts",
     "example": "",
     "pattern": ""
   },
@@ -6835,17 +6517,13 @@
     "id": 855,
     "hanzi": "规",
     "pinyin": "sīwéi",
-    "meaning": "thinking; thought=process",
+    "meaning": "thinking; thought=process; to think",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 856,
-    "hanzi": "规",
-    "pinyin": "sīwéi",
-    "meaning": "to think",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      855,
+      856
+    ]
   },
   {
     "id": 857,
@@ -6891,7 +6569,7 @@
     "id": 862,
     "hanzi": "称为",
     "pinyin": "chēngwéi",
-    "meaning": "to call; to be called;=to be named",
+    "meaning": "to call; to be called; =to be named",
     "example": "",
     "pattern": ""
   },
@@ -6900,14 +6578,6 @@
     "hanzi": "乘务员",
     "pinyin": "chéngwùyuán",
     "meaning": "attendant; crew=member",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 864,
-    "hanzi": "讲究",
-    "pinyin": "jiǎngjiu",
-    "meaning": "to pay attention to;=to be particular=about; elaborate",
     "example": "",
     "pattern": ""
   },
@@ -6971,7 +6641,7 @@
     "id": 872,
     "hanzi": "历学",
     "pinyin": "xuélì",
-    "meaning": "educational=background;=academic=qualification",
+    "meaning": "educational=background; =academic=qualification",
     "example": "",
     "pattern": ""
   },
@@ -7013,7 +6683,11 @@
     "pinyin": "qún",
     "meaning": "group; flock; crowd",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      877,
+      1100
+    ]
   },
   {
     "id": 878,
@@ -7029,15 +6703,11 @@
     "pinyin": "bànyè",
     "meaning": "midnight; middle of=the night",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 880,
-    "hanzi": "半夜",
-    "pinyin": "bànyè",
-    "meaning": "midnight; middle of=the night",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      879,
+      880
+    ]
   },
   {
     "id": 881,
@@ -7059,31 +6729,19 @@
     "id": 883,
     "hanzi": "保",
     "pinyin": "bǎo",
-    "meaning": "to protect; to insure",
+    "meaning": "to protect; to insure; defender; to defend",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 884,
-    "hanzi": "保",
-    "pinyin": "bǎo",
-    "meaning": "defender; to defend",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 885,
-    "hanzi": "保安",
-    "pinyin": "bǎo",
-    "meaning": "ɨn=to ensure security;=security guard",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      883,
+      884
+    ]
   },
   {
     "id": 886,
     "hanzi": "打破",
     "pinyin": "dǎpò",
-    "meaning": "to break; to smash;=to break through",
+    "meaning": "to break; to smash; =to break through",
     "example": "",
     "pattern": ""
   },
@@ -7091,7 +6749,7 @@
     "id": 887,
     "hanzi": "厦大",
     "pinyin": "dàshà",
-    "meaning": "large building;=edifice; high-rise=building",
+    "meaning": "large building; =edifice; high-rise=building",
     "example": "",
     "pattern": ""
   },
@@ -7099,7 +6757,7 @@
     "id": 888,
     "hanzi": "大事",
     "pinyin": "dàshì",
-    "meaning": "major event;=important matter; big=deal",
+    "meaning": "major event; =important matter; big=deal",
     "example": "",
     "pattern": ""
   },
@@ -7131,7 +6789,7 @@
     "id": 892,
     "hanzi": "大分",
     "pinyin": "dàye",
-    "meaning": "elderly man;=respectful term for=older men",
+    "meaning": "elderly man; =respectful term for=older men",
     "example": "",
     "pattern": ""
   },
@@ -7147,17 +6805,13 @@
     "id": 894,
     "hanzi": "创作",
     "pinyin": "chuàngzuò",
-    "meaning": "to create; to write",
+    "meaning": "to create; to write; creation; writing",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 895,
-    "hanzi": "创作",
-    "pinyin": "chuàngzuò",
-    "meaning": "creation; writing",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      894,
+      895
+    ]
   },
   {
     "id": 896,
@@ -7227,17 +6881,13 @@
     "id": 904,
     "hanzi": "评价",
     "pinyin": "píngjià",
-    "meaning": "to evaluate; to=assess",
+    "meaning": "to evaluate; to=assess; evaluation; =assessment",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 905,
-    "hanzi": "评价",
-    "pinyin": "píngjià",
-    "meaning": "evaluation;=assessment",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      904,
+      905
+    ]
   },
   {
     "id": 906,
@@ -7259,17 +6909,13 @@
     "id": 908,
     "hanzi": "到",
     "pinyin": "píngjūn",
-    "meaning": "to average; to share=equally",
+    "meaning": "to average; to share=equally; average",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 909,
-    "hanzi": "到",
-    "pinyin": "píngjūn",
-    "meaning": "average",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      908,
+      909
+    ]
   },
   {
     "id": 910,
@@ -7291,7 +6937,7 @@
     "id": 912,
     "hanzi": "想念",
     "pinyin": "xiǎngniàn",
-    "meaning": "to miss; to think of;=to long for",
+    "meaning": "to miss; to think of; =to long for",
     "example": "",
     "pattern": ""
   },
@@ -7347,9 +6993,13 @@
     "id": 919,
     "hanzi": "象征",
     "pinyin": "xiàngzhēng",
-    "meaning": "to symbolize; to=represent",
+    "meaning": "to symbolize; to=represent; symbol; emblem",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      919,
+      1026
+    ]
   },
   {
     "id": 920,
@@ -7379,7 +7029,7 @@
     "id": 923,
     "hanzi": "从",
     "pinyin": "zōnghé",
-    "meaning": "to synthesize;=comprehensive",
+    "meaning": "to synthesize; =comprehensive",
     "example": "",
     "pattern": ""
   },
@@ -7420,14 +7070,6 @@
     "hanzi": "急需",
     "pinyin": "jíxū",
     "meaning": "to urgently need",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 929,
-    "hanzi": "记忆",
-    "pinyin": "jìyì",
-    "meaning": "to remember;=memory",
     "example": "",
     "pattern": ""
   },
@@ -7491,7 +7133,7 @@
     "id": 937,
     "hanzi": "老百姓",
     "pinyin": "lǎobǎixìng",
-    "meaning": "ordinary people;=common folk;=civilians",
+    "meaning": "ordinary people; =common folk; =civilians",
     "example": "",
     "pattern": ""
   },
@@ -7499,7 +7141,7 @@
     "id": 938,
     "hanzi": "老板",
     "pinyin": "lǎobǎn",
-    "meaning": "boss; employer;=owner",
+    "meaning": "boss; employer; =owner",
     "example": "",
     "pattern": ""
   },
@@ -7507,9 +7149,13 @@
     "id": 939,
     "hanzi": "劳动",
     "pinyin": "láodòng",
-    "meaning": "labor; work; toil",
+    "meaning": "labor; work; toil; to work; to labor",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      939,
+      1354
+    ]
   },
   {
     "id": 940,
@@ -7547,7 +7193,7 @@
     "id": 944,
     "hanzi": "西餐",
     "pinyin": "xīcān",
-    "meaning": "western food;=western cuisine",
+    "meaning": "western food; =western cuisine",
     "example": "",
     "pattern": ""
   },
@@ -7555,33 +7201,25 @@
     "id": 945,
     "hanzi": "让",
     "pinyin": "xié",
-    "meaning": "diagonal; slanted",
+    "meaning": "diagonal; slanted; to lean at an angle",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 946,
-    "hanzi": "让",
-    "pinyin": "xié",
-    "meaning": "to lean at an angle",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      945,
+      946
+    ]
   },
   {
     "id": 947,
     "hanzi": "协议",
     "pinyin": "xiéyì",
-    "meaning": "to reach an=agreement; to make=a deal",
+    "meaning": "to reach an=agreement; to make=a deal; agreement; protocol",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 948,
-    "hanzi": "协议",
-    "pinyin": "xiéyì",
-    "meaning": "agreement; protocol",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      947,
+      948
+    ]
   },
   {
     "id": 949,
@@ -7611,7 +7249,7 @@
     "id": 952,
     "hanzi": "经济",
     "pinyin": "jīngjì",
-    "meaning": "economical;=affordable",
+    "meaning": "economical; =affordable",
     "example": "",
     "pattern": ""
   },
@@ -7643,17 +7281,13 @@
     "id": 956,
     "hanzi": "连",
     "pinyin": "lián",
-    "meaning": "to connect; to link",
+    "meaning": "to connect; to link; even; not even",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 957,
-    "hanzi": "连",
-    "pinyin": "lián",
-    "meaning": "even; not even",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      956,
+      957
+    ]
   },
   {
     "id": 958,
@@ -7691,7 +7325,7 @@
     "id": 962,
     "hanzi": "成年",
     "pinyin": "chéngnián",
-    "meaning": "to reach adulthood;=to become an adult=\u0014\u001b",
+    "meaning": "to reach adulthood; =to become an adult=\u0014\u001b",
     "example": "",
     "pattern": ""
   },
@@ -7707,17 +7341,13 @@
     "id": 964,
     "hanzi": "成人",
     "pinyin": "chéngrén",
-    "meaning": "to grow up; to=mature into an adult",
+    "meaning": "to grow up; to=mature into an adult; adult; grown-up",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 965,
-    "hanzi": "成人",
-    "pinyin": "chéngrén",
-    "meaning": "adult; grown-up",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      964,
+      965
+    ]
   },
   {
     "id": 966,
@@ -7739,17 +7369,13 @@
     "id": 968,
     "hanzi": "环",
     "pinyin": "chéngshú",
-    "meaning": "to mature; to=develop fully",
+    "meaning": "to mature; to=develop fully; mature; =sophisticated; =seasoned",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 969,
-    "hanzi": "环",
-    "pinyin": "chéngshú",
-    "meaning": "mature;=sophisticated;=seasoned",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      968,
+      969
+    ]
   },
   {
     "id": 970,
@@ -7776,14 +7402,6 @@
     "pattern": ""
   },
   {
-    "id": 973,
-    "hanzi": "碎",
-    "pinyin": "suì",
-    "meaning": "to break; to shatter",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 974,
     "hanzi": "职场",
     "pinyin": "zhíchǎng",
@@ -7795,7 +7413,7 @@
     "id": 975,
     "hanzi": "指导",
     "pinyin": "zhǐdǎo",
-    "meaning": "to guide; to instruct;=guidance",
+    "meaning": "to guide; to instruct; =guidance",
     "example": "",
     "pattern": ""
   },
@@ -7827,7 +7445,7 @@
     "id": 979,
     "hanzi": "职工",
     "pinyin": "zhígōng",
-    "meaning": "staff; workers;=employees",
+    "meaning": "staff; workers; =employees",
     "example": "",
     "pattern": ""
   },
@@ -7851,9 +7469,13 @@
     "id": 982,
     "hanzi": "反应",
     "pinyin": "fǎnyìng",
-    "meaning": "reaction; response",
+    "meaning": "reaction; response; to react",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      982,
+      1211
+    ]
   },
   {
     "id": 983,
@@ -7899,17 +7521,13 @@
     "id": 988,
     "hanzi": "发音",
     "pinyin": "fāyīn",
-    "meaning": "to pronounce; to=make sound",
+    "meaning": "to pronounce; to=make sound; pronunciation",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 989,
-    "hanzi": "发音",
-    "pinyin": "fāyīn",
-    "meaning": "pronunciation",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      988,
+      989
+    ]
   },
   {
     "id": 990,
@@ -7939,7 +7557,7 @@
     "id": 993,
     "hanzi": "家务",
     "pinyin": "jiāwù",
-    "meaning": "household chores;=domestic work",
+    "meaning": "household chores; =domestic work",
     "example": "",
     "pattern": ""
   },
@@ -7971,7 +7589,7 @@
     "id": 997,
     "hanzi": "登",
     "pinyin": "dēng",
-    "meaning": "to climb; to ascend;=to board",
+    "meaning": "to climb; to ascend; =to board",
     "example": "",
     "pattern": ""
   },
@@ -7979,17 +7597,13 @@
     "id": 998,
     "hanzi": "领导",
     "pinyin": "lǐngdǎo",
-    "meaning": "to lead; to guide",
+    "meaning": "to lead; to guide; leader; management",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 999,
-    "hanzi": "领导",
-    "pinyin": "lǐngdǎo",
-    "meaning": "leader; management",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      998,
+      999
+    ]
   },
   {
     "id": 1000,
@@ -8027,17 +7641,13 @@
     "id": 1004,
     "hanzi": "临时",
     "pinyin": "línshí",
-    "meaning": "temporarily;=provisional",
+    "meaning": "temporarily; =provisional; temporary",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1005,
-    "hanzi": "临时",
-    "pinyin": "línshí",
-    "meaning": "temporary;=provisional",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1004,
+      1005
+    ]
   },
   {
     "id": 1006,
@@ -8067,7 +7677,7 @@
     "id": 1009,
     "hanzi": "古代",
     "pinyin": "gǔdài",
-    "meaning": "ancient times;=antiquity",
+    "meaning": "ancient times; =antiquity",
     "example": "",
     "pattern": ""
   },
@@ -8083,17 +7693,13 @@
     "id": 1011,
     "hanzi": "规律",
     "pinyin": "guīlԋ",
-    "meaning": "law; rule; regularity",
+    "meaning": "law; rule; regularity; regular; routine",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1012,
-    "hanzi": "规律",
-    "pinyin": "guīlԋ",
-    "meaning": "regular; routine",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1011,
+      1012
+    ]
   },
   {
     "id": 1013,
@@ -8112,14 +7718,6 @@
     "pattern": ""
   },
   {
-    "id": 1015,
-    "hanzi": "规则",
-    "pinyin": "guīzé",
-    "meaning": "rule; regulation;=principle",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 1016,
     "hanzi": "经营",
     "pinyin": "jīngyíng",
@@ -8131,23 +7729,19 @@
     "id": 1017,
     "hanzi": "纪念",
     "pinyin": "jìniàn",
-    "meaning": "to commemorate; to=honor the memory of",
+    "meaning": "to commemorate; to=honor the memory of; commemoration; =memento",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1018,
-    "hanzi": "纪念",
-    "pinyin": "jìniàn",
-    "meaning": "commemoration;=memento",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1017,
+      1018
+    ]
   },
   {
     "id": 1019,
     "hanzi": "纪念日",
     "pinyin": "jìniànrì",
-    "meaning": "commemorative day;=anniversary",
+    "meaning": "commemorative day; =anniversary",
     "example": "",
     "pattern": ""
   },
@@ -8171,7 +7765,7 @@
     "id": 1022,
     "hanzi": "尽快",
     "pinyin": "jǐnkuài",
-    "meaning": "as soon as possible;=at the earliest=opportunity",
+    "meaning": "as soon as possible; =at the earliest=opportunity",
     "example": "",
     "pattern": ""
   },
@@ -8187,31 +7781,19 @@
     "id": 1024,
     "hanzi": "如",
     "pinyin": "rú",
-    "meaning": "if; as",
+    "meaning": "if; as; according to",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1024,
+      1263
+    ]
   },
   {
     "id": 1025,
     "hanzi": "软",
     "pinyin": "ruǎn",
     "meaning": "soft",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1026,
-    "hanzi": "象征",
-    "pinyin": "xiàngzhēng",
-    "meaning": "symbol; emblem",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1027,
-    "hanzi": "先后",
-    "pinyin": "xiānhòu",
-    "meaning": "in sequence; one=after another; first=and then",
     "example": "",
     "pattern": ""
   },
@@ -8267,7 +7849,7 @@
     "id": 1034,
     "hanzi": "齐",
     "pinyin": "qí",
-    "meaning": "neat; orderly;=complete",
+    "meaning": "neat; orderly; =complete",
     "example": "",
     "pattern": ""
   },
@@ -8347,17 +7929,13 @@
     "id": 1044,
     "hanzi": "预报",
     "pinyin": "yùbào",
-    "meaning": "to forecast; to=predict",
+    "meaning": "to forecast; to=predict; forecast; prediction",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1045,
-    "hanzi": "预报",
-    "pinyin": "yùbào",
-    "meaning": "forecast; prediction",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1044,
+      1045
+    ]
   },
   {
     "id": 1046,
@@ -8403,7 +7981,7 @@
     "id": 1051,
     "hanzi": "水分",
     "pinyin": "shuǐfèn",
-    "meaning": "water content;=moisture",
+    "meaning": "water content; =moisture",
     "example": "",
     "pattern": ""
   },
@@ -8435,7 +8013,7 @@
     "id": 1055,
     "hanzi": "训练",
     "pinyin": "shúliàn",
-    "meaning": "skilled; proficient;=expert",
+    "meaning": "skilled; proficient; =expert",
     "example": "",
     "pattern": ""
   },
@@ -8451,73 +8029,40 @@
     "id": 1057,
     "hanzi": "顺",
     "pinyin": "shùn",
-    "meaning": "to do something=casually; to do=something on the=side",
+    "meaning": "to do something=casually; to do=something on the=side; along; following; smooth; favorable; =going well",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1058,
-    "hanzi": "顺",
-    "pinyin": "shùn",
-    "meaning": "along; following",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1059,
-    "hanzi": "顺",
-    "pinyin": "shùn",
-    "meaning": "smooth; favorable;=going well",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1057,
+      1058,
+      1059
+    ]
   },
   {
     "id": 1060,
     "hanzi": "百",
     "pinyin": "tóng",
-    "meaning": "together; with",
+    "meaning": "together; with; same; identical; together with; and",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1061,
-    "hanzi": "百",
-    "pinyin": "tóng",
-    "meaning": "same; identical",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1062,
-    "hanzi": "百",
-    "pinyin": "tóng",
-    "meaning": "with; together with",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1063,
-    "hanzi": "百",
-    "pinyin": "tóng",
-    "meaning": "and; with",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1060,
+      1061,
+      1062,
+      1063
+    ]
   },
   {
     "id": 1064,
     "hanzi": "通常",
     "pinyin": "tōngcháng",
-    "meaning": "usual; normal",
+    "meaning": "usual; normal; usually; normally",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1065,
-    "hanzi": "通常",
-    "pinyin": "tōngcháng",
-    "meaning": "usually; normally",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1064,
+      1065
+    ]
   },
   {
     "id": 1066,
@@ -8563,7 +8108,7 @@
     "id": 1071,
     "hanzi": "长久",
     "pinyin": "chángjiǔ",
-    "meaning": "long-lasting;=enduring",
+    "meaning": "long-lasting; =enduring",
     "example": "",
     "pattern": ""
   },
@@ -8571,23 +8116,19 @@
     "id": 1072,
     "hanzi": "长期",
     "pinyin": "chángqī",
-    "meaning": "long term; extended=period",
+    "meaning": "long term; extended=period; long-term",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1073,
-    "hanzi": "长期",
-    "pinyin": "chángqī",
-    "meaning": "long-term",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1072,
+      1073
+    ]
   },
   {
     "id": 1074,
     "hanzi": "常识",
     "pinyin": "chángshí",
-    "meaning": "common sense;=general knowledge",
+    "meaning": "common sense; =general knowledge",
     "example": "",
     "pattern": ""
   },
@@ -8667,7 +8208,7 @@
     "id": 1084,
     "hanzi": "夫妇",
     "pinyin": "fūfù",
-    "meaning": "married couple;=husband and wife",
+    "meaning": "married couple; =husband and wife",
     "example": "",
     "pattern": ""
   },
@@ -8683,17 +8224,13 @@
     "id": 1086,
     "hanzi": "富有",
     "pinyin": "fùyǒu",
-    "meaning": "rich; wealthy",
+    "meaning": "rich; wealthy; to be full of; to be=rich in",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1087,
-    "hanzi": "富有",
-    "pinyin": "fùyǒu",
-    "meaning": "to be full of; to be=rich in",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1086,
+      1087
+    ]
   },
   {
     "id": 1088,
@@ -8715,25 +8252,26 @@
     "id": 1090,
     "hanzi": "盖",
     "pinyin": "gài",
-    "meaning": "lid; cover",
+    "meaning": "lid; cover; to cover; to put a=cover on",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1091,
-    "hanzi": "盖",
-    "pinyin": "gài",
-    "meaning": "to cover; to put a=cover on",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1090,
+      1091
+    ]
   },
   {
     "id": 1092,
     "hanzi": "反",
     "pinyin": "fǎn",
-    "meaning": "opposite; reverse",
+    "meaning": "opposite; reverse; contrary; to resist; to rebel=against",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1092,
+      1702,
+      1703
+    ]
   },
   {
     "id": 1093,
@@ -8747,7 +8285,7 @@
     "id": 1094,
     "hanzi": "反而",
     "pinyin": "fǎn¶ér",
-    "meaning": "on the contrary;=instead",
+    "meaning": "on the contrary; =instead",
     "example": "",
     "pattern": ""
   },
@@ -8755,25 +8293,14 @@
     "id": 1095,
     "hanzi": "反复",
     "pinyin": "fǎnfù",
-    "meaning": "repeatedly; over and=over",
+    "meaning": "repeatedly; over and=over; to repeat; to do=repeatedly; repetition; repeated=occurrence",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1096,
-    "hanzi": "反复",
-    "pinyin": "fǎnfù",
-    "meaning": "to repeat; to do=repeatedly",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1097,
-    "hanzi": "反复",
-    "pinyin": "fǎnfù",
-    "meaning": "repetition; repeated=occurrence",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1095,
+      1096,
+      1097
+    ]
   },
   {
     "id": 1098,
@@ -8787,23 +8314,19 @@
     "id": 1099,
     "hanzi": "方",
     "pinyin": "fāng",
-    "meaning": "square",
+    "meaning": "square; direction; side",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1100,
-    "hanzi": "群",
-    "pinyin": "qún",
-    "meaning": "group; crowd; flock",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1099,
+      1222
+    ]
   },
   {
     "id": 1101,
     "hanzi": "群体",
     "pinyin": "qúntǐ",
-    "meaning": "group; community;=population",
+    "meaning": "group; community; =population",
     "example": "",
     "pattern": ""
   },
@@ -8819,7 +8342,7 @@
     "id": 1103,
     "hanzi": "趋势",
     "pinyin": "qūshì",
-    "meaning": "trend; tendency;=direction",
+    "meaning": "trend; tendency; =direction",
     "example": "",
     "pattern": ""
   },
@@ -8859,7 +8382,7 @@
     "id": 1108,
     "hanzi": "齐",
     "pinyin": "rèliàng",
-    "meaning": "heat; calories;=thermal energy",
+    "meaning": "heat; calories; =thermal energy",
     "example": "",
     "pattern": ""
   },
@@ -8867,7 +8390,7 @@
     "id": 1109,
     "hanzi": "热烈",
     "pinyin": "rèliè",
-    "meaning": "warm; enthusiastic;=fervent",
+    "meaning": "warm; enthusiastic; =fervent",
     "example": "",
     "pattern": ""
   },
@@ -8907,17 +8430,13 @@
     "id": 1114,
     "hanzi": "挑战",
     "pinyin": "tiǎozhàn",
-    "meaning": "to challenge",
+    "meaning": "to challenge; challenge",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1115,
-    "hanzi": "挑战",
-    "pinyin": "tiǎozhàn",
-    "meaning": "challenge",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1114,
+      1115
+    ]
   },
   {
     "id": 1116,
@@ -8955,17 +8474,13 @@
     "id": 1120,
     "hanzi": "伤",
     "pinyin": "shāng",
-    "meaning": "injury; wound",
+    "meaning": "injury; wound; to hurt; to injure",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1121,
-    "hanzi": "伤",
-    "pinyin": "shāng",
-    "meaning": "to hurt; to injure",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1120,
+      1121
+    ]
   },
   {
     "id": 1122,
@@ -8989,15 +8504,11 @@
     "pinyin": "zìyóu",
     "meaning": "freedom; liberty",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1125,
-    "hanzi": "自由",
-    "pinyin": "zìyóu",
-    "meaning": "freedom; liberty",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1124,
+      1125
+    ]
   },
   {
     "id": 1126,
@@ -9005,7 +8516,11 @@
     "pinyin": "shǒushù",
     "meaning": "surgery; operation",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1126,
+      1197
+    ]
   },
   {
     "id": 1127,
@@ -9059,17 +8574,13 @@
     "id": 1133,
     "hanzi": "类",
     "pinyin": "lèi",
-    "meaning": "class; category; type",
+    "meaning": "class; category; type; kind of; type of",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1134,
-    "hanzi": "类",
-    "pinyin": "lèi",
-    "meaning": "kind of; type of",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1133,
+      1134
+    ]
   },
   {
     "id": 1135,
@@ -9083,7 +8594,7 @@
     "id": 1136,
     "hanzi": "足不",
     "pinyin": "bùzú",
-    "meaning": "shortcomings;=deficiencies",
+    "meaning": "shortcomings; =deficiencies",
     "example": "",
     "pattern": ""
   },
@@ -9096,26 +8607,10 @@
     "pattern": ""
   },
   {
-    "id": 1138,
-    "hanzi": "矛盾",
-    "pinyin": "máodùn",
-    "meaning": "contradiction;=conflict",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1139,
-    "hanzi": "矛盾",
-    "pinyin": "máodùn",
-    "meaning": "contradiction;=conflict",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 1140,
     "hanzi": "出色",
     "pinyin": "chūsè",
-    "meaning": "outstanding;=excellent",
+    "meaning": "outstanding; =excellent",
     "example": "",
     "pattern": ""
   },
@@ -9131,7 +8626,7 @@
     "id": 1142,
     "hanzi": "除夕",
     "pinyin": "chúxī",
-    "meaning": "new year=s eve;=chinese new year=s=eve",
+    "meaning": "new year=s eve; =chinese new year=s=eve",
     "example": "",
     "pattern": ""
   },
@@ -9179,49 +8674,37 @@
     "id": 1148,
     "hanzi": "刺激",
     "pinyin": "cìjī",
-    "meaning": "to stimulate; to=excite",
+    "meaning": "to stimulate; to=excite; stimulation; stimulus",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1149,
-    "hanzi": "刺激",
-    "pinyin": "cìjī",
-    "meaning": "stimulation; stimulus",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1148,
+      1149
+    ]
   },
   {
     "id": 1150,
     "hanzi": "智能",
     "pinyin": "zhìnéng",
-    "meaning": "artificial intelligence;=smart",
+    "meaning": "artificial intelligence; =smart; smart; intelligent",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1151,
-    "hanzi": "智能",
-    "pinyin": "zhìnéng",
-    "meaning": "smart; intelligent",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1150,
+      1151
+    ]
   },
   {
     "id": 1152,
     "hanzi": "执行",
     "pinyin": "zhíxíng",
-    "meaning": "to implement; to=execute",
+    "meaning": "to implement; to=execute; implementable; =executable",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1153,
-    "hanzi": "执行",
-    "pinyin": "zhíxíng",
-    "meaning": "implementable;=executable",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1152,
+      1153
+    ]
   },
   {
     "id": 1154,
@@ -9275,7 +8758,7 @@
     "id": 1160,
     "hanzi": "中药",
     "pinyin": "zhōngyào",
-    "meaning": "chinese medicine;=traditional chinese=herbs",
+    "meaning": "chinese medicine; =traditional chinese=herbs",
     "example": "",
     "pattern": ""
   },
@@ -9291,17 +8774,13 @@
     "id": 1162,
     "hanzi": "录音",
     "pinyin": "lùyīn",
-    "meaning": "to record sound",
+    "meaning": "to record sound; recording",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1163,
-    "hanzi": "录音",
-    "pinyin": "lùyīn",
-    "meaning": "recording",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1162,
+      1163
+    ]
   },
   {
     "id": 1164,
@@ -9355,33 +8834,25 @@
     "id": 1170,
     "hanzi": "传说",
     "pinyin": "chuánshuō",
-    "meaning": "to tell a legend; to=pass down",
+    "meaning": "to tell a legend; to=pass down; legend; folklore",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1171,
-    "hanzi": "传说",
-    "pinyin": "chuánshuō",
-    "meaning": "legend; folklore",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1170,
+      1171
+    ]
   },
   {
     "id": 1172,
     "hanzi": "传统",
     "pinyin": "chuántǒng",
-    "meaning": "tradition",
+    "meaning": "tradition; traditional",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1173,
-    "hanzi": "传统",
-    "pinyin": "chuántǒng",
-    "meaning": "traditional",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1172,
+      1173
+    ]
   },
   {
     "id": 1174,
@@ -9395,7 +8866,7 @@
     "id": 1175,
     "hanzi": "初级",
     "pinyin": "chūjí",
-    "meaning": "beginner;=elementary",
+    "meaning": "beginner; =elementary",
     "example": "",
     "pattern": ""
   },
@@ -9419,7 +8890,7 @@
     "id": 1178,
     "hanzi": "前此",
     "pinyin": "cǐqián",
-    "meaning": "before this;=previously",
+    "meaning": "before this; =previously",
     "example": "",
     "pattern": ""
   },
@@ -9435,7 +8906,7 @@
     "id": 1180,
     "hanzi": "利不",
     "pinyin": "búlì",
-    "meaning": "unfavorable;=disadvantageous",
+    "meaning": "unfavorable; =disadvantageous",
     "example": "",
     "pattern": ""
   },
@@ -9459,17 +8930,13 @@
     "id": 1183,
     "hanzi": "幸不",
     "pinyin": "búxìng",
-    "meaning": "unfortunate; unlucky",
+    "meaning": "unfortunate; unlucky; misfortune; tragedy",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1184,
-    "hanzi": "幸不",
-    "pinyin": "búxìng",
-    "meaning": "misfortune; tragedy",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1183,
+      1184
+    ]
   },
   {
     "id": 1185,
@@ -9491,7 +8958,7 @@
     "id": 1187,
     "hanzi": "不足",
     "pinyin": "bùzú",
-    "meaning": "insufficient; lacking;=not enough",
+    "meaning": "insufficient; lacking; =not enough",
     "example": "",
     "pattern": ""
   },
@@ -9504,18 +8971,10 @@
     "pattern": ""
   },
   {
-    "id": 1189,
-    "hanzi": "构成",
-    "pinyin": "gòuchéng",
-    "meaning": "to constitute; to=compose; to form",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 1190,
     "hanzi": "手段",
     "pinyin": "shǒuduàn",
-    "meaning": "means; method;=measure",
+    "meaning": "means; method; =measure",
     "example": "",
     "pattern": ""
   },
@@ -9531,23 +8990,19 @@
     "id": 1192,
     "hanzi": "收获",
     "pinyin": "shōuhuò",
-    "meaning": "to gain; to harvest;=to reap",
+    "meaning": "to gain; to harvest; =to reap; harvest; gains; fruits",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1193,
-    "hanzi": "收获",
-    "pinyin": "shōuhuò",
-    "meaning": "harvest; gains; fruits",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1192,
+      1193
+    ]
   },
   {
     "id": 1194,
     "hanzi": "收集",
     "pinyin": "shōují",
-    "meaning": "to collect; to gather;=to assemble",
+    "meaning": "to collect; to gather; =to assemble",
     "example": "",
     "pattern": ""
   },
@@ -9568,26 +9023,10 @@
     "pattern": ""
   },
   {
-    "id": 1197,
-    "hanzi": "手术",
-    "pinyin": "shǒushù",
-    "meaning": "surgery; operation",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 1198,
     "hanzi": "保质期",
     "pinyin": "bǎozhìqī",
     "meaning": "expiration date; shelf=life",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1199,
-    "hanzi": "包装",
-    "pinyin": "bāozhuāng",
-    "meaning": "to package; to wrap",
     "example": "",
     "pattern": ""
   },
@@ -9611,7 +9050,7 @@
     "id": 1202,
     "hanzi": "仿佛",
     "pinyin": "fǎngfú",
-    "meaning": "as if; as though;=seemingly",
+    "meaning": "as if; as though; =seemingly",
     "example": "",
     "pattern": ""
   },
@@ -9659,31 +9098,19 @@
     "id": 1208,
     "hanzi": "葡荣",
     "pinyin": "fánróng",
-    "meaning": "prosperous;=flourishing",
+    "meaning": "prosperous; =flourishing; to prosper; to=flourish",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1209,
-    "hanzi": "葡荣",
-    "pinyin": "fánróng",
-    "meaning": "to prosper; to=flourish",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1208,
+      1209
+    ]
   },
   {
     "id": 1210,
     "hanzi": "范围",
     "pinyin": "fànwéi",
     "meaning": "scope; range; extent",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1211,
-    "hanzi": "反应",
-    "pinyin": "fǎnyìng",
-    "meaning": "to react; response",
     "example": "",
     "pattern": ""
   },
@@ -9755,7 +9182,7 @@
     "id": 1220,
     "hanzi": "优势",
     "pinyin": "yōushì",
-    "meaning": "advantage;=superiority",
+    "meaning": "advantage; =superiority",
     "example": "",
     "pattern": ""
   },
@@ -9763,15 +9190,7 @@
     "id": 1221,
     "hanzi": "油条",
     "pinyin": "yóutiáo",
-    "meaning": "fried dough stick;=chinese cruller",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1222,
-    "hanzi": "方",
-    "pinyin": "fāng",
-    "meaning": "direction; side",
+    "meaning": "fried dough stick; =chinese cruller",
     "example": "",
     "pattern": ""
   },
@@ -9819,23 +9238,19 @@
     "id": 1228,
     "hanzi": "进步",
     "pinyin": "jìnbù",
-    "meaning": "to progress; to=improve",
+    "meaning": "to progress; to=improve; progressive",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1229,
-    "hanzi": "进步",
-    "pinyin": "jìnbù",
-    "meaning": "progressive",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1228,
+      1229
+    ]
   },
   {
     "id": 1230,
     "hanzi": "同情",
     "pinyin": "tóngqíng",
-    "meaning": "to sympathize;=sympathy",
+    "meaning": "to sympathize; =sympathy",
     "example": "",
     "pattern": ""
   },
@@ -9883,7 +9298,7 @@
     "id": 1236,
     "hanzi": "证书",
     "pinyin": "zhèngshū",
-    "meaning": "certificate;=credentials",
+    "meaning": "certificate; =credentials",
     "example": "",
     "pattern": ""
   },
@@ -9963,33 +9378,25 @@
     "id": 1246,
     "hanzi": "力",
     "pinyin": "lì",
-    "meaning": "strength; power",
+    "meaning": "strength; power; ability",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1247,
-    "hanzi": "力",
-    "pinyin": "lì",
-    "meaning": "ability; power",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1246,
+      1247
+    ]
   },
   {
     "id": 1248,
     "hanzi": "恋爱",
     "pinyin": "liàn",
-    "meaning": "gi=to be in love; to date",
+    "meaning": "gi=to be in love; to date; gi=love; romance",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1249,
-    "hanzi": "恋爱",
-    "pinyin": "liàn",
-    "meaning": "gi=love; romance",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1248,
+      1249
+    ]
   },
   {
     "id": 1250,
@@ -10019,9 +9426,13 @@
     "id": 1253,
     "hanzi": "联合",
     "pinyin": "liánhé",
-    "meaning": "to unite; to join=together",
+    "meaning": "to unite; to join=together; joint; combined; to=unite",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1253,
+      1670
+    ]
   },
   {
     "id": 1254,
@@ -10075,7 +9486,7 @@
     "id": 1260,
     "hanzi": "热心",
     "pinyin": "rèxīn",
-    "meaning": "warm-hearted;=enthusiastic",
+    "meaning": "warm-hearted; =enthusiastic",
     "example": "",
     "pattern": ""
   },
@@ -10091,15 +9502,7 @@
     "id": 1262,
     "hanzi": "用品日",
     "pinyin": "rìyòngpǐn",
-    "meaning": "daily necessities;=household items",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1263,
-    "hanzi": "如",
-    "pinyin": "rú",
-    "meaning": "as; according to",
+    "meaning": "daily necessities; =household items",
     "example": "",
     "pattern": ""
   },
@@ -10107,17 +9510,13 @@
     "id": 1264,
     "hanzi": "否定",
     "pinyin": "fǒudìng",
-    "meaning": "to negate; to deny;=negative",
+    "meaning": "to negate; to deny; =negative; negative",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1265,
-    "hanzi": "否定",
-    "pinyin": "fǒudìng",
-    "meaning": "negative",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1264,
+      1265
+    ]
   },
   {
     "id": 1266,
@@ -10139,7 +9538,7 @@
     "id": 1268,
     "hanzi": "福",
     "pinyin": "fú",
-    "meaning": "good fortune;=blessing; happiness",
+    "meaning": "good fortune; =blessing; happiness",
     "example": "",
     "pattern": ""
   },
@@ -10155,7 +9554,7 @@
     "id": 1270,
     "hanzi": "富",
     "pinyin": "fù",
-    "meaning": "rich; wealthy;=abundant",
+    "meaning": "rich; wealthy; =abundant",
     "example": "",
     "pattern": ""
   },
@@ -10203,7 +9602,7 @@
     "id": 1276,
     "hanzi": "三",
     "pinyin": "chíxù",
-    "meaning": "to continue; to last;=to persist",
+    "meaning": "to continue; to last; =to persist",
     "example": "",
     "pattern": ""
   },
@@ -10235,7 +9634,7 @@
     "id": 1280,
     "hanzi": "充分",
     "pinyin": "chōngfèn",
-    "meaning": "sufficient; adequate;=full",
+    "meaning": "sufficient; adequate; =full",
     "example": "",
     "pattern": ""
   },
@@ -10275,7 +9674,7 @@
     "id": 1285,
     "hanzi": "形势",
     "pinyin": "xíngshì",
-    "meaning": "situation;=circumstances",
+    "meaning": "situation; =circumstances",
     "example": "",
     "pattern": ""
   },
@@ -10299,49 +9698,37 @@
     "id": 1288,
     "hanzi": "形象",
     "pinyin": "xíngxiàng",
-    "meaning": "image; reputation",
+    "meaning": "image; reputation; vivid; graphic",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1289,
-    "hanzi": "形象",
-    "pinyin": "xíngxiàng",
-    "meaning": "vivid; graphic",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1288,
+      1289
+    ]
   },
   {
     "id": 1290,
     "hanzi": "幸运",
     "pinyin": "xìngyùn",
-    "meaning": "luck; fortune",
+    "meaning": "luck; fortune; lucky; fortunate",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1291,
-    "hanzi": "幸运",
-    "pinyin": "xìngyùn",
-    "meaning": "lucky; fortunate",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1290,
+      1291
+    ]
   },
   {
     "id": 1292,
     "hanzi": "概括",
     "pinyin": "gàikuò",
-    "meaning": "to summarize; to",
+    "meaning": "to summarize; to; general; summary; =brief",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1293,
-    "hanzi": "概括",
-    "pinyin": "gàikuò",
-    "meaning": "general; summary;=brief",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1292,
+      1293
+    ]
   },
   {
     "id": 1294,
@@ -10379,17 +9766,13 @@
     "id": 1298,
     "hanzi": "刚好",
     "pinyin": "gānghǎo",
-    "meaning": "just right; perfect;=exactly",
+    "meaning": "just right; perfect; =exactly; just; exactly; =precisely",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1299,
-    "hanzi": "刚好",
-    "pinyin": "gānghǎo",
-    "meaning": "just; exactly;=precisely",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1298,
+      1299
+    ]
   },
   {
     "id": 1300,
@@ -10552,14 +9935,6 @@
     "pattern": ""
   },
   {
-    "id": 1320,
-    "hanzi": "温暖",
-    "pinyin": "wēnnuǎn",
-    "meaning": "warm",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 1321,
     "hanzi": "文学",
     "pinyin": "wénxué",
@@ -10643,17 +10018,13 @@
     "id": 1331,
     "hanzi": "留言",
     "pinyin": "liúyán",
-    "meaning": "to leave a message",
+    "meaning": "to leave a message; message; comment",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1332,
-    "hanzi": "留言",
-    "pinyin": "liúyán",
-    "meaning": "message; comment",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1331,
+      1332
+    ]
   },
   {
     "id": 1333,
@@ -10787,7 +10158,7 @@
     "id": 1349,
     "hanzi": "途用",
     "pinyin": "yòngtú",
-    "meaning": "use; application;=purpose",
+    "meaning": "use; application; =purpose",
     "example": "",
     "pattern": ""
   },
@@ -10803,7 +10174,7 @@
     "id": 1351,
     "hanzi": "由此",
     "pinyin": "yóu\u0003cǐ",
-    "meaning": "from this; hence;=therefore",
+    "meaning": "from this; hence; =therefore",
     "example": "",
     "pattern": ""
   },
@@ -10820,14 +10191,6 @@
     "hanzi": "园幼儿",
     "pinyin": "yòu",
     "meaning": "mryufn=kindergarten",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1354,
-    "hanzi": "劳动",
-    "pinyin": "láodòng",
-    "meaning": "to work; to labor",
     "example": "",
     "pattern": ""
   },
@@ -10875,33 +10238,25 @@
     "id": 1360,
     "hanzi": "相当",
     "pinyin": "xiāngdāng",
-    "meaning": "equivalent to; equal=to",
+    "meaning": "equivalent to; equal=to; quite; rather",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1361,
-    "hanzi": "相当",
-    "pinyin": "xiāngdāng",
-    "meaning": "quite; rather",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1360,
+      1361
+    ]
   },
   {
     "id": 1362,
     "hanzi": "相对",
     "pinyin": "xiāngduì",
-    "meaning": "relatively; in=comparison",
+    "meaning": "relatively; in=comparison; relative; comparative",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1363,
-    "hanzi": "相对",
-    "pinyin": "xiāngduì",
-    "meaning": "relative; comparative",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1362,
+      1363
+    ]
   },
   {
     "id": 1364,
@@ -10931,7 +10286,7 @@
     "id": 1367,
     "hanzi": "有益",
     "pinyin": "yǒuyì",
-    "meaning": "beneficial;=advantageous",
+    "meaning": "beneficial; =advantageous",
     "example": "",
     "pattern": ""
   },
@@ -11003,23 +10358,19 @@
     "id": 1376,
     "hanzi": "所有",
     "pinyin": "suǒyǒu",
-    "meaning": "to have; to possess",
+    "meaning": "to have; to possess; all; everything",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1377,
-    "hanzi": "所有",
-    "pinyin": "suǒyǒu",
-    "meaning": "all; everything",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1376,
+      1377
+    ]
   },
   {
     "id": 1378,
     "hanzi": "台",
     "pinyin": "tái",
-    "meaning": "device; machine;=stage",
+    "meaning": "device; machine; =stage",
     "example": "",
     "pattern": ""
   },
@@ -11035,17 +10386,13 @@
     "id": 1380,
     "hanzi": "组",
     "pinyin": "zǔ",
-    "meaning": "to form; to organize",
+    "meaning": "to form; to organize; set; group",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1381,
-    "hanzi": "组",
-    "pinyin": "zǔ",
-    "meaning": "set; group",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1380,
+      1381
+    ]
   },
   {
     "id": 1382,
@@ -11147,7 +10494,7 @@
     "id": 1394,
     "hanzi": "就业",
     "pinyin": "jiùyè",
-    "meaning": "to get employed;=employment",
+    "meaning": "to get employed; =employment",
     "example": "",
     "pattern": ""
   },
@@ -11227,17 +10574,13 @@
     "id": 1404,
     "hanzi": "行动",
     "pinyin": "xíngdòng",
-    "meaning": "to act; to take action",
+    "meaning": "to act; to take action; operation; action",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1405,
-    "hanzi": "行动",
-    "pinyin": "xíngdòng",
-    "meaning": "operation; action",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1404,
+      1405
+    ]
   },
   {
     "id": 1406,
@@ -11304,36 +10647,17 @@
     "pattern": ""
   },
   {
-    "id": 1414,
-    "hanzi": "度",
-    "pinyin": "dù",
-    "meaning": "degree; unit of=measurement",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 1415,
     "hanzi": "堵",
     "pinyin": "dǔ",
-    "meaning": "to block; to congest",
+    "meaning": "to block; to congest; congested; blocked; block; mass",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1416,
-    "hanzi": "堵",
-    "pinyin": "dǔ",
-    "meaning": "congested; blocked",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1417,
-    "hanzi": "堵",
-    "pinyin": "dǔ",
-    "meaning": "block; mass",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1415,
+      1416,
+      1417
+    ]
   },
   {
     "id": 1418,
@@ -11347,7 +10671,7 @@
     "id": 1419,
     "hanzi": "短处",
     "pinyin": "duǎnchù",
-    "meaning": "weakness;=shortcoming",
+    "meaning": "weakness; =shortcoming",
     "example": "",
     "pattern": ""
   },
@@ -11355,17 +10679,13 @@
     "id": 1420,
     "hanzi": "短期",
     "pinyin": "duǎnqī",
-    "meaning": "short term; short=period",
+    "meaning": "short term; short=period; short-term",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1421,
-    "hanzi": "短期",
-    "pinyin": "duǎnqī",
-    "meaning": "short-term",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1420,
+      1421
+    ]
   },
   {
     "id": 1422,
@@ -11419,17 +10739,13 @@
     "id": 1428,
     "hanzi": "结",
     "pinyin": "jié",
-    "meaning": "to end; to conclude",
+    "meaning": "to end; to conclude; knot",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1429,
-    "hanzi": "结",
-    "pinyin": "jié",
-    "meaning": "knot",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1428,
+      1429
+    ]
   },
   {
     "id": 1430,
@@ -11443,15 +10759,7 @@
     "id": 1431,
     "hanzi": "接触",
     "pinyin": "jiēchù",
-    "meaning": "to touch; to contact;=to interact with",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1432,
-    "hanzi": "灰色",
-    "pinyin": "huīsè",
-    "meaning": "gray; grey",
+    "meaning": "to touch; to contact; =to interact with",
     "example": "",
     "pattern": ""
   },
@@ -11501,21 +10809,17 @@
     "pinyin": "huòshì",
     "meaning": "or; either",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1439,
-    "hanzi": "或是",
-    "pinyin": "huòshì",
-    "meaning": "or; either",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1438,
+      1439
+    ]
   },
   {
     "id": 1440,
     "hanzi": "货物",
     "pinyin": "huòwù",
-    "meaning": "goods; cargo;=merchandise",
+    "meaning": "goods; cargo; =merchandise",
     "example": "",
     "pattern": ""
   },
@@ -11531,9 +10835,14 @@
     "id": 1442,
     "hanzi": "下小",
     "pinyin": "tuán",
-    "meaning": "classifier for round=or ball-shaped=objects",
+    "meaning": "classifier for round=or ball-shaped=objects; to gather; to cluster; group; troupe",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1442,
+      1834,
+      1835
+    ]
   },
   {
     "id": 1443,
@@ -11547,17 +10856,13 @@
     "id": 1444,
     "hanzi": "突出",
     "pinyin": "tūchū",
-    "meaning": "to highlight; to=emphasize",
+    "meaning": "to highlight; to=emphasize; outstanding; =prominent",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1445,
-    "hanzi": "突出",
-    "pinyin": "tūchū",
-    "meaning": "outstanding;=prominent",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1444,
+      1445
+    ]
   },
   {
     "id": 1446,
@@ -11579,7 +10884,7 @@
     "id": 1448,
     "hanzi": "画图",
     "pinyin": "túhuà",
-    "meaning": "picture; drawing;=painting",
+    "meaning": "picture; drawing; =painting",
     "example": "",
     "pattern": ""
   },
@@ -11603,41 +10908,13 @@
     "id": 1451,
     "hanzi": "跟",
     "pinyin": "gēn",
-    "meaning": "relationship;=connection",
+    "meaning": "relationship; =connection; to follow; to keep up=with",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1452,
-    "hanzi": "跟",
-    "pinyin": "gēn",
-    "meaning": "to follow; to keep up=with",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1453,
-    "hanzi": "面",
-    "pinyin": "miàn",
-    "meaning": "to face; to confront",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1454,
-    "hanzi": "面",
-    "pinyin": "miàn",
-    "meaning": "aspect; side",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1455,
-    "hanzi": "面",
-    "pinyin": "miàn",
-    "meaning": "serving; portion (of=noodles",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1451,
+      1452
+    ]
   },
   {
     "id": 1456,
@@ -11683,7 +10960,7 @@
     "id": 1461,
     "hanzi": "降水",
     "pinyin": "jiàngshuǐ",
-    "meaning": "precipitation; rain;=snow",
+    "meaning": "precipitation; rain; =snow",
     "example": "",
     "pattern": ""
   },
@@ -11707,7 +10984,7 @@
     "id": 1464,
     "hanzi": "艰苦",
     "pinyin": "jiānkǔ",
-    "meaning": "arduous; hard;=difficult",
+    "meaning": "arduous; hard; =difficult",
     "example": "",
     "pattern": ""
   },
@@ -11803,7 +11080,7 @@
     "id": 1476,
     "hanzi": "赛场",
     "pinyin": "sàichǎng",
-    "meaning": "playing field;=competition venue",
+    "meaning": "playing field; =competition venue",
     "example": "",
     "pattern": ""
   },
@@ -11812,14 +11089,6 @@
     "hanzi": "色彩",
     "pinyin": "sècǎi",
     "meaning": "color; hue",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1478,
-    "hanzi": "硬",
-    "pinyin": "yìng",
-    "meaning": "stubbornly; firmly;=determinedly",
     "example": "",
     "pattern": ""
   },
@@ -11891,7 +11160,7 @@
     "id": 1487,
     "hanzi": "差别",
     "pinyin": "chābié",
-    "meaning": "difference;=distinction",
+    "meaning": "difference; =distinction",
     "example": "",
     "pattern": ""
   },
@@ -11899,7 +11168,7 @@
     "id": 1488,
     "hanzi": "主动",
     "pinyin": "zhǔdòng",
-    "meaning": "active; initiative;=proactive",
+    "meaning": "active; initiative; =proactive",
     "example": "",
     "pattern": ""
   },
@@ -11907,7 +11176,7 @@
     "id": 1489,
     "hanzi": "住房",
     "pinyin": "zhùfáng",
-    "meaning": "housing; residence;=dwelling",
+    "meaning": "housing; residence; =dwelling",
     "example": "",
     "pattern": ""
   },
@@ -11923,7 +11192,7 @@
     "id": 1491,
     "hanzi": "追",
     "pinyin": "zhuī",
-    "meaning": "to chase; to pursue;=to follow",
+    "meaning": "to chase; to pursue; =to follow",
     "example": "",
     "pattern": ""
   },
@@ -11931,7 +11200,7 @@
     "id": 1492,
     "hanzi": "追求",
     "pinyin": "zhuīqiú",
-    "meaning": "to pursue; to seek;=to strive for",
+    "meaning": "to pursue; to seek; =to strive for",
     "example": "",
     "pattern": ""
   },
@@ -11968,14 +11237,6 @@
     "pattern": ""
   },
   {
-    "id": 1497,
-    "hanzi": "微笑",
-    "pinyin": "wēixiào",
-    "meaning": "to smile",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 1498,
     "hanzi": "机人器",
     "pinyin": "jīqìrén",
@@ -11995,7 +11256,7 @@
     "id": 1500,
     "hanzi": "外观",
     "pinyin": "wàiguān",
-    "meaning": "appearance;=exterior; outward=appearance",
+    "meaning": "appearance; =exterior; outward=appearance",
     "example": "",
     "pattern": ""
   },
@@ -12011,7 +11272,7 @@
     "id": 1502,
     "hanzi": "外形",
     "pinyin": "wàixíng",
-    "meaning": "shape; form;=external appearance",
+    "meaning": "shape; form; =external appearance",
     "example": "",
     "pattern": ""
   },
@@ -12019,17 +11280,13 @@
     "id": 1503,
     "hanzi": "弯",
     "pinyin": "wān",
-    "meaning": "curved; bent;=winding",
+    "meaning": "curved; bent; =winding; to bend; to turn",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1504,
-    "hanzi": "弯",
-    "pinyin": "wān",
-    "meaning": "to bend; to turn",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1503,
+      1504
+    ]
   },
   {
     "id": 1505,
@@ -12043,7 +11300,7 @@
     "id": 1506,
     "hanzi": "往返",
     "pinyin": "wǎngfǎn",
-    "meaning": "to go back and forth;=to travel to and fro",
+    "meaning": "to go back and forth; =to travel to and fro",
     "example": "",
     "pattern": ""
   },
@@ -12059,7 +11316,7 @@
     "id": 1508,
     "hanzi": "教材",
     "pinyin": "jiàocái",
-    "meaning": "teaching materials;=textbook",
+    "meaning": "teaching materials; =textbook",
     "example": "",
     "pattern": ""
   },
@@ -12075,17 +11332,13 @@
     "id": 1510,
     "hanzi": "白",
     "pinyin": "bái",
-    "meaning": "white",
+    "meaning": "white; in vain; for nothing",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1511,
-    "hanzi": "白",
-    "pinyin": "bái",
-    "meaning": "in vain; for nothing",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1510,
+      1511
+    ]
   },
   {
     "id": 1512,
@@ -12099,17 +11352,13 @@
     "id": 1513,
     "hanzi": "娱乐",
     "pinyin": "yúlè",
-    "meaning": "to entertain",
+    "meaning": "to entertain; entertainment",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1514,
-    "hanzi": "娱乐",
-    "pinyin": "yúlè",
-    "meaning": "entertainment",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1513,
+      1514
+    ]
   },
   {
     "id": 1515,
@@ -12157,7 +11406,11 @@
     "pinyin": "dìngqī",
     "meaning": "regular; periodic",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1520,
+      1691
+    ]
   },
   {
     "id": 1521,
@@ -12187,7 +11440,7 @@
     "id": 1524,
     "hanzi": "仆",
     "pinyin": "dītóu",
-    "meaning": "to lower one=s head;=to bow",
+    "meaning": "to lower one=s head; =to bow",
     "example": "",
     "pattern": ""
   },
@@ -12213,7 +11466,11 @@
     "pinyin": "dìxià",
     "meaning": "underground",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1527,
+      1764
+    ]
   },
   {
     "id": 1528,
@@ -12299,7 +11556,7 @@
     "id": 1538,
     "hanzi": "大会",
     "pinyin": "dàhuì",
-    "meaning": "conference;=assembly; congress",
+    "meaning": "conference; =assembly; congress",
     "example": "",
     "pattern": ""
   },
@@ -12307,39 +11564,31 @@
     "id": 1539,
     "hanzi": "代",
     "pinyin": "dài",
-    "meaning": "to substitute; to=represent",
+    "meaning": "to substitute; to=represent; dynasty; era; period",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1540,
-    "hanzi": "代",
-    "pinyin": "dài",
-    "meaning": "dynasty; era; period",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1539,
+      1540
+    ]
   },
   {
     "id": 1541,
     "hanzi": "代表",
     "pinyin": "dàibiǎo",
-    "meaning": "representative;=delegate",
+    "meaning": "representative; =delegate; to represent; to=stand for",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1542,
-    "hanzi": "代表",
-    "pinyin": "dàibiǎo",
-    "meaning": "to represent; to=stand for",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1541,
+      1542
+    ]
   },
   {
     "id": 1543,
     "hanzi": "带动",
     "pinyin": "dàidòng",
-    "meaning": "to drive; to promote;=to pull along",
+    "meaning": "to drive; to promote; =to pull along",
     "example": "",
     "pattern": ""
   },
@@ -12355,7 +11604,7 @@
     "id": 1545,
     "hanzi": "待遇",
     "pinyin": "dàiyù",
-    "meaning": "treatment; benefits;=conditions",
+    "meaning": "treatment; benefits; =conditions",
     "example": "",
     "pattern": ""
   },
@@ -12363,17 +11612,13 @@
     "id": 1546,
     "hanzi": "合影",
     "pinyin": "héyǐng",
-    "meaning": "to take a group=photo; to take a=photo together",
+    "meaning": "to take a group=photo; to take a=photo together; group photo; photo=taken together",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1547,
-    "hanzi": "合影",
-    "pinyin": "héyǐng",
-    "meaning": "group photo; photo=taken together",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1546,
+      1547
+    ]
   },
   {
     "id": 1548,
@@ -12403,7 +11648,7 @@
     "id": 1551,
     "hanzi": "果后",
     "pinyin": "hòuguǒ",
-    "meaning": "consequence;=aftermath",
+    "meaning": "consequence; =aftermath",
     "example": "",
     "pattern": ""
   },
@@ -12435,17 +11680,13 @@
     "id": 1555,
     "hanzi": "达发",
     "pinyin": "fādá",
-    "meaning": "developed;=advanced",
+    "meaning": "developed; =advanced; to develop; to=advance",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1556,
-    "hanzi": "达发",
-    "pinyin": "fādá",
-    "meaning": "to develop; to=advance",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1555,
+      1556
+    ]
   },
   {
     "id": 1557,
@@ -12459,33 +11700,25 @@
     "id": 1558,
     "hanzi": "政",
     "pinyin": "fákuǎn",
-    "meaning": "to fine; to impose a=monetary penalty",
+    "meaning": "to fine; to impose a=monetary penalty; fine; monetary=penalty",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1559,
-    "hanzi": "政",
-    "pinyin": "fákuǎn",
-    "meaning": "fine; monetary=penalty",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1558,
+      1559
+    ]
   },
   {
     "id": 1560,
     "hanzi": "明发",
     "pinyin": "fāmíng",
-    "meaning": "to invent",
+    "meaning": "to invent; invention",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1561,
-    "hanzi": "明发",
-    "pinyin": "fāmíng",
-    "meaning": "invention",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1560,
+      1561
+    ]
   },
   {
     "id": 1562,
@@ -12515,17 +11748,13 @@
     "id": 1565,
     "hanzi": "设计",
     "pinyin": "shèjì",
-    "meaning": "to design",
+    "meaning": "to design; design",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1566,
-    "hanzi": "设计",
-    "pinyin": "shèjì",
-    "meaning": "design",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1565,
+      1566
+    ]
   },
   {
     "id": 1567,
@@ -12555,17 +11784,13 @@
     "id": 1570,
     "hanzi": "深度",
     "pinyin": "shēndù",
-    "meaning": "depth",
+    "meaning": "depth; deep; profound",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1571,
-    "hanzi": "深度",
-    "pinyin": "shēndù",
-    "meaning": "deep; profound",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1570,
+      1571
+    ]
   },
   {
     "id": 1572,
@@ -12587,25 +11812,14 @@
     "id": 1574,
     "hanzi": "分别",
     "pinyin": "fēnbié",
-    "meaning": "to part; to separate",
+    "meaning": "to part; to separate; separately; =respectively; parting; separation",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1575,
-    "hanzi": "分别",
-    "pinyin": "fēnbié",
-    "meaning": "separately;=respectively",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1576,
-    "hanzi": "分别",
-    "pinyin": "fēnbié",
-    "meaning": "parting; separation",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1574,
+      1575,
+      1576
+    ]
   },
   {
     "id": 1577,
@@ -12624,14 +11838,6 @@
     "pattern": ""
   },
   {
-    "id": 1579,
-    "hanzi": "纷纷",
-    "pinyin": "fēnfēn",
-    "meaning": "in succession; one=after another",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 1580,
     "hanzi": "起",
     "pinyin": "qǐ",
@@ -12643,9 +11849,13 @@
     "id": 1581,
     "hanzi": "总",
     "pinyin": "zǒng",
-    "meaning": "to manage; to be in=charge of",
+    "meaning": "to manage; to be in=charge of; overall; general",
     "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1581,
+      1662
+    ]
   },
   {
     "id": 1582,
@@ -12715,17 +11925,13 @@
     "id": 1590,
     "hanzi": "依靠",
     "pinyin": "yīkào",
-    "meaning": "to rely on; to depend=on",
+    "meaning": "to rely on; to depend=on; support; reliance",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1591,
-    "hanzi": "依靠",
-    "pinyin": "yīkào",
-    "meaning": "support; reliance",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1590,
+      1591
+    ]
   },
   {
     "id": 1592,
@@ -12843,7 +12049,7 @@
     "id": 1606,
     "hanzi": "表情",
     "pinyin": "biǎoqíng",
-    "meaning": "facial expression;=expression",
+    "meaning": "facial expression; =expression",
     "example": "",
     "pattern": ""
   },
@@ -12859,17 +12065,13 @@
     "id": 1608,
     "hanzi": "标志",
     "pinyin": "biāozhì",
-    "meaning": "symbol; mark; logo",
+    "meaning": "symbol; mark; logo; to mark; to indicate",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1609,
-    "hanzi": "标志",
-    "pinyin": "biāozhì",
-    "meaning": "to mark; to indicate",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1608,
+      1609
+    ]
   },
   {
     "id": 1610,
@@ -12963,7 +12165,7 @@
     "id": 1621,
     "hanzi": "病情",
     "pinyin": "bìngqíng",
-    "meaning": "medical condition;=illness",
+    "meaning": "medical condition; =illness",
     "example": "",
     "pattern": ""
   },
@@ -12995,17 +12197,13 @@
     "id": 1625,
     "hanzi": "系统",
     "pinyin": "xìtǒng",
-    "meaning": "system",
+    "meaning": "system; systematic",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1626,
-    "hanzi": "系统",
-    "pinyin": "xìtǒng",
-    "meaning": "systematic",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1625,
+      1626
+    ]
   },
   {
     "id": 1627,
@@ -13083,7 +12281,7 @@
     "id": 1636,
     "hanzi": "彻底",
     "pinyin": "chèdǐ",
-    "meaning": "thorough; complete;=thoroughgoing",
+    "meaning": "thorough; complete; =thoroughgoing",
     "example": "",
     "pattern": ""
   },
@@ -13184,14 +12382,6 @@
     "pattern": ""
   },
   {
-    "id": 1649,
-    "hanzi": "自动",
-    "pinyin": "zìdòng",
-    "meaning": "automatic;=automatically",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 1650,
     "hanzi": "充足",
     "pinyin": "chōngzú",
@@ -13243,25 +12433,14 @@
     "id": 1656,
     "hanzi": "初",
     "pinyin": "chū",
-    "meaning": "beginning; start",
+    "meaning": "beginning; start; for the first time; =initially; junior; primary level",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1657,
-    "hanzi": "初",
-    "pinyin": "chū",
-    "meaning": "for the first time;=initially",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1658,
-    "hanzi": "初",
-    "pinyin": "chū",
-    "meaning": "junior; primary level",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1656,
+      1657,
+      1658
+    ]
   },
   {
     "id": 1659,
@@ -13275,25 +12454,13 @@
     "id": 1660,
     "hanzi": "沉",
     "pinyin": "chén",
-    "meaning": "to sink",
+    "meaning": "to sink; heavy; gloomy; =somber",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1661,
-    "hanzi": "沉",
-    "pinyin": "chén",
-    "meaning": "heavy; gloomy;=somber",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1662,
-    "hanzi": "总",
-    "pinyin": "zǒng",
-    "meaning": "overall; general",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1660,
+      1661
+    ]
   },
   {
     "id": 1663,
@@ -13333,29 +12500,17 @@
     "pinyin": "děng",
     "meaning": "to wait",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1668,
-    "hanzi": "等",
-    "pinyin": "děng",
-    "meaning": "to wait",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1667,
+      1668
+    ]
   },
   {
     "id": 1669,
     "hanzi": "队",
     "pinyin": "duì",
     "meaning": "team; queue",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1670,
-    "hanzi": "联合",
-    "pinyin": "liánhé",
-    "meaning": "joint; combined; to=unite",
     "example": "",
     "pattern": ""
   },
@@ -13387,7 +12542,7 @@
     "id": 1674,
     "hanzi": "连续",
     "pinyin": "liánxù",
-    "meaning": "continuous;=consecutive; in a=row",
+    "meaning": "continuous; =consecutive; in a=row",
     "example": "",
     "pattern": ""
   },
@@ -13395,7 +12550,7 @@
     "id": 1675,
     "hanzi": "起不了",
     "pinyin": "liǎobuqǐ",
-    "meaning": "amazing;=extraordinary;=incredible",
+    "meaning": "amazing; =extraordinary; =incredible",
     "example": "",
     "pattern": ""
   },
@@ -13419,17 +12574,13 @@
     "id": 1678,
     "hanzi": "贱下",
     "pinyin": "bìrán",
-    "meaning": "inevitable;=necessary",
+    "meaning": "inevitable; =necessary; inevitable result; =necessity",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1679,
-    "hanzi": "贱下",
-    "pinyin": "bìrán",
-    "meaning": "inevitable result;=necessity",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1678,
+      1679
+    ]
   },
   {
     "id": 1680,
@@ -13459,17 +12610,13 @@
     "id": 1683,
     "hanzi": "装饰",
     "pinyin": "zhuāngshì",
-    "meaning": "to decorate; to=ornament",
+    "meaning": "to decorate; to=ornament; decoration; =ornament",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1684,
-    "hanzi": "装饰",
-    "pinyin": "zhuāngshì",
-    "meaning": "decoration;=ornament",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1683,
+      1684
+    ]
   },
   {
     "id": 1685,
@@ -13499,7 +12646,7 @@
     "id": 1688,
     "hanzi": "专心",
     "pinyin": "zhuānxīn",
-    "meaning": "concentrated;=focused",
+    "meaning": "concentrated; =focused",
     "example": "",
     "pattern": ""
   },
@@ -13516,22 +12663,6 @@
     "hanzi": "地面",
     "pinyin": "dìmiàn",
     "meaning": "ground; surface",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1691,
-    "hanzi": "定期",
-    "pinyin": "dìngqī",
-    "meaning": "regular; periodic",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1692,
-    "hanzi": "时刻",
-    "pinyin": "shíkè",
-    "meaning": "constantly; at all=times",
     "example": "",
     "pattern": ""
   },
@@ -13563,17 +12694,13 @@
     "id": 1696,
     "hanzi": "遗憾",
     "pinyin": "yíhàn",
-    "meaning": "regret;=disappointment",
+    "meaning": "regret; =disappointment; regretful; unfortunate",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1697,
-    "hanzi": "遗憾",
-    "pinyin": "yíhàn",
-    "meaning": "regretful; unfortunate",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1696,
+      1697
+    ]
   },
   {
     "id": 1698,
@@ -13587,41 +12714,14 @@
     "id": 1699,
     "hanzi": "依据",
     "pinyin": "yījù",
-    "meaning": "basis; foundation",
+    "meaning": "basis; foundation; to base on; to follow; based on; according=to",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1700,
-    "hanzi": "依据",
-    "pinyin": "yījù",
-    "meaning": "to base on; to follow",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1701,
-    "hanzi": "依据",
-    "pinyin": "yījù",
-    "meaning": "based on; according=to",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1702,
-    "hanzi": "反",
-    "pinyin": "fǎn",
-    "meaning": "opposite; contrary",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1703,
-    "hanzi": "反",
-    "pinyin": "fǎn",
-    "meaning": "to resist; to rebel=against",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1699,
+      1700,
+      1701
+    ]
   },
   {
     "id": 1704,
@@ -13667,7 +12767,7 @@
     "id": 1709,
     "hanzi": "关",
     "pinyin": "guān",
-    "meaning": "important place;=strategic point",
+    "meaning": "important place; =strategic point",
     "example": "",
     "pattern": ""
   },
@@ -13747,17 +12847,13 @@
     "id": 1719,
     "hanzi": "三",
     "pinyin": "mìmì",
-    "meaning": "secret; confidential",
+    "meaning": "secret; confidential; private=matter",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1720,
-    "hanzi": "三",
-    "pinyin": "mìmì",
-    "meaning": "secret; private=matter",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1719,
+      1720
+    ]
   },
   {
     "id": 1721,
@@ -13771,7 +12867,7 @@
     "id": 1722,
     "hanzi": "敏感",
     "pinyin": "mǐngǎn",
-    "meaning": "sensitive;=susceptible",
+    "meaning": "sensitive; =susceptible",
     "example": "",
     "pattern": ""
   },
@@ -13787,17 +12883,13 @@
     "id": 1724,
     "hanzi": "滑",
     "pinyin": "huá",
-    "meaning": "slippery; smooth",
+    "meaning": "slippery; smooth; to slip; to slide",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1725,
-    "hanzi": "滑",
-    "pinyin": "huá",
-    "meaning": "to slip; to slide",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1724,
+      1725
+    ]
   },
   {
     "id": 1726,
@@ -13811,7 +12903,7 @@
     "id": 1727,
     "hanzi": "调皮",
     "pinyin": "tiáopí",
-    "meaning": "naughty;=mischievous",
+    "meaning": "naughty; =mischievous",
     "example": "",
     "pattern": ""
   },
@@ -13819,23 +12911,19 @@
     "id": 1728,
     "hanzi": "大力",
     "pinyin": "dàlì",
-    "meaning": "great effort; massive=scale",
+    "meaning": "great effort; massive=scale; vigorously; actively; =with great effort",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1729,
-    "hanzi": "大力",
-    "pinyin": "dàlì",
-    "meaning": "vigorously; actively;=with great effort",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1728,
+      1729
+    ]
   },
   {
     "id": 1730,
     "hanzi": "电动",
     "pinyin": "diàndòng",
-    "meaning": "electric-powered;=electric",
+    "meaning": "electric-powered; =electric",
     "example": "",
     "pattern": ""
   },
@@ -13843,7 +12931,7 @@
     "id": 1731,
     "hanzi": "电器",
     "pinyin": "diànqì",
-    "meaning": "electrical appliance;=electrical device",
+    "meaning": "electrical appliance; =electrical device",
     "example": "",
     "pattern": ""
   },
@@ -13891,17 +12979,13 @@
     "id": 1737,
     "hanzi": "作",
     "pinyin": "píng",
-    "meaning": "to rely on; based on",
+    "meaning": "to rely on; based on; according=to",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1738,
-    "hanzi": "作",
-    "pinyin": "píng",
-    "meaning": "based on; according=to",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1737,
+      1738
+    ]
   },
   {
     "id": 1739,
@@ -13915,7 +12999,7 @@
     "id": 1740,
     "hanzi": "结构",
     "pinyin": "jiégòu",
-    "meaning": "structure;=composition",
+    "meaning": "structure; =composition",
     "example": "",
     "pattern": ""
   },
@@ -13971,7 +13055,7 @@
     "id": 1747,
     "hanzi": "机构",
     "pinyin": "jīgòu",
-    "meaning": "institution;=organization",
+    "meaning": "institution; =organization",
     "example": "",
     "pattern": ""
   },
@@ -14003,33 +13087,25 @@
     "id": 1751,
     "hanzi": "报道",
     "pinyin": "bàodào",
-    "meaning": "to report; to cover",
+    "meaning": "to report; to cover; report; news report",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1752,
-    "hanzi": "报道",
-    "pinyin": "bàodào",
-    "meaning": "report; news report",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1751,
+      1752
+    ]
   },
   {
     "id": 1753,
     "hanzi": "报告",
     "pinyin": "bàogào",
-    "meaning": "to report; to give a=report",
+    "meaning": "to report; to give a=report; report",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1754,
-    "hanzi": "报告",
-    "pinyin": "bàogào",
-    "meaning": "report",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1753,
+      1754
+    ]
   },
   {
     "id": 1755,
@@ -14051,17 +13127,13 @@
     "id": 1757,
     "hanzi": "安",
     "pinyin": "ān",
-    "meaning": "quiet; peaceful",
+    "meaning": "quiet; peaceful; to install; to set up",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1758,
-    "hanzi": "安",
-    "pinyin": "ān",
-    "meaning": "to install; to set up",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1757,
+      1758
+    ]
   },
   {
     "id": 1759,
@@ -14075,17 +13147,13 @@
     "id": 1760,
     "hanzi": "安奈",
     "pinyin": "ānwèi",
-    "meaning": "to comfort; to=console",
+    "meaning": "to comfort; to=console; comforting; =consoling",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1761,
-    "hanzi": "安奈",
-    "pinyin": "ānwèi",
-    "meaning": "comforting;=consoling",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1760,
+      1761
+    ]
   },
   {
     "id": 1762,
@@ -14104,14 +13172,6 @@
     "pattern": ""
   },
   {
-    "id": 1764,
-    "hanzi": "地下",
-    "pinyin": "dìxià",
-    "meaning": "underground",
-    "example": "",
-    "pattern": ""
-  },
-  {
     "id": 1765,
     "hanzi": "地震",
     "pinyin": "dìzhèn",
@@ -14124,14 +13184,6 @@
     "hanzi": "隔",
     "pinyin": "gé",
     "meaning": "to separate; to=partition",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1767,
-    "hanzi": "个别",
-    "pinyin": "gèbié",
-    "meaning": "individual; a few",
     "example": "",
     "pattern": ""
   },
@@ -14155,33 +13207,25 @@
     "id": 1770,
     "hanzi": "建筑",
     "pinyin": "jiànzhù",
-    "meaning": "to build; to construct",
+    "meaning": "to build; to construct; building; architecture",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1771,
-    "hanzi": "建筑",
-    "pinyin": "jiànzhù",
-    "meaning": "building; architecture",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1770,
+      1771
+    ]
   },
   {
     "id": 1772,
     "hanzi": "较",
     "pinyin": "jiào",
-    "meaning": "compared to; rather=than",
+    "meaning": "compared to; rather=than; relatively; =comparatively",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1773,
-    "hanzi": "较",
-    "pinyin": "jiào",
-    "meaning": "relatively;=comparatively",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1772,
+      1773
+    ]
   },
   {
     "id": 1774,
@@ -14291,7 +13335,7 @@
     "id": 1787,
     "hanzi": "完美",
     "pinyin": "wánměi",
-    "meaning": "perfect; flawless;=complete",
+    "meaning": "perfect; flawless; =complete",
     "example": "",
     "pattern": ""
   },
@@ -14365,15 +13409,11 @@
     "pinyin": "wèilái",
     "meaning": "future",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1797,
-    "hanzi": "未来",
-    "pinyin": "wèilái",
-    "meaning": "future",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1796,
+      1797
+    ]
   },
   {
     "id": 1798,
@@ -14395,31 +13435,19 @@
     "id": 1800,
     "hanzi": "严肃",
     "pinyin": "yánsù",
-    "meaning": "serious; solemn",
+    "meaning": "serious; solemn; to be serious; to be=strict",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1801,
-    "hanzi": "严肃",
-    "pinyin": "yánsù",
-    "meaning": "to be serious; to be=strict",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1800,
+      1801
+    ]
   },
   {
     "id": 1802,
     "hanzi": "现象",
     "pinyin": "xiànxiàng",
     "meaning": "phenomenon",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1803,
-    "hanzi": "限制",
-    "pinyin": "xiànzhì",
-    "meaning": "to limit; to restrict",
     "example": "",
     "pattern": ""
   },
@@ -14499,17 +13527,13 @@
     "id": 1813,
     "hanzi": "自沉",
     "pinyin": "zìjué",
-    "meaning": "to act consciously; to=be self-aware",
+    "meaning": "to act consciously; to=be self-aware; conscious; self-=aware",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1814,
-    "hanzi": "自沉",
-    "pinyin": "zìjué",
-    "meaning": "conscious; self-=aware",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1813,
+      1814
+    ]
   },
   {
     "id": 1815,
@@ -14571,7 +13595,7 @@
     "id": 1822,
     "hanzi": "导致",
     "pinyin": "dǎozhì",
-    "meaning": "to cause; to lead to;=to result in",
+    "meaning": "to cause; to lead to; =to result in",
     "example": "",
     "pattern": ""
   },
@@ -14587,7 +13611,7 @@
     "id": 1824,
     "hanzi": "事业",
     "pinyin": "shìyè",
-    "meaning": "career; cause;=enterprise",
+    "meaning": "career; cause; =enterprise",
     "example": "",
     "pattern": ""
   },
@@ -14595,7 +13619,7 @@
     "id": 1825,
     "hanzi": "失业",
     "pinyin": "shīyè",
-    "meaning": "to lose one=s job;=unemployment",
+    "meaning": "to lose one=s job; =unemployment",
     "example": "",
     "pattern": ""
   },
@@ -14627,7 +13651,7 @@
     "id": 1829,
     "hanzi": "适用",
     "pinyin": "shìyòng",
-    "meaning": "to apply to;=applicable",
+    "meaning": "to apply to; =applicable",
     "example": "",
     "pattern": ""
   },
@@ -14635,65 +13659,37 @@
     "id": 1830,
     "hanzi": "始终",
     "pinyin": "shǐzhōng",
-    "meaning": "from beginning to=end; always",
+    "meaning": "from beginning to=end; always; throughout",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1831,
-    "hanzi": "始终",
-    "pinyin": "shǐzhōng",
-    "meaning": "always; throughout",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1830,
+      1831
+    ]
   },
   {
     "id": 1832,
     "hanzi": "体会",
     "pinyin": "tǐhuì",
-    "meaning": "to experience; to=realize",
+    "meaning": "to experience; to=realize; experience; =realization",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1833,
-    "hanzi": "体会",
-    "pinyin": "tǐhuì",
-    "meaning": "experience;=realization",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1834,
-    "hanzi": "下小",
-    "pinyin": "tuán",
-    "meaning": "to gather; to cluster",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1835,
-    "hanzi": "下小",
-    "pinyin": "tuán",
-    "meaning": "group; troupe",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1832,
+      1833
+    ]
   },
   {
     "id": 1836,
     "hanzi": "称",
     "pinyin": "chēng",
-    "meaning": "to weigh; to call",
+    "meaning": "to weigh; to call; to name",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1837,
-    "hanzi": "称",
-    "pinyin": "chēng",
-    "meaning": "to call; to name",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1836,
+      1837
+    ]
   },
   {
     "id": 1838,
@@ -14723,7 +13719,7 @@
     "id": 1841,
     "hanzi": "成分",
     "pinyin": "chéngfèn",
-    "meaning": "ingredient;=component",
+    "meaning": "ingredient; =component",
     "example": "",
     "pattern": ""
   },
@@ -14739,17 +13735,13 @@
     "id": 1843,
     "hanzi": "成就",
     "pinyin": "chéngjiù",
-    "meaning": "achievement;=accomplishment",
+    "meaning": "achievement; =accomplishment; to achieve; to=accomplish",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1844,
-    "hanzi": "成就",
-    "pinyin": "chéngjiù",
-    "meaning": "to achieve; to=accomplish",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1843,
+      1844
+    ]
   },
   {
     "id": 1845,
@@ -14772,22 +13764,6 @@
     "hanzi": "阶段",
     "pinyin": "jiēduàn",
     "meaning": "stage; phase",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1848,
-    "hanzi": "堆",
-    "pinyin": "duī",
-    "meaning": "to pile up; to heap",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1849,
-    "hanzi": "堆",
-    "pinyin": "duī",
-    "meaning": "pile; heap",
     "example": "",
     "pattern": ""
   },
@@ -14875,47 +13851,31 @@
     "id": 1860,
     "hanzi": "绝对",
     "pinyin": "juéduì",
-    "meaning": "absolute;=unconditional",
+    "meaning": "absolute; =unconditional; absolutely; definitely",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1861,
-    "hanzi": "绝对",
-    "pinyin": "juéduì",
-    "meaning": "absolutely; definitely",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1860,
+      1861
+    ]
   },
   {
     "id": 1862,
     "hanzi": "决赛",
     "pinyin": "juésài",
-    "meaning": "to compete in the=final match",
+    "meaning": "to compete in the=final match; final; championship=match",
     "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1863,
-    "hanzi": "决赛",
-    "pinyin": "juésài",
-    "meaning": "final; championship=match",
-    "example": "",
-    "pattern": ""
+    "pattern": "",
+    "source_ids": [
+      1862,
+      1863
+    ]
   },
   {
     "id": 1864,
     "hanzi": "角色",
     "pinyin": "juésè",
     "meaning": "role; character",
-    "example": "",
-    "pattern": ""
-  },
-  {
-    "id": 1865,
-    "hanzi": "决心",
-    "pinyin": "juéxīn",
-    "meaning": "determination;=resolution",
     "example": "",
     "pattern": ""
   },
@@ -14987,7 +13947,7 @@
     "id": 1874,
     "hanzi": "手续",
     "pinyin": "shǒuxù",
-    "meaning": "procedure;=formalities",
+    "meaning": "procedure; =formalities",
     "example": "",
     "pattern": ""
   },
